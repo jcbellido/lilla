@@ -1,0 +1,3 @@
+[workspace]
+
+members = ["backend-warp", "frontend-19-3", "ost"]

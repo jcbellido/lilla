@@ -1,0 +1,6 @@
+STATIC_FILES_BASE=../frontend-19-3/dist
+STATIC_FILES_INDEX=../frontend-19-3/dist/index.html
+MONOLITH_FILE_PATH=./test_data/backend_events.json
+MONOLITH_FILE_PATH_OUTPUT=./test_output/backend_events.json
+OST_CONTEXT_FILE_PATH=./dev_data/ost.json
+RUST_LOG="debug"

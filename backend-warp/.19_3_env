@@ -1,0 +1,3 @@
+STATIC_FILES_BASE=../frontend-19-3/pre-built
+STATIC_FILES_INDEX=../frontend-19-3/pre-built/index.html
+RUST_LOG="debug"

@@ -1,0 +1,7055 @@
+{
+  "persons": [
+    {
+      "id": 0,
+      "name": "Madaline Tromp",
+      "is_active": true
+    },
+    {
+      "id": 1,
+      "name": "Dedrick Brekke",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "name": "Jacinthe Batz",
+      "is_active": true
+    }
+  ],
+  "feeds": [
+    {
+      "id": 75,
+      "breast_milk": 74,
+      "formula": 89,
+      "solids": 57,
+      "time_stamp": "2021-11-01T18:44:21.953791600Z",
+      "person_id": 0
+    },
+    {
+      "id": 172,
+      "breast_milk": 62,
+      "formula": 16,
+      "solids": 1,
+      "time_stamp": "2021-11-01T01:00:21.954476200Z",
+      "person_id": 2
+    },
+    {
+      "id": 231,
+      "breast_milk": 70,
+      "formula": 95,
+      "solids": 137,
+      "time_stamp": "2021-10-28T15:26:21.954884400Z",
+      "person_id": 2
+    },
+    {
+      "id": 85,
+      "breast_milk": 73,
+      "formula": 59,
+      "solids": 3,
+      "time_stamp": "2021-10-27T05:47:21.953853100Z",
+      "person_id": 0
+    },
+    {
+      "id": 5,
+      "breast_milk": 73,
+      "formula": 128,
+      "solids": 113,
+      "time_stamp": "2021-10-26T23:20:21.953294Z",
+      "person_id": 1
+    },
+    {
+      "id": 277,
+      "breast_milk": 138,
+      "formula": 80,
+      "solids": 17,
+      "time_stamp": "2021-10-25T02:22:21.955238400Z",
+      "person_id": 1
+    },
+    {
+      "id": 215,
+      "breast_milk": 81,
+      "formula": 65,
+      "solids": 88,
+      "time_stamp": "2021-10-25T00:27:21.954770200Z",
+      "person_id": 1
+    },
+    {
+      "id": 72,
+      "breast_milk": 130,
+      "formula": 98,
+      "solids": 54,
+      "time_stamp": "2021-10-21T22:49:21.953765500Z",
+      "person_id": 0
+    },
+    {
+      "id": 268,
+      "breast_milk": 76,
+      "formula": 29,
+      "solids": 94,
+      "time_stamp": "2021-10-21T21:17:21.955179800Z",
+      "person_id": 2
+    },
+    {
+      "id": 160,
+      "breast_milk": 11,
+      "formula": 5,
+      "solids": 70,
+      "time_stamp": "2021-10-21T18:41:21.954392100Z",
+      "person_id": 0
+    },
+    {
+      "id": 227,
+      "breast_milk": 42,
+      "formula": 4,
+      "solids": 93,
+      "time_stamp": "2021-10-21T03:13:21.954855800Z",
+      "person_id": 1
+    },
+    {
+      "id": 274,
+      "breast_milk": 31,
+      "formula": 104,
+      "solids": 126,
+      "time_stamp": "2021-10-21T02:26:21.955212300Z",
+      "person_id": 2
+    },
+    {
+      "id": 54,
+      "breast_milk": 81,
+      "formula": 136,
+      "solids": 142,
+      "time_stamp": "2021-10-19T00:39:21.953641600Z",
+      "person_id": 1
+    },
+    {
+      "id": 225,
+      "breast_milk": 59,
+      "formula": 1,
+      "solids": 135,
+      "time_stamp": "2021-10-18T07:56:21.954851300Z",
+      "person_id": 0
+    },
+    {
+      "id": 150,
+      "breast_milk": 126,
+      "formula": 21,
+      "solids": 6,
+      "time_stamp": "2021-10-17T15:07:21.954311500Z",
+      "person_id": 1
+    },
+    {
+      "id": 233,
+      "breast_milk": 42,
+      "formula": 136,
+      "solids": 81,
+      "time_stamp": "2021-10-17T05:00:21.954908500Z",
+      "person_id": 0
+    },
+    {
+      "id": 206,
+      "breast_milk": 93,
+      "formula": 134,
+      "solids": 84,
+      "time_stamp": "2021-10-14T08:36:21.954708300Z",
+      "person_id": 1
+    },
+    {
+      "id": 110,
+      "breast_milk": 126,
+      "formula": 71,
+      "solids": 58,
+      "time_stamp": "2021-10-11T20:26:21.954024600Z",
+      "person_id": 0
+    },
+    {
+      "id": 272,
+      "breast_milk": 108,
+      "formula": 114,
+      "solids": 128,
+      "time_stamp": "2021-10-07T10:28:21.955208Z",
+      "person_id": 1
+    },
+    {
+      "id": 258,
+      "breast_milk": 104,
+      "formula": 94,
+      "solids": 78,
+      "time_stamp": "2021-10-07T03:26:21.955114200Z",
+      "person_id": 1
+    },
+    {
+      "id": 50,
+      "breast_milk": 109,
+      "formula": 26,
+      "solids": 24,
+      "time_stamp": "2021-10-06T06:02:21.953613800Z",
+      "person_id": 0
+    },
+    {
+      "id": 261,
+      "breast_milk": 49,
+      "formula": 149,
+      "solids": 21,
+      "time_stamp": "2021-10-04T05:58:21.955120700Z",
+      "person_id": 2
+    },
+    {
+      "id": 267,
+      "breast_milk": 33,
+      "formula": 142,
+      "solids": 27,
+      "time_stamp": "2021-10-03T22:18:21.955177700Z",
+      "person_id": 2
+    },
+    {
+      "id": 3,
+      "breast_milk": 50,
+      "formula": 100,
+      "solids": 47,
+      "time_stamp": "2021-10-01T18:51:21.953260900Z",
+      "person_id": 0
+    },
+    {
+      "id": 158,
+      "breast_milk": 122,
+      "formula": 63,
+      "solids": 63,
+      "time_stamp": "2021-09-30T12:03:21.954368Z",
+      "person_id": 1
+    },
+    {
+      "id": 201,
+      "breast_milk": 88,
+      "formula": 120,
+      "solids": 8,
+      "time_stamp": "2021-09-30T09:30:21.954677900Z",
+      "person_id": 2
+    },
+    {
+      "id": 263,
+      "breast_milk": 114,
+      "formula": 80,
+      "solids": 145,
+      "time_stamp": "2021-09-30T08:02:21.955146800Z",
+      "person_id": 0
+    },
+    {
+      "id": 48,
+      "breast_milk": 86,
+      "formula": 131,
+      "solids": 102,
+      "time_stamp": "2021-09-28T20:17:21.953589800Z",
+      "person_id": 1
+    },
+    {
+      "id": 136,
+      "breast_milk": 51,
+      "formula": 46,
+      "solids": 113,
+      "time_stamp": "2021-09-28T08:30:21.954221900Z",
+      "person_id": 2
+    },
+    {
+      "id": 22,
+      "breast_milk": 98,
+      "formula": 132,
+      "solids": 5,
+      "time_stamp": "2021-09-27T03:15:21.953413200Z",
+      "person_id": 0
+    },
+    {
+      "id": 86,
+      "breast_milk": 58,
+      "formula": 50,
+      "solids": 44,
+      "time_stamp": "2021-09-25T11:50:21.953874900Z",
+      "person_id": 0
+    },
+    {
+      "id": 4,
+      "breast_milk": 119,
+      "formula": 68,
+      "solids": 112,
+      "time_stamp": "2021-09-24T12:15:21.953289800Z",
+      "person_id": 1
+    },
+    {
+      "id": 114,
+      "breast_milk": 137,
+      "formula": 95,
+      "solids": 82,
+      "time_stamp": "2021-09-24T03:39:21.954053300Z",
+      "person_id": 0
+    },
+    {
+      "id": 13,
+      "breast_milk": 70,
+      "formula": 119,
+      "solids": 86,
+      "time_stamp": "2021-09-23T17:08:21.953352800Z",
+      "person_id": 2
+    },
+    {
+      "id": 53,
+      "breast_milk": 88,
+      "formula": 121,
+      "solids": 88,
+      "time_stamp": "2021-09-20T19:41:21.953639400Z",
+      "person_id": 2
+    },
+    {
+      "id": 186,
+      "breast_milk": 144,
+      "formula": 13,
+      "solids": 127,
+      "time_stamp": "2021-09-18T17:07:21.954566Z",
+      "person_id": 2
+    },
+    {
+      "id": 198,
+      "breast_milk": 80,
+      "formula": 54,
+      "solids": 54,
+      "time_stamp": "2021-09-18T06:05:21.954651800Z",
+      "person_id": 1
+    },
+    {
+      "id": 32,
+      "breast_milk": 90,
+      "formula": 16,
+      "solids": 47,
+      "time_stamp": "2021-09-18T05:36:21.953494400Z",
+      "person_id": 2
+    },
+    {
+      "id": 148,
+      "breast_milk": 138,
+      "formula": 106,
+      "solids": 2,
+      "time_stamp": "2021-09-17T20:20:21.954307200Z",
+      "person_id": 1
+    },
+    {
+      "id": 207,
+      "breast_milk": 9,
+      "formula": 91,
+      "solids": 136,
+      "time_stamp": "2021-09-12T19:09:21.954710400Z",
+      "person_id": 2
+    },
+    {
+      "id": 138,
+      "breast_milk": 148,
+      "formula": 118,
+      "solids": 1,
+      "time_stamp": "2021-09-10T17:09:21.954226500Z",
+      "person_id": 0
+    },
+    {
+      "id": 24,
+      "breast_milk": 49,
+      "formula": 43,
+      "solids": 38,
+      "time_stamp": "2021-09-10T14:11:21.953417600Z",
+      "person_id": 1
+    },
+    {
+      "id": 143,
+      "breast_milk": 6,
+      "formula": 119,
+      "solids": 144,
+      "time_stamp": "2021-09-10T10:23:21.954277Z",
+      "person_id": 2
+    },
+    {
+      "id": 165,
+      "breast_milk": 14,
+      "formula": 134,
+      "solids": 40,
+      "time_stamp": "2021-09-08T10:41:21.954422600Z",
+      "person_id": 0
+    },
+    {
+      "id": 132,
+      "breast_milk": 95,
+      "formula": 109,
+      "solids": 114,
+      "time_stamp": "2021-09-07T02:09:21.954193200Z",
+      "person_id": 1
+    },
+    {
+      "id": 0,
+      "breast_milk": 32,
+      "formula": 73,
+      "solids": 124,
+      "time_stamp": "2021-09-05T03:53:21.953249500Z",
+      "person_id": 1
+    },
+    {
+      "id": 106,
+      "breast_milk": 38,
+      "formula": 62,
+      "solids": 146,
+      "time_stamp": "2021-09-04T13:31:21.953996300Z",
+      "person_id": 1
+    },
+    {
+      "id": 235,
+      "breast_milk": 115,
+      "formula": 21,
+      "solids": 44,
+      "time_stamp": "2021-09-02T23:49:21.954913100Z",
+      "person_id": 0
+    },
+    {
+      "id": 2,
+      "breast_milk": 10,
+      "formula": 107,
+      "solids": 106,
+      "time_stamp": "2021-09-02T13:05:21.953258700Z",
+      "person_id": 1
+    },
+    {
+      "id": 155,
+      "breast_milk": 98,
+      "formula": 138,
+      "solids": 141,
+      "time_stamp": "2021-08-30T11:10:21.954341800Z",
+      "person_id": 0
+    },
+    {
+      "id": 153,
+      "breast_milk": 2,
+      "formula": 89,
+      "solids": 92,
+      "time_stamp": "2021-08-29T17:44:21.954337700Z",
+      "person_id": 0
+    },
+    {
+      "id": 29,
+      "breast_milk": 87,
+      "formula": 149,
+      "solids": 3,
+      "time_stamp": "2021-08-29T04:08:21.953467900Z",
+      "person_id": 0
+    },
+    {
+      "id": 166,
+      "breast_milk": 109,
+      "formula": 70,
+      "solids": 42,
+      "time_stamp": "2021-08-28T21:37:21.954424700Z",
+      "person_id": 1
+    },
+    {
+      "id": 255,
+      "breast_milk": 17,
+      "formula": 42,
+      "solids": 131,
+      "time_stamp": "2021-08-28T17:30:21.955074600Z",
+      "person_id": 1
+    },
+    {
+      "id": 149,
+      "breast_milk": 145,
+      "formula": 32,
+      "solids": 131,
+      "time_stamp": "2021-08-28T13:08:21.954309300Z",
+      "person_id": 0
+    },
+    {
+      "id": 64,
+      "breast_milk": 147,
+      "formula": 48,
+      "solids": 141,
+      "time_stamp": "2021-08-27T11:24:21.953702800Z",
+      "person_id": 2
+    },
+    {
+      "id": 62,
+      "breast_milk": 133,
+      "formula": 9,
+      "solids": 28,
+      "time_stamp": "2021-08-27T04:48:21.953698200Z",
+      "person_id": 0
+    },
+    {
+      "id": 129,
+      "breast_milk": 110,
+      "formula": 106,
+      "solids": 53,
+      "time_stamp": "2021-08-27T02:58:21.954166400Z",
+      "person_id": 1
+    },
+    {
+      "id": 297,
+      "breast_milk": 149,
+      "formula": 6,
+      "solids": 91,
+      "time_stamp": "2021-08-26T19:11:21.955381300Z",
+      "person_id": 2
+    },
+    {
+      "id": 224,
+      "breast_milk": 126,
+      "formula": 19,
+      "solids": 77,
+      "time_stamp": "2021-08-25T21:37:21.954849200Z",
+      "person_id": 2
+    },
+    {
+      "id": 113,
+      "breast_milk": 136,
+      "formula": 93,
+      "solids": 66,
+      "time_stamp": "2021-08-25T03:10:21.954050900Z",
+      "person_id": 2
+    },
+    {
+      "id": 167,
+      "breast_milk": 59,
+      "formula": 120,
+      "solids": 65,
+      "time_stamp": "2021-08-25T00:03:21.954426800Z",
+      "person_id": 0
+    },
+    {
+      "id": 246,
+      "breast_milk": 114,
+      "formula": 91,
+      "solids": 113,
+      "time_stamp": "2021-08-21T07:59:21.955015800Z",
+      "person_id": 2
+    },
+    {
+      "id": 170,
+      "breast_milk": 54,
+      "formula": 1,
+      "solids": 113,
+      "time_stamp": "2021-08-19T18:55:21.954452400Z",
+      "person_id": 1
+    },
+    {
+      "id": 264,
+      "breast_milk": 117,
+      "formula": 57,
+      "solids": 97,
+      "time_stamp": "2021-08-18T22:07:21.955149400Z",
+      "person_id": 0
+    },
+    {
+      "id": 109,
+      "breast_milk": 8,
+      "formula": 78,
+      "solids": 135,
+      "time_stamp": "2021-08-18T04:30:21.954022400Z",
+      "person_id": 2
+    },
+    {
+      "id": 63,
+      "breast_milk": 115,
+      "formula": 100,
+      "solids": 129,
+      "time_stamp": "2021-08-15T12:14:21.953700500Z",
+      "person_id": 2
+    },
+    {
+      "id": 93,
+      "breast_milk": 117,
+      "formula": 113,
+      "solids": 95,
+      "time_stamp": "2021-08-13T03:10:21.953909200Z",
+      "person_id": 1
+    },
+    {
+      "id": 168,
+      "breast_milk": 96,
+      "formula": 44,
+      "solids": 129,
+      "time_stamp": "2021-08-12T03:09:21.954429100Z",
+      "person_id": 0
+    },
+    {
+      "id": 126,
+      "breast_milk": 53,
+      "formula": 101,
+      "solids": 96,
+      "time_stamp": "2021-08-11T11:34:21.954138600Z",
+      "person_id": 2
+    },
+    {
+      "id": 273,
+      "breast_milk": 132,
+      "formula": 141,
+      "solids": 107,
+      "time_stamp": "2021-08-08T02:19:21.955210200Z",
+      "person_id": 2
+    },
+    {
+      "id": 39,
+      "breast_milk": 76,
+      "formula": 3,
+      "solids": 50,
+      "time_stamp": "2021-08-08T00:51:21.953530700Z",
+      "person_id": 2
+    },
+    {
+      "id": 141,
+      "breast_milk": 123,
+      "formula": 145,
+      "solids": 66,
+      "time_stamp": "2021-08-08T00:10:21.954252900Z",
+      "person_id": 1
+    },
+    {
+      "id": 60,
+      "breast_milk": 105,
+      "formula": 15,
+      "solids": 132,
+      "time_stamp": "2021-08-07T19:34:21.953674300Z",
+      "person_id": 2
+    },
+    {
+      "id": 119,
+      "breast_milk": 56,
+      "formula": 74,
+      "solids": 27,
+      "time_stamp": "2021-08-07T17:16:21.954083900Z",
+      "person_id": 1
+    },
+    {
+      "id": 183,
+      "breast_milk": 126,
+      "formula": 148,
+      "solids": 75,
+      "time_stamp": "2021-07-31T03:33:21.954539800Z",
+      "person_id": 0
+    },
+    {
+      "id": 89,
+      "breast_milk": 58,
+      "formula": 58,
+      "solids": 66,
+      "time_stamp": "2021-07-30T21:13:21.953881200Z",
+      "person_id": 0
+    },
+    {
+      "id": 103,
+      "breast_milk": 6,
+      "formula": 58,
+      "solids": 67,
+      "time_stamp": "2021-07-30T20:30:21.953970300Z",
+      "person_id": 1
+    },
+    {
+      "id": 9,
+      "breast_milk": 109,
+      "formula": 1,
+      "solids": 108,
+      "time_stamp": "2021-07-29T23:42:21.953324600Z",
+      "person_id": 2
+    },
+    {
+      "id": 134,
+      "breast_milk": 95,
+      "formula": 82,
+      "solids": 115,
+      "time_stamp": "2021-07-26T08:45:21.954197700Z",
+      "person_id": 2
+    },
+    {
+      "id": 74,
+      "breast_milk": 38,
+      "formula": 58,
+      "solids": 34,
+      "time_stamp": "2021-07-26T01:42:21.953789500Z",
+      "person_id": 0
+    },
+    {
+      "id": 219,
+      "breast_milk": 28,
+      "formula": 145,
+      "solids": 108,
+      "time_stamp": "2021-07-25T22:35:21.954818400Z",
+      "person_id": 2
+    },
+    {
+      "id": 199,
+      "breast_milk": 5,
+      "formula": 87,
+      "solids": 111,
+      "time_stamp": "2021-07-25T18:58:21.954673600Z",
+      "person_id": 1
+    },
+    {
+      "id": 122,
+      "breast_milk": 147,
+      "formula": 34,
+      "solids": 129,
+      "time_stamp": "2021-07-23T10:43:21.954110Z",
+      "person_id": 2
+    },
+    {
+      "id": 223,
+      "breast_milk": 94,
+      "formula": 146,
+      "solids": 38,
+      "time_stamp": "2021-07-22T15:52:21.954846900Z",
+      "person_id": 0
+    },
+    {
+      "id": 293,
+      "breast_milk": 135,
+      "formula": 8,
+      "solids": 116,
+      "time_stamp": "2021-07-21T23:22:21.955352600Z",
+      "person_id": 0
+    },
+    {
+      "id": 11,
+      "breast_milk": 137,
+      "formula": 52,
+      "solids": 94,
+      "time_stamp": "2021-07-20T07:00:21.953329100Z",
+      "person_id": 1
+    },
+    {
+      "id": 14,
+      "breast_milk": 60,
+      "formula": 59,
+      "solids": 52,
+      "time_stamp": "2021-07-20T04:26:21.953355100Z",
+      "person_id": 2
+    },
+    {
+      "id": 162,
+      "breast_milk": 84,
+      "formula": 127,
+      "solids": 7,
+      "time_stamp": "2021-07-19T09:33:21.954396700Z",
+      "person_id": 1
+    },
+    {
+      "id": 61,
+      "breast_milk": 131,
+      "formula": 51,
+      "solids": 137,
+      "time_stamp": "2021-07-17T00:38:21.953676600Z",
+      "person_id": 0
+    },
+    {
+      "id": 56,
+      "breast_milk": 122,
+      "formula": 94,
+      "solids": 125,
+      "time_stamp": "2021-07-14T10:08:21.953645900Z",
+      "person_id": 1
+    },
+    {
+      "id": 121,
+      "breast_milk": 141,
+      "formula": 63,
+      "solids": 41,
+      "time_stamp": "2021-07-12T16:01:21.954107800Z",
+      "person_id": 2
+    },
+    {
+      "id": 69,
+      "breast_milk": 98,
+      "formula": 30,
+      "solids": 131,
+      "time_stamp": "2021-07-11T06:51:21.953734800Z",
+      "person_id": 0
+    },
+    {
+      "id": 248,
+      "breast_milk": 108,
+      "formula": 56,
+      "solids": 51,
+      "time_stamp": "2021-07-09T17:56:21.955020200Z",
+      "person_id": 0
+    },
+    {
+      "id": 36,
+      "breast_milk": 45,
+      "formula": 95,
+      "solids": 23,
+      "time_stamp": "2021-07-09T08:27:21.953504600Z",
+      "person_id": 1
+    },
+    {
+      "id": 25,
+      "breast_milk": 20,
+      "formula": 67,
+      "solids": 139,
+      "time_stamp": "2021-07-07T17:54:21.953439400Z",
+      "person_id": 2
+    },
+    {
+      "id": 205,
+      "breast_milk": 142,
+      "formula": 102,
+      "solids": 106,
+      "time_stamp": "2021-07-05T10:45:21.954706100Z",
+      "person_id": 0
+    },
+    {
+      "id": 209,
+      "breast_milk": 92,
+      "formula": 134,
+      "solids": 31,
+      "time_stamp": "2021-07-01T02:54:21.954734500Z",
+      "person_id": 2
+    },
+    {
+      "id": 1,
+      "breast_milk": 117,
+      "formula": 95,
+      "solids": 141,
+      "time_stamp": "2021-06-30T22:32:21.953256400Z",
+      "person_id": 0
+    },
+    {
+      "id": 105,
+      "breast_milk": 102,
+      "formula": 47,
+      "solids": 76,
+      "time_stamp": "2021-06-30T19:04:21.953994200Z",
+      "person_id": 1
+    },
+    {
+      "id": 244,
+      "breast_milk": 9,
+      "formula": 41,
+      "solids": 15,
+      "time_stamp": "2021-06-30T16:02:21.954992Z",
+      "person_id": 2
+    },
+    {
+      "id": 87,
+      "breast_milk": 1,
+      "formula": 19,
+      "solids": 62,
+      "time_stamp": "2021-06-29T20:14:21.953877Z",
+      "person_id": 0
+    },
+    {
+      "id": 218,
+      "breast_milk": 63,
+      "formula": 69,
+      "solids": 23,
+      "time_stamp": "2021-06-29T05:22:21.954796700Z",
+      "person_id": 0
+    },
+    {
+      "id": 262,
+      "breast_milk": 91,
+      "formula": 114,
+      "solids": 17,
+      "time_stamp": "2021-06-28T19:27:21.955122800Z",
+      "person_id": 1
+    },
+    {
+      "id": 296,
+      "breast_milk": 69,
+      "formula": 106,
+      "solids": 40,
+      "time_stamp": "2021-06-28T18:41:21.955379100Z",
+      "person_id": 2
+    },
+    {
+      "id": 57,
+      "breast_milk": 144,
+      "formula": 76,
+      "solids": 62,
+      "time_stamp": "2021-06-28T08:52:21.953648Z",
+      "person_id": 0
+    },
+    {
+      "id": 125,
+      "breast_milk": 90,
+      "formula": 37,
+      "solids": 42,
+      "time_stamp": "2021-06-22T22:11:21.954136400Z",
+      "person_id": 2
+    },
+    {
+      "id": 111,
+      "breast_milk": 9,
+      "formula": 109,
+      "solids": 133,
+      "time_stamp": "2021-06-22T21:31:21.954026700Z",
+      "person_id": 1
+    },
+    {
+      "id": 251,
+      "breast_milk": 103,
+      "formula": 93,
+      "solids": 129,
+      "time_stamp": "2021-06-22T17:14:21.955046200Z",
+      "person_id": 0
+    },
+    {
+      "id": 77,
+      "breast_milk": 54,
+      "formula": 39,
+      "solids": 144,
+      "time_stamp": "2021-06-21T20:10:21.953796Z",
+      "person_id": 1
+    },
+    {
+      "id": 8,
+      "breast_milk": 30,
+      "formula": 133,
+      "solids": 131,
+      "time_stamp": "2021-06-17T00:41:21.953300700Z",
+      "person_id": 2
+    },
+    {
+      "id": 102,
+      "breast_milk": 30,
+      "formula": 114,
+      "solids": 6,
+      "time_stamp": "2021-06-14T10:03:21.953968100Z",
+      "person_id": 0
+    },
+    {
+      "id": 116,
+      "breast_milk": 32,
+      "formula": 9,
+      "solids": 85,
+      "time_stamp": "2021-06-13T22:29:21.954077400Z",
+      "person_id": 1
+    },
+    {
+      "id": 97,
+      "breast_milk": 0,
+      "formula": 47,
+      "solids": 92,
+      "time_stamp": "2021-06-13T20:34:21.953937100Z",
+      "person_id": 0
+    },
+    {
+      "id": 92,
+      "breast_milk": 64,
+      "formula": 52,
+      "solids": 131,
+      "time_stamp": "2021-06-13T10:43:21.953907Z",
+      "person_id": 2
+    },
+    {
+      "id": 101,
+      "breast_milk": 106,
+      "formula": 133,
+      "solids": 27,
+      "time_stamp": "2021-06-11T18:08:21.953965900Z",
+      "person_id": 1
+    },
+    {
+      "id": 299,
+      "breast_milk": 142,
+      "formula": 133,
+      "solids": 118,
+      "time_stamp": "2021-06-10T09:32:21.955405600Z",
+      "person_id": 1
+    },
+    {
+      "id": 95,
+      "breast_milk": 126,
+      "formula": 118,
+      "solids": 85,
+      "time_stamp": "2021-06-10T01:27:21.953913400Z",
+      "person_id": 0
+    },
+    {
+      "id": 239,
+      "breast_milk": 112,
+      "formula": 19,
+      "solids": 91,
+      "time_stamp": "2021-06-09T10:45:21.954960700Z",
+      "person_id": 2
+    },
+    {
+      "id": 259,
+      "breast_milk": 69,
+      "formula": 33,
+      "solids": 7,
+      "time_stamp": "2021-06-08T16:30:21.955116400Z",
+      "person_id": 0
+    },
+    {
+      "id": 17,
+      "breast_milk": 70,
+      "formula": 7,
+      "solids": 128,
+      "time_stamp": "2021-06-08T10:31:21.953382400Z",
+      "person_id": 1
+    },
+    {
+      "id": 217,
+      "breast_milk": 30,
+      "formula": 109,
+      "solids": 16,
+      "time_stamp": "2021-06-07T00:34:21.954794600Z",
+      "person_id": 2
+    },
+    {
+      "id": 237,
+      "breast_milk": 103,
+      "formula": 18,
+      "solids": 4,
+      "time_stamp": "2021-06-04T09:45:21.954937Z",
+      "person_id": 1
+    },
+    {
+      "id": 187,
+      "breast_milk": 122,
+      "formula": 113,
+      "solids": 140,
+      "time_stamp": "2021-06-02T07:37:21.954568100Z",
+      "person_id": 0
+    },
+    {
+      "id": 279,
+      "breast_milk": 60,
+      "formula": 33,
+      "solids": 92,
+      "time_stamp": "2021-05-30T20:04:21.955262500Z",
+      "person_id": 2
+    },
+    {
+      "id": 146,
+      "breast_milk": 125,
+      "formula": 82,
+      "solids": 109,
+      "time_stamp": "2021-05-30T07:39:21.954283400Z",
+      "person_id": 0
+    },
+    {
+      "id": 112,
+      "breast_milk": 41,
+      "formula": 116,
+      "solids": 83,
+      "time_stamp": "2021-05-30T00:48:21.954048800Z",
+      "person_id": 0
+    },
+    {
+      "id": 253,
+      "breast_milk": 5,
+      "formula": 117,
+      "solids": 96,
+      "time_stamp": "2021-05-28T11:42:21.955050900Z",
+      "person_id": 2
+    },
+    {
+      "id": 152,
+      "breast_milk": 49,
+      "formula": 94,
+      "solids": 52,
+      "time_stamp": "2021-05-28T07:30:21.954335300Z",
+      "person_id": 1
+    },
+    {
+      "id": 247,
+      "breast_milk": 73,
+      "formula": 43,
+      "solids": 78,
+      "time_stamp": "2021-05-27T07:50:21.955018Z",
+      "person_id": 2
+    },
+    {
+      "id": 104,
+      "breast_milk": 60,
+      "formula": 38,
+      "solids": 47,
+      "time_stamp": "2021-05-26T04:28:21.953992Z",
+      "person_id": 1
+    },
+    {
+      "id": 173,
+      "breast_milk": 111,
+      "formula": 54,
+      "solids": 102,
+      "time_stamp": "2021-05-26T02:44:21.954478400Z",
+      "person_id": 1
+    },
+    {
+      "id": 191,
+      "breast_milk": 2,
+      "formula": 80,
+      "solids": 105,
+      "time_stamp": "2021-05-24T04:48:21.954596400Z",
+      "person_id": 0
+    },
+    {
+      "id": 115,
+      "breast_milk": 91,
+      "formula": 72,
+      "solids": 33,
+      "time_stamp": "2021-05-23T05:23:21.954055400Z",
+      "person_id": 1
+    },
+    {
+      "id": 6,
+      "breast_milk": 127,
+      "formula": 30,
+      "solids": 120,
+      "time_stamp": "2021-05-21T06:00:21.953296300Z",
+      "person_id": 0
+    },
+    {
+      "id": 144,
+      "breast_milk": 8,
+      "formula": 118,
+      "solids": 147,
+      "time_stamp": "2021-05-20T22:40:21.954279100Z",
+      "person_id": 2
+    },
+    {
+      "id": 257,
+      "breast_milk": 129,
+      "formula": 85,
+      "solids": 113,
+      "time_stamp": "2021-05-17T16:27:21.955092500Z",
+      "person_id": 1
+    },
+    {
+      "id": 142,
+      "breast_milk": 117,
+      "formula": 5,
+      "solids": 9,
+      "time_stamp": "2021-05-16T21:31:21.954255100Z",
+      "person_id": 2
+    },
+    {
+      "id": 12,
+      "breast_milk": 84,
+      "formula": 20,
+      "solids": 142,
+      "time_stamp": "2021-05-16T00:26:21.953331300Z",
+      "person_id": 2
+    },
+    {
+      "id": 34,
+      "breast_milk": 129,
+      "formula": 111,
+      "solids": 27,
+      "time_stamp": "2021-05-15T07:34:21.953500300Z",
+      "person_id": 2
+    },
+    {
+      "id": 250,
+      "breast_milk": 46,
+      "formula": 91,
+      "solids": 45,
+      "time_stamp": "2021-05-14T21:46:21.955024400Z",
+      "person_id": 1
+    },
+    {
+      "id": 202,
+      "breast_milk": 110,
+      "formula": 124,
+      "solids": 15,
+      "time_stamp": "2021-05-14T03:48:21.954680Z",
+      "person_id": 1
+    },
+    {
+      "id": 23,
+      "breast_milk": 97,
+      "formula": 10,
+      "solids": 129,
+      "time_stamp": "2021-05-14T01:40:21.953415400Z",
+      "person_id": 1
+    },
+    {
+      "id": 161,
+      "breast_milk": 49,
+      "formula": 50,
+      "solids": 82,
+      "time_stamp": "2021-05-13T11:55:21.954394500Z",
+      "person_id": 0
+    },
+    {
+      "id": 174,
+      "breast_milk": 47,
+      "formula": 25,
+      "solids": 97,
+      "time_stamp": "2021-05-12T13:27:21.954480500Z",
+      "person_id": 1
+    },
+    {
+      "id": 159,
+      "breast_milk": 113,
+      "formula": 70,
+      "solids": 48,
+      "time_stamp": "2021-05-11T07:00:21.954370200Z",
+      "person_id": 2
+    },
+    {
+      "id": 84,
+      "breast_milk": 75,
+      "formula": 100,
+      "solids": 100,
+      "time_stamp": "2021-05-07T01:11:21.953851Z",
+      "person_id": 0
+    },
+    {
+      "id": 226,
+      "breast_milk": 114,
+      "formula": 103,
+      "solids": 147,
+      "time_stamp": "2021-05-06T23:21:21.954853500Z",
+      "person_id": 0
+    },
+    {
+      "id": 266,
+      "breast_milk": 12,
+      "formula": 43,
+      "solids": 26,
+      "time_stamp": "2021-05-06T11:01:21.955153800Z",
+      "person_id": 1
+    },
+    {
+      "id": 108,
+      "breast_milk": 102,
+      "formula": 41,
+      "solids": 46,
+      "time_stamp": "2021-05-05T17:26:21.954020200Z",
+      "person_id": 1
+    },
+    {
+      "id": 204,
+      "breast_milk": 138,
+      "formula": 144,
+      "solids": 21,
+      "time_stamp": "2021-05-04T23:09:21.954704Z",
+      "person_id": 1
+    },
+    {
+      "id": 249,
+      "breast_milk": 114,
+      "formula": 106,
+      "solids": 95,
+      "time_stamp": "2021-05-04T10:39:21.955022300Z",
+      "person_id": 2
+    },
+    {
+      "id": 140,
+      "breast_milk": 36,
+      "formula": 97,
+      "solids": 124,
+      "time_stamp": "2021-05-04T09:02:21.954250700Z",
+      "person_id": 1
+    },
+    {
+      "id": 96,
+      "breast_milk": 38,
+      "formula": 107,
+      "solids": 12,
+      "time_stamp": "2021-05-04T07:53:21.953934900Z",
+      "person_id": 0
+    },
+    {
+      "id": 7,
+      "breast_milk": 27,
+      "formula": 47,
+      "solids": 135,
+      "time_stamp": "2021-05-04T04:41:21.953298500Z",
+      "person_id": 2
+    },
+    {
+      "id": 291,
+      "breast_milk": 103,
+      "formula": 64,
+      "solids": 1,
+      "time_stamp": "2021-05-03T19:07:21.955348100Z",
+      "person_id": 1
+    },
+    {
+      "id": 292,
+      "breast_milk": 141,
+      "formula": 55,
+      "solids": 58,
+      "time_stamp": "2021-05-03T04:10:21.955350300Z",
+      "person_id": 1
+    },
+    {
+      "id": 117,
+      "breast_milk": 103,
+      "formula": 43,
+      "solids": 121,
+      "time_stamp": "2021-05-02T10:17:21.954079600Z",
+      "person_id": 0
+    },
+    {
+      "id": 44,
+      "breast_milk": 4,
+      "formula": 44,
+      "solids": 7,
+      "time_stamp": "2021-05-01T10:49:21.953561400Z",
+      "person_id": 0
+    },
+    {
+      "id": 164,
+      "breast_milk": 131,
+      "formula": 75,
+      "solids": 108,
+      "time_stamp": "2021-04-29T12:13:21.954420400Z",
+      "person_id": 0
+    },
+    {
+      "id": 154,
+      "breast_milk": 114,
+      "formula": 29,
+      "solids": 48,
+      "time_stamp": "2021-04-29T06:31:21.954339800Z",
+      "person_id": 0
+    },
+    {
+      "id": 281,
+      "breast_milk": 1,
+      "formula": 57,
+      "solids": 36,
+      "time_stamp": "2021-04-28T03:11:21.955266900Z",
+      "person_id": 2
+    },
+    {
+      "id": 290,
+      "breast_milk": 138,
+      "formula": 140,
+      "solids": 14,
+      "time_stamp": "2021-04-27T16:59:21.955326500Z",
+      "person_id": 0
+    },
+    {
+      "id": 80,
+      "breast_milk": 74,
+      "formula": 38,
+      "solids": 41,
+      "time_stamp": "2021-04-24T20:07:21.953822300Z",
+      "person_id": 2
+    },
+    {
+      "id": 51,
+      "breast_milk": 58,
+      "formula": 93,
+      "solids": 42,
+      "time_stamp": "2021-04-24T09:46:21.953615800Z",
+      "person_id": 2
+    },
+    {
+      "id": 222,
+      "breast_milk": 107,
+      "formula": 70,
+      "solids": 131,
+      "time_stamp": "2021-04-22T23:21:21.954825Z",
+      "person_id": 1
+    },
+    {
+      "id": 232,
+      "breast_milk": 2,
+      "formula": 45,
+      "solids": 142,
+      "time_stamp": "2021-04-21T08:12:21.954906200Z",
+      "person_id": 2
+    },
+    {
+      "id": 45,
+      "breast_milk": 80,
+      "formula": 103,
+      "solids": 144,
+      "time_stamp": "2021-04-20T04:07:21.953583200Z",
+      "person_id": 0
+    },
+    {
+      "id": 234,
+      "breast_milk": 5,
+      "formula": 42,
+      "solids": 83,
+      "time_stamp": "2021-04-19T21:12:21.954910800Z",
+      "person_id": 1
+    },
+    {
+      "id": 196,
+      "breast_milk": 83,
+      "formula": 26,
+      "solids": 52,
+      "time_stamp": "2021-04-19T18:46:21.954647300Z",
+      "person_id": 0
+    },
+    {
+      "id": 286,
+      "breast_milk": 84,
+      "formula": 90,
+      "solids": 10,
+      "time_stamp": "2021-04-19T06:40:21.955297900Z",
+      "person_id": 2
+    },
+    {
+      "id": 256,
+      "breast_milk": 95,
+      "formula": 85,
+      "solids": 126,
+      "time_stamp": "2021-04-17T09:06:21.955076800Z",
+      "person_id": 2
+    },
+    {
+      "id": 118,
+      "breast_milk": 110,
+      "formula": 130,
+      "solids": 105,
+      "time_stamp": "2021-04-16T22:44:21.954081700Z",
+      "person_id": 2
+    },
+    {
+      "id": 236,
+      "breast_milk": 121,
+      "formula": 135,
+      "solids": 8,
+      "time_stamp": "2021-04-15T03:37:21.954934800Z",
+      "person_id": 1
+    },
+    {
+      "id": 82,
+      "breast_milk": 24,
+      "formula": 15,
+      "solids": 25,
+      "time_stamp": "2021-04-14T06:32:21.953846600Z",
+      "person_id": 1
+    },
+    {
+      "id": 283,
+      "breast_milk": 33,
+      "formula": 27,
+      "solids": 31,
+      "time_stamp": "2021-04-13T00:57:21.955291200Z",
+      "person_id": 1
+    },
+    {
+      "id": 67,
+      "breast_milk": 144,
+      "formula": 10,
+      "solids": 82,
+      "time_stamp": "2021-04-12T09:40:21.953730500Z",
+      "person_id": 2
+    },
+    {
+      "id": 195,
+      "breast_milk": 121,
+      "formula": 44,
+      "solids": 41,
+      "time_stamp": "2021-04-11T19:44:21.954624800Z",
+      "person_id": 2
+    },
+    {
+      "id": 269,
+      "breast_milk": 37,
+      "formula": 21,
+      "solids": 57,
+      "time_stamp": "2021-04-09T20:55:21.955182100Z",
+      "person_id": 2
+    },
+    {
+      "id": 192,
+      "breast_milk": 0,
+      "formula": 65,
+      "solids": 4,
+      "time_stamp": "2021-04-06T22:23:21.954618Z",
+      "person_id": 2
+    },
+    {
+      "id": 245,
+      "breast_milk": 84,
+      "formula": 109,
+      "solids": 120,
+      "time_stamp": "2021-04-03T06:54:21.954994200Z",
+      "person_id": 1
+    },
+    {
+      "id": 88,
+      "breast_milk": 20,
+      "formula": 30,
+      "solids": 28,
+      "time_stamp": "2021-04-01T19:10:21.953879100Z",
+      "person_id": 1
+    },
+    {
+      "id": 185,
+      "breast_milk": 121,
+      "formula": 6,
+      "solids": 119,
+      "time_stamp": "2021-03-30T17:59:21.954563700Z",
+      "person_id": 0
+    },
+    {
+      "id": 35,
+      "breast_milk": 104,
+      "formula": 11,
+      "solids": 83,
+      "time_stamp": "2021-03-28T19:37:21.953502400Z",
+      "person_id": 1
+    },
+    {
+      "id": 10,
+      "breast_milk": 132,
+      "formula": 92,
+      "solids": 98,
+      "time_stamp": "2021-03-25T22:29:21.953326900Z",
+      "person_id": 0
+    },
+    {
+      "id": 284,
+      "breast_milk": 62,
+      "formula": 73,
+      "solids": 139,
+      "time_stamp": "2021-03-25T15:55:21.955293500Z",
+      "person_id": 1
+    },
+    {
+      "id": 229,
+      "breast_milk": 25,
+      "formula": 41,
+      "solids": 101,
+      "time_stamp": "2021-03-25T14:09:21.954880100Z",
+      "person_id": 1
+    },
+    {
+      "id": 260,
+      "breast_milk": 16,
+      "formula": 74,
+      "solids": 105,
+      "time_stamp": "2021-03-21T04:30:21.955118500Z",
+      "person_id": 0
+    },
+    {
+      "id": 38,
+      "breast_milk": 92,
+      "formula": 33,
+      "solids": 136,
+      "time_stamp": "2021-03-18T11:18:21.953528500Z",
+      "person_id": 1
+    },
+    {
+      "id": 107,
+      "breast_milk": 1,
+      "formula": 72,
+      "solids": 58,
+      "time_stamp": "2021-03-17T06:58:21.954018100Z",
+      "person_id": 2
+    },
+    {
+      "id": 276,
+      "breast_milk": 31,
+      "formula": 136,
+      "solids": 50,
+      "time_stamp": "2021-03-15T21:32:21.955236100Z",
+      "person_id": 1
+    },
+    {
+      "id": 208,
+      "breast_milk": 96,
+      "formula": 117,
+      "solids": 67,
+      "time_stamp": "2021-03-11T17:01:21.954732200Z",
+      "person_id": 1
+    },
+    {
+      "id": 285,
+      "breast_milk": 16,
+      "formula": 130,
+      "solids": 107,
+      "time_stamp": "2021-03-11T04:33:21.955295800Z",
+      "person_id": 2
+    },
+    {
+      "id": 137,
+      "breast_milk": 81,
+      "formula": 70,
+      "solids": 7,
+      "time_stamp": "2021-03-07T14:37:21.954224200Z",
+      "person_id": 2
+    },
+    {
+      "id": 120,
+      "breast_milk": 90,
+      "formula": 119,
+      "solids": 27,
+      "time_stamp": "2021-03-05T21:13:21.954105700Z",
+      "person_id": 2
+    },
+    {
+      "id": 179,
+      "breast_milk": 4,
+      "formula": 80,
+      "solids": 134,
+      "time_stamp": "2021-03-05T12:59:21.954511100Z",
+      "person_id": 0
+    },
+    {
+      "id": 78,
+      "breast_milk": 139,
+      "formula": 117,
+      "solids": 98,
+      "time_stamp": "2021-03-04T06:06:21.953817900Z",
+      "person_id": 2
+    },
+    {
+      "id": 289,
+      "breast_milk": 15,
+      "formula": 137,
+      "solids": 147,
+      "time_stamp": "2021-03-03T07:26:21.955324400Z",
+      "person_id": 2
+    },
+    {
+      "id": 288,
+      "breast_milk": 26,
+      "formula": 54,
+      "solids": 7,
+      "time_stamp": "2021-03-02T21:10:21.955322300Z",
+      "person_id": 1
+    },
+    {
+      "id": 68,
+      "breast_milk": 35,
+      "formula": 134,
+      "solids": 145,
+      "time_stamp": "2021-02-27T13:29:21.953732600Z",
+      "person_id": 2
+    },
+    {
+      "id": 188,
+      "breast_milk": 57,
+      "formula": 35,
+      "solids": 54,
+      "time_stamp": "2021-02-27T02:53:21.954570200Z",
+      "person_id": 2
+    },
+    {
+      "id": 265,
+      "breast_milk": 37,
+      "formula": 2,
+      "solids": 110,
+      "time_stamp": "2021-02-26T18:11:21.955151600Z",
+      "person_id": 0
+    },
+    {
+      "id": 212,
+      "breast_milk": 65,
+      "formula": 58,
+      "solids": 114,
+      "time_stamp": "2021-02-21T14:40:21.954763500Z",
+      "person_id": 1
+    },
+    {
+      "id": 220,
+      "breast_milk": 54,
+      "formula": 27,
+      "solids": 53,
+      "time_stamp": "2021-02-21T00:07:21.954820600Z",
+      "person_id": 1
+    },
+    {
+      "id": 91,
+      "breast_milk": 129,
+      "formula": 138,
+      "solids": 44,
+      "time_stamp": "2021-02-20T21:11:21.953904900Z",
+      "person_id": 0
+    },
+    {
+      "id": 79,
+      "breast_milk": 53,
+      "formula": 60,
+      "solids": 44,
+      "time_stamp": "2021-02-20T04:26:21.953820Z",
+      "person_id": 1
+    },
+    {
+      "id": 214,
+      "breast_milk": 149,
+      "formula": 37,
+      "solids": 89,
+      "time_stamp": "2021-02-20T01:00:21.954767900Z",
+      "person_id": 0
+    },
+    {
+      "id": 210,
+      "breast_milk": 95,
+      "formula": 91,
+      "solids": 55,
+      "time_stamp": "2021-02-15T23:21:21.954736800Z",
+      "person_id": 2
+    },
+    {
+      "id": 275,
+      "breast_milk": 111,
+      "formula": 34,
+      "solids": 8,
+      "time_stamp": "2021-02-15T02:25:21.955233900Z",
+      "person_id": 0
+    },
+    {
+      "id": 28,
+      "breast_milk": 47,
+      "formula": 80,
+      "solids": 122,
+      "time_stamp": "2021-02-14T13:21:21.953446Z",
+      "person_id": 0
+    },
+    {
+      "id": 19,
+      "breast_milk": 17,
+      "formula": 138,
+      "solids": 12,
+      "time_stamp": "2021-02-13T14:21:21.953386800Z",
+      "person_id": 1
+    },
+    {
+      "id": 238,
+      "breast_milk": 131,
+      "formula": 28,
+      "solids": 28,
+      "time_stamp": "2021-02-11T23:03:21.954939300Z",
+      "person_id": 1
+    },
+    {
+      "id": 298,
+      "breast_milk": 121,
+      "formula": 9,
+      "solids": 43,
+      "time_stamp": "2021-02-09T02:44:21.955383500Z",
+      "person_id": 0
+    },
+    {
+      "id": 295,
+      "breast_milk": 97,
+      "formula": 91,
+      "solids": 139,
+      "time_stamp": "2021-02-07T03:54:21.955376800Z",
+      "person_id": 2
+    },
+    {
+      "id": 70,
+      "breast_milk": 89,
+      "formula": 2,
+      "solids": 117,
+      "time_stamp": "2021-02-05T23:39:21.953761Z",
+      "person_id": 2
+    },
+    {
+      "id": 176,
+      "breast_milk": 109,
+      "formula": 99,
+      "solids": 55,
+      "time_stamp": "2021-02-02T09:54:21.954484900Z",
+      "person_id": 1
+    },
+    {
+      "id": 151,
+      "breast_milk": 138,
+      "formula": 128,
+      "solids": 92,
+      "time_stamp": "2021-02-02T00:16:21.954313700Z",
+      "person_id": 0
+    },
+    {
+      "id": 58,
+      "breast_milk": 89,
+      "formula": 107,
+      "solids": 145,
+      "time_stamp": "2021-02-01T18:58:21.953670100Z",
+      "person_id": 1
+    },
+    {
+      "id": 90,
+      "breast_milk": 147,
+      "formula": 142,
+      "solids": 50,
+      "time_stamp": "2021-02-01T11:51:21.953883300Z",
+      "person_id": 0
+    },
+    {
+      "id": 55,
+      "breast_milk": 145,
+      "formula": 17,
+      "solids": 28,
+      "time_stamp": "2021-02-01T00:51:21.953643800Z",
+      "person_id": 1
+    },
+    {
+      "id": 242,
+      "breast_milk": 117,
+      "formula": 122,
+      "solids": 7,
+      "time_stamp": "2021-01-31T02:31:21.954967600Z",
+      "person_id": 1
+    },
+    {
+      "id": 230,
+      "breast_milk": 105,
+      "formula": 3,
+      "solids": 62,
+      "time_stamp": "2021-01-29T16:37:21.954882200Z",
+      "person_id": 1
+    },
+    {
+      "id": 76,
+      "breast_milk": 146,
+      "formula": 43,
+      "solids": 43,
+      "time_stamp": "2021-01-29T08:59:21.953793800Z",
+      "person_id": 1
+    },
+    {
+      "id": 194,
+      "breast_milk": 115,
+      "formula": 108,
+      "solids": 24,
+      "time_stamp": "2021-01-28T04:13:21.954622500Z",
+      "person_id": 1
+    },
+    {
+      "id": 65,
+      "breast_milk": 105,
+      "formula": 104,
+      "solids": 103,
+      "time_stamp": "2021-01-27T23:23:21.953706500Z",
+      "person_id": 0
+    },
+    {
+      "id": 30,
+      "breast_milk": 134,
+      "formula": 104,
+      "solids": 10,
+      "time_stamp": "2021-01-27T23:21:21.953470200Z",
+      "person_id": 0
+    },
+    {
+      "id": 20,
+      "breast_milk": 52,
+      "formula": 113,
+      "solids": 77,
+      "time_stamp": "2021-01-25T10:31:21.953408700Z",
+      "person_id": 1
+    },
+    {
+      "id": 15,
+      "breast_milk": 92,
+      "formula": 108,
+      "solids": 7,
+      "time_stamp": "2021-01-24T06:47:21.953357300Z",
+      "person_id": 2
+    },
+    {
+      "id": 33,
+      "breast_milk": 123,
+      "formula": 15,
+      "solids": 65,
+      "time_stamp": "2021-01-22T05:08:21.953498Z",
+      "person_id": 1
+    },
+    {
+      "id": 147,
+      "breast_milk": 65,
+      "formula": 114,
+      "solids": 77,
+      "time_stamp": "2021-01-21T11:44:21.954285700Z",
+      "person_id": 0
+    },
+    {
+      "id": 171,
+      "breast_milk": 79,
+      "formula": 100,
+      "solids": 92,
+      "time_stamp": "2021-01-21T09:56:21.954454600Z",
+      "person_id": 1
+    },
+    {
+      "id": 145,
+      "breast_milk": 97,
+      "formula": 71,
+      "solids": 57,
+      "time_stamp": "2021-01-21T06:33:21.954281300Z",
+      "person_id": 0
+    },
+    {
+      "id": 180,
+      "breast_milk": 95,
+      "formula": 72,
+      "solids": 123,
+      "time_stamp": "2021-01-21T02:46:21.954513300Z",
+      "person_id": 1
+    },
+    {
+      "id": 21,
+      "breast_milk": 36,
+      "formula": 148,
+      "solids": 134,
+      "time_stamp": "2021-01-20T18:12:21.953410900Z",
+      "person_id": 2
+    },
+    {
+      "id": 184,
+      "breast_milk": 108,
+      "formula": 41,
+      "solids": 92,
+      "time_stamp": "2021-01-19T15:33:21.954542100Z",
+      "person_id": 0
+    },
+    {
+      "id": 52,
+      "breast_milk": 81,
+      "formula": 145,
+      "solids": 21,
+      "time_stamp": "2021-01-19T07:28:21.953617900Z",
+      "person_id": 0
+    },
+    {
+      "id": 71,
+      "breast_milk": 122,
+      "formula": 35,
+      "solids": 13,
+      "time_stamp": "2021-01-12T19:37:21.953763300Z",
+      "person_id": 2
+    },
+    {
+      "id": 271,
+      "breast_milk": 13,
+      "formula": 144,
+      "solids": 85,
+      "time_stamp": "2021-01-11T09:15:21.955205700Z",
+      "person_id": 2
+    },
+    {
+      "id": 40,
+      "breast_milk": 52,
+      "formula": 137,
+      "solids": 124,
+      "time_stamp": "2021-01-11T09:15:21.953532900Z",
+      "person_id": 2
+    },
+    {
+      "id": 175,
+      "breast_milk": 10,
+      "formula": 128,
+      "solids": 118,
+      "time_stamp": "2021-01-09T03:56:21.954482700Z",
+      "person_id": 2
+    },
+    {
+      "id": 31,
+      "breast_milk": 28,
+      "formula": 130,
+      "solids": 44,
+      "time_stamp": "2021-01-08T17:35:21.953472300Z",
+      "person_id": 0
+    },
+    {
+      "id": 130,
+      "breast_milk": 98,
+      "formula": 83,
+      "solids": 117,
+      "time_stamp": "2021-01-08T01:58:21.954168700Z",
+      "person_id": 0
+    },
+    {
+      "id": 278,
+      "breast_milk": 68,
+      "formula": 54,
+      "solids": 86,
+      "time_stamp": "2021-01-07T05:48:21.955240600Z",
+      "person_id": 0
+    },
+    {
+      "id": 178,
+      "breast_milk": 140,
+      "formula": 130,
+      "solids": 39,
+      "time_stamp": "2021-01-06T03:45:21.954508900Z",
+      "person_id": 2
+    },
+    {
+      "id": 163,
+      "breast_milk": 147,
+      "formula": 104,
+      "solids": 74,
+      "time_stamp": "2021-01-05T16:44:21.954398800Z",
+      "person_id": 2
+    },
+    {
+      "id": 282,
+      "breast_milk": 94,
+      "formula": 138,
+      "solids": 97,
+      "time_stamp": "2021-01-04T12:06:21.955269100Z",
+      "person_id": 2
+    },
+    {
+      "id": 18,
+      "breast_milk": 10,
+      "formula": 148,
+      "solids": 125,
+      "time_stamp": "2021-01-02T08:30:21.953384500Z",
+      "person_id": 2
+    },
+    {
+      "id": 200,
+      "breast_milk": 72,
+      "formula": 65,
+      "solids": 77,
+      "time_stamp": "2021-01-02T04:11:21.954675800Z",
+      "person_id": 1
+    },
+    {
+      "id": 241,
+      "breast_milk": 39,
+      "formula": 133,
+      "solids": 115,
+      "time_stamp": "2021-01-01T00:14:21.954965200Z",
+      "person_id": 2
+    },
+    {
+      "id": 26,
+      "breast_milk": 121,
+      "formula": 107,
+      "solids": 130,
+      "time_stamp": "2020-12-30T19:55:21.953441600Z",
+      "person_id": 2
+    },
+    {
+      "id": 197,
+      "breast_milk": 127,
+      "formula": 87,
+      "solids": 66,
+      "time_stamp": "2020-12-30T16:23:21.954649400Z",
+      "person_id": 2
+    },
+    {
+      "id": 127,
+      "breast_milk": 118,
+      "formula": 5,
+      "solids": 106,
+      "time_stamp": "2020-12-29T11:59:21.954140800Z",
+      "person_id": 1
+    },
+    {
+      "id": 27,
+      "breast_milk": 27,
+      "formula": 51,
+      "solids": 71,
+      "time_stamp": "2020-12-28T20:15:21.953443800Z",
+      "person_id": 0
+    },
+    {
+      "id": 131,
+      "breast_milk": 129,
+      "formula": 146,
+      "solids": 62,
+      "time_stamp": "2020-12-27T14:13:21.954171100Z",
+      "person_id": 0
+    },
+    {
+      "id": 139,
+      "breast_milk": 21,
+      "formula": 35,
+      "solids": 134,
+      "time_stamp": "2020-12-23T22:51:21.954248400Z",
+      "person_id": 2
+    },
+    {
+      "id": 128,
+      "breast_milk": 87,
+      "formula": 85,
+      "solids": 100,
+      "time_stamp": "2020-12-23T02:38:21.954142900Z",
+      "person_id": 2
+    },
+    {
+      "id": 240,
+      "breast_milk": 66,
+      "formula": 120,
+      "solids": 77,
+      "time_stamp": "2020-12-22T17:54:21.954963100Z",
+      "person_id": 0
+    },
+    {
+      "id": 100,
+      "breast_milk": 0,
+      "formula": 62,
+      "solids": 19,
+      "time_stamp": "2020-12-22T03:47:21.953963800Z",
+      "person_id": 0
+    },
+    {
+      "id": 94,
+      "breast_milk": 146,
+      "formula": 111,
+      "solids": 84,
+      "time_stamp": "2020-12-21T21:50:21.953911300Z",
+      "person_id": 1
+    },
+    {
+      "id": 177,
+      "breast_milk": 40,
+      "formula": 29,
+      "solids": 11,
+      "time_stamp": "2020-12-18T01:25:21.954506700Z",
+      "person_id": 1
+    },
+    {
+      "id": 43,
+      "breast_milk": 141,
+      "formula": 82,
+      "solids": 135,
+      "time_stamp": "2020-12-17T05:14:21.953559100Z",
+      "person_id": 0
+    },
+    {
+      "id": 243,
+      "breast_milk": 75,
+      "formula": 52,
+      "solids": 14,
+      "time_stamp": "2020-12-14T22:56:21.954989600Z",
+      "person_id": 2
+    },
+    {
+      "id": 123,
+      "breast_milk": 114,
+      "formula": 123,
+      "solids": 119,
+      "time_stamp": "2020-12-14T10:01:21.954112200Z",
+      "person_id": 1
+    },
+    {
+      "id": 37,
+      "breast_milk": 119,
+      "formula": 45,
+      "solids": 21,
+      "time_stamp": "2020-12-13T23:35:21.953526400Z",
+      "person_id": 2
+    },
+    {
+      "id": 252,
+      "breast_milk": 22,
+      "formula": 104,
+      "solids": 71,
+      "time_stamp": "2020-12-13T12:19:21.955048700Z",
+      "person_id": 0
+    },
+    {
+      "id": 59,
+      "breast_milk": 30,
+      "formula": 135,
+      "solids": 138,
+      "time_stamp": "2020-12-12T17:41:21.953672200Z",
+      "person_id": 1
+    },
+    {
+      "id": 73,
+      "breast_milk": 92,
+      "formula": 52,
+      "solids": 133,
+      "time_stamp": "2020-12-11T14:00:21.953767600Z",
+      "person_id": 2
+    },
+    {
+      "id": 16,
+      "breast_milk": 131,
+      "formula": 98,
+      "solids": 66,
+      "time_stamp": "2020-12-11T09:59:21.953359400Z",
+      "person_id": 1
+    },
+    {
+      "id": 294,
+      "breast_milk": 53,
+      "formula": 101,
+      "solids": 94,
+      "time_stamp": "2020-12-11T09:42:21.955354900Z",
+      "person_id": 0
+    },
+    {
+      "id": 211,
+      "breast_milk": 68,
+      "formula": 77,
+      "solids": 71,
+      "time_stamp": "2020-12-10T18:59:21.954739Z",
+      "person_id": 1
+    },
+    {
+      "id": 203,
+      "breast_milk": 58,
+      "formula": 41,
+      "solids": 79,
+      "time_stamp": "2020-12-09T03:02:21.954682200Z",
+      "person_id": 2
+    },
+    {
+      "id": 81,
+      "breast_milk": 29,
+      "formula": 103,
+      "solids": 4,
+      "time_stamp": "2020-12-07T06:20:21.953824500Z",
+      "person_id": 0
+    },
+    {
+      "id": 46,
+      "breast_milk": 115,
+      "formula": 103,
+      "solids": 125,
+      "time_stamp": "2020-12-06T02:31:21.953585400Z",
+      "person_id": 1
+    },
+    {
+      "id": 280,
+      "breast_milk": 96,
+      "formula": 23,
+      "solids": 116,
+      "time_stamp": "2020-12-04T13:44:21.955264600Z",
+      "person_id": 1
+    },
+    {
+      "id": 66,
+      "breast_milk": 128,
+      "formula": 89,
+      "solids": 66,
+      "time_stamp": "2020-12-03T05:15:21.953728100Z",
+      "person_id": 1
+    },
+    {
+      "id": 193,
+      "breast_milk": 114,
+      "formula": 82,
+      "solids": 109,
+      "time_stamp": "2020-12-02T21:12:21.954620400Z",
+      "person_id": 1
+    },
+    {
+      "id": 190,
+      "breast_milk": 1,
+      "formula": 21,
+      "solids": 2,
+      "time_stamp": "2020-12-02T19:00:21.954594200Z",
+      "person_id": 1
+    },
+    {
+      "id": 83,
+      "breast_milk": 82,
+      "formula": 90,
+      "solids": 145,
+      "time_stamp": "2020-11-29T11:43:21.953848700Z",
+      "person_id": 0
+    },
+    {
+      "id": 156,
+      "breast_milk": 59,
+      "formula": 103,
+      "solids": 1,
+      "time_stamp": "2020-11-28T02:49:21.954344Z",
+      "person_id": 2
+    },
+    {
+      "id": 157,
+      "breast_milk": 30,
+      "formula": 102,
+      "solids": 91,
+      "time_stamp": "2020-11-24T06:45:21.954365800Z",
+      "person_id": 0
+    },
+    {
+      "id": 133,
+      "breast_milk": 101,
+      "formula": 39,
+      "solids": 36,
+      "time_stamp": "2020-11-22T22:55:21.954195500Z",
+      "person_id": 1
+    },
+    {
+      "id": 189,
+      "breast_milk": 92,
+      "formula": 77,
+      "solids": 16,
+      "time_stamp": "2020-11-22T17:57:21.954591900Z",
+      "person_id": 2
+    },
+    {
+      "id": 228,
+      "breast_milk": 103,
+      "formula": 89,
+      "solids": 64,
+      "time_stamp": "2020-11-22T08:47:21.954877900Z",
+      "person_id": 1
+    },
+    {
+      "id": 287,
+      "breast_milk": 135,
+      "formula": 139,
+      "solids": 75,
+      "time_stamp": "2020-11-21T16:07:21.955320200Z",
+      "person_id": 1
+    },
+    {
+      "id": 182,
+      "breast_milk": 95,
+      "formula": 4,
+      "solids": 97,
+      "time_stamp": "2020-11-21T13:08:21.954537700Z",
+      "person_id": 1
+    },
+    {
+      "id": 41,
+      "breast_milk": 123,
+      "formula": 59,
+      "solids": 98,
+      "time_stamp": "2020-11-20T10:44:21.953554700Z",
+      "person_id": 1
+    },
+    {
+      "id": 221,
+      "breast_milk": 117,
+      "formula": 128,
+      "solids": 73,
+      "time_stamp": "2020-11-19T17:06:21.954822700Z",
+      "person_id": 2
+    },
+    {
+      "id": 99,
+      "breast_milk": 19,
+      "formula": 22,
+      "solids": 135,
+      "time_stamp": "2020-11-19T14:12:21.953961600Z",
+      "person_id": 2
+    },
+    {
+      "id": 213,
+      "breast_milk": 62,
+      "formula": 39,
+      "solids": 89,
+      "time_stamp": "2020-11-17T08:49:21.954765700Z",
+      "person_id": 1
+    },
+    {
+      "id": 98,
+      "breast_milk": 121,
+      "formula": 89,
+      "solids": 21,
+      "time_stamp": "2020-11-17T04:03:21.953939500Z",
+      "person_id": 2
+    },
+    {
+      "id": 49,
+      "breast_milk": 71,
+      "formula": 64,
+      "solids": 69,
+      "time_stamp": "2020-11-15T22:45:21.953611700Z",
+      "person_id": 2
+    },
+    {
+      "id": 124,
+      "breast_milk": 18,
+      "formula": 68,
+      "solids": 120,
+      "time_stamp": "2020-11-13T23:47:21.954134100Z",
+      "person_id": 1
+    },
+    {
+      "id": 47,
+      "breast_milk": 94,
+      "formula": 45,
+      "solids": 92,
+      "time_stamp": "2020-11-13T14:49:21.953587600Z",
+      "person_id": 1
+    },
+    {
+      "id": 169,
+      "breast_milk": 61,
+      "formula": 62,
+      "solids": 21,
+      "time_stamp": "2020-11-12T17:50:21.954450200Z",
+      "person_id": 2
+    },
+    {
+      "id": 181,
+      "breast_milk": 124,
+      "formula": 78,
+      "solids": 66,
+      "time_stamp": "2020-11-09T17:58:21.954535500Z",
+      "person_id": 1
+    },
+    {
+      "id": 270,
+      "breast_milk": 30,
+      "formula": 52,
+      "solids": 6,
+      "time_stamp": "2020-11-07T05:17:21.955184200Z",
+      "person_id": 2
+    },
+    {
+      "id": 216,
+      "breast_milk": 67,
+      "formula": 33,
+      "solids": 143,
+      "time_stamp": "2020-11-07T00:18:21.954792500Z",
+      "person_id": 1
+    },
+    {
+      "id": 254,
+      "breast_milk": 54,
+      "formula": 106,
+      "solids": 17,
+      "time_stamp": "2020-11-06T22:53:21.955053100Z",
+      "person_id": 1
+    },
+    {
+      "id": 42,
+      "breast_milk": 101,
+      "formula": 0,
+      "solids": 91,
+      "time_stamp": "2020-11-06T02:27:21.953556900Z",
+      "person_id": 1
+    },
+    {
+      "id": 135,
+      "breast_milk": 40,
+      "formula": 110,
+      "solids": 12,
+      "time_stamp": "2020-11-03T22:42:21.954200100Z",
+      "person_id": 2
+    }
+  ],
+  "expulsions": [
+    {
+      "id": 57,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-11-04T11:33:21.942657600Z",
+      "person_id": 0
+    },
+    {
+      "id": 158,
+      "degree": "Shart",
+      "time_stamp": "2021-10-31T16:08:21.943329700Z",
+      "person_id": 0
+    },
+    {
+      "id": 445,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-30T07:13:21.945202400Z",
+      "person_id": 2
+    },
+    {
+      "id": 277,
+      "degree": "Pee",
+      "time_stamp": "2021-10-29T22:02:21.944132500Z",
+      "person_id": 2
+    },
+    {
+      "id": 570,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-29T19:27:21.946048Z",
+      "person_id": 0
+    },
+    {
+      "id": 298,
+      "degree": "Shart",
+      "time_stamp": "2021-10-29T18:10:21.944257500Z",
+      "person_id": 2
+    },
+    {
+      "id": 362,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-29T05:41:21.944656200Z",
+      "person_id": 0
+    },
+    {
+      "id": 5,
+      "degree": "Shart",
+      "time_stamp": "2021-10-29T03:01:21.942318400Z",
+      "person_id": 2
+    },
+    {
+      "id": 262,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-27T08:08:21.944020200Z",
+      "person_id": 2
+    },
+    {
+      "id": 384,
+      "degree": "Pee",
+      "time_stamp": "2021-10-27T07:57:21.944806200Z",
+      "person_id": 2
+    },
+    {
+      "id": 359,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-26T08:46:21.944649500Z",
+      "person_id": 2
+    },
+    {
+      "id": 176,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-25T12:38:21.943449Z",
+      "person_id": 2
+    },
+    {
+      "id": 331,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-24T22:32:21.944469500Z",
+      "person_id": 1
+    },
+    {
+      "id": 32,
+      "degree": "Shart",
+      "time_stamp": "2021-10-23T14:16:21.942501400Z",
+      "person_id": 1
+    },
+    {
+      "id": 355,
+      "degree": "Clean",
+      "time_stamp": "2021-10-21T07:49:21.944621500Z",
+      "person_id": 2
+    },
+    {
+      "id": 428,
+      "degree": "Pee",
+      "time_stamp": "2021-10-18T16:35:21.945100800Z",
+      "person_id": 0
+    },
+    {
+      "id": 456,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-18T12:07:21.945285400Z",
+      "person_id": 2
+    },
+    {
+      "id": 583,
+      "degree": "Shart",
+      "time_stamp": "2021-10-17T10:49:21.946137900Z",
+      "person_id": 0
+    },
+    {
+      "id": 286,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-17T00:14:21.944191700Z",
+      "person_id": 2
+    },
+    {
+      "id": 24,
+      "degree": "Clean",
+      "time_stamp": "2021-10-16T21:50:21.942443900Z",
+      "person_id": 0
+    },
+    {
+      "id": 420,
+      "degree": "Clean",
+      "time_stamp": "2021-10-16T17:49:21.945043Z",
+      "person_id": 2
+    },
+    {
+      "id": 137,
+      "degree": "Pee",
+      "time_stamp": "2021-10-16T00:30:21.943204500Z",
+      "person_id": 1
+    },
+    {
+      "id": 82,
+      "degree": "Shart",
+      "time_stamp": "2021-10-15T01:39:21.942845400Z",
+      "person_id": 2
+    },
+    {
+      "id": 370,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-14T09:47:21.944713200Z",
+      "person_id": 0
+    },
+    {
+      "id": 500,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-14T02:33:21.945559400Z",
+      "person_id": 2
+    },
+    {
+      "id": 303,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-14T01:08:21.944288Z",
+      "person_id": 0
+    },
+    {
+      "id": 474,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-13T16:07:21.945403300Z",
+      "person_id": 1
+    },
+    {
+      "id": 68,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-13T15:02:21.942743600Z",
+      "person_id": 0
+    },
+    {
+      "id": 354,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-13T08:45:21.944619200Z",
+      "person_id": 0
+    },
+    {
+      "id": 520,
+      "degree": "Clean",
+      "time_stamp": "2021-10-12T23:27:21.945696700Z",
+      "person_id": 1
+    },
+    {
+      "id": 387,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-12T00:14:21.944832400Z",
+      "person_id": 0
+    },
+    {
+      "id": 400,
+      "degree": "Shart",
+      "time_stamp": "2021-10-10T14:00:21.944900900Z",
+      "person_id": 1
+    },
+    {
+      "id": 250,
+      "degree": "Shart",
+      "time_stamp": "2021-10-09T22:40:21.943952800Z",
+      "person_id": 1
+    },
+    {
+      "id": 415,
+      "degree": "Pee",
+      "time_stamp": "2021-10-09T18:51:21.945012300Z",
+      "person_id": 0
+    },
+    {
+      "id": 56,
+      "degree": "Clean",
+      "time_stamp": "2021-10-09T10:51:21.942655400Z",
+      "person_id": 0
+    },
+    {
+      "id": 538,
+      "degree": "Clean",
+      "time_stamp": "2021-10-08T20:14:21.945839200Z",
+      "person_id": 0
+    },
+    {
+      "id": 160,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-08T18:29:21.943354100Z",
+      "person_id": 1
+    },
+    {
+      "id": 184,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-08T01:36:21.943506900Z",
+      "person_id": 1
+    },
+    {
+      "id": 147,
+      "degree": "Clean",
+      "time_stamp": "2021-10-07T15:18:21.943266Z",
+      "person_id": 1
+    },
+    {
+      "id": 211,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-07T03:45:21.943686100Z",
+      "person_id": 1
+    },
+    {
+      "id": 313,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-06T11:49:21.944350Z",
+      "person_id": 2
+    },
+    {
+      "id": 540,
+      "degree": "Clean",
+      "time_stamp": "2021-10-05T10:55:21.945843700Z",
+      "person_id": 2
+    },
+    {
+      "id": 62,
+      "degree": "Clean",
+      "time_stamp": "2021-10-05T06:07:21.942708700Z",
+      "person_id": 1
+    },
+    {
+      "id": 214,
+      "degree": "Clean",
+      "time_stamp": "2021-10-04T09:09:21.943712800Z",
+      "person_id": 1
+    },
+    {
+      "id": 4,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-04T00:04:21.942314800Z",
+      "person_id": 1
+    },
+    {
+      "id": 464,
+      "degree": "Pee",
+      "time_stamp": "2021-10-03T21:27:21.945342400Z",
+      "person_id": 1
+    },
+    {
+      "id": 264,
+      "degree": "Pee",
+      "time_stamp": "2021-10-03T15:51:21.944044400Z",
+      "person_id": 2
+    },
+    {
+      "id": 507,
+      "degree": "Shart",
+      "time_stamp": "2021-10-02T22:43:21.945614800Z",
+      "person_id": 1
+    },
+    {
+      "id": 599,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-02T19:44:21.946232700Z",
+      "person_id": 2
+    },
+    {
+      "id": 116,
+      "degree": "Clean",
+      "time_stamp": "2021-10-02T17:59:21.943058100Z",
+      "person_id": 2
+    },
+    {
+      "id": 526,
+      "degree": "Pee",
+      "time_stamp": "2021-10-02T03:45:21.945752Z",
+      "person_id": 2
+    },
+    {
+      "id": 168,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-10-02T00:37:21.943391900Z",
+      "person_id": 2
+    },
+    {
+      "id": 105,
+      "degree": "Clean",
+      "time_stamp": "2021-10-01T18:30:21.942994900Z",
+      "person_id": 2
+    },
+    {
+      "id": 361,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-01T16:12:21.944653900Z",
+      "person_id": 1
+    },
+    {
+      "id": 548,
+      "degree": "Shart",
+      "time_stamp": "2021-10-01T15:51:21.945901400Z",
+      "person_id": 2
+    },
+    {
+      "id": 143,
+      "degree": "Poopies",
+      "time_stamp": "2021-10-01T02:21:21.943237200Z",
+      "person_id": 0
+    },
+    {
+      "id": 39,
+      "degree": "Clean",
+      "time_stamp": "2021-09-30T13:59:21.942558100Z",
+      "person_id": 2
+    },
+    {
+      "id": 21,
+      "degree": "Clean",
+      "time_stamp": "2021-09-30T01:41:21.942437200Z",
+      "person_id": 1
+    },
+    {
+      "id": 54,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-29T09:14:21.942650900Z",
+      "person_id": 1
+    },
+    {
+      "id": 486,
+      "degree": "Clean",
+      "time_stamp": "2021-09-29T01:59:21.945469600Z",
+      "person_id": 2
+    },
+    {
+      "id": 207,
+      "degree": "Shart",
+      "time_stamp": "2021-09-29T00:40:21.943657100Z",
+      "person_id": 1
+    },
+    {
+      "id": 185,
+      "degree": "Shart",
+      "time_stamp": "2021-09-28T22:50:21.943509200Z",
+      "person_id": 0
+    },
+    {
+      "id": 18,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-09-28T11:15:21.942410800Z",
+      "person_id": 1
+    },
+    {
+      "id": 270,
+      "degree": "Shart",
+      "time_stamp": "2021-09-27T14:09:21.944077500Z",
+      "person_id": 0
+    },
+    {
+      "id": 352,
+      "degree": "Clean",
+      "time_stamp": "2021-09-27T05:59:21.944595400Z",
+      "person_id": 1
+    },
+    {
+      "id": 9,
+      "degree": "Clean",
+      "time_stamp": "2021-09-27T05:29:21.942348500Z",
+      "person_id": 1
+    },
+    {
+      "id": 529,
+      "degree": "Shart",
+      "time_stamp": "2021-09-27T01:45:21.945779Z",
+      "person_id": 0
+    },
+    {
+      "id": 280,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-26T15:33:21.944139300Z",
+      "person_id": 1
+    },
+    {
+      "id": 519,
+      "degree": "Pee",
+      "time_stamp": "2021-09-25T05:27:21.945694500Z",
+      "person_id": 0
+    },
+    {
+      "id": 312,
+      "degree": "Clean",
+      "time_stamp": "2021-09-23T08:45:21.944347600Z",
+      "person_id": 2
+    },
+    {
+      "id": 292,
+      "degree": "Pee",
+      "time_stamp": "2021-09-22T16:28:21.944224700Z",
+      "person_id": 1
+    },
+    {
+      "id": 212,
+      "degree": "Shart",
+      "time_stamp": "2021-09-21T11:21:21.943688200Z",
+      "person_id": 0
+    },
+    {
+      "id": 325,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-20T22:37:21.944436400Z",
+      "person_id": 1
+    },
+    {
+      "id": 26,
+      "degree": "Clean",
+      "time_stamp": "2021-09-18T17:38:21.942468300Z",
+      "person_id": 2
+    },
+    {
+      "id": 0,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-09-18T05:52:21.942268800Z",
+      "person_id": 1
+    },
+    {
+      "id": 525,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-18T02:31:21.945749700Z",
+      "person_id": 2
+    },
+    {
+      "id": 562,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-09-18T01:42:21.945991200Z",
+      "person_id": 2
+    },
+    {
+      "id": 344,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-15T17:18:21.944557300Z",
+      "person_id": 1
+    },
+    {
+      "id": 319,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-15T03:47:21.944383500Z",
+      "person_id": 1
+    },
+    {
+      "id": 51,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-14T19:53:21.942624100Z",
+      "person_id": 0
+    },
+    {
+      "id": 251,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-14T07:12:21.943955100Z",
+      "person_id": 2
+    },
+    {
+      "id": 518,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-12T20:54:21.945692300Z",
+      "person_id": 0
+    },
+    {
+      "id": 571,
+      "degree": "Pee",
+      "time_stamp": "2021-09-12T05:39:21.946050500Z",
+      "person_id": 0
+    },
+    {
+      "id": 382,
+      "degree": "Pee",
+      "time_stamp": "2021-09-11T22:31:21.944801800Z",
+      "person_id": 1
+    },
+    {
+      "id": 581,
+      "degree": "Clean",
+      "time_stamp": "2021-09-11T19:33:21.946133400Z",
+      "person_id": 1
+    },
+    {
+      "id": 392,
+      "degree": "Shart",
+      "time_stamp": "2021-09-11T09:07:21.944863400Z",
+      "person_id": 2
+    },
+    {
+      "id": 326,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-09-10T22:32:21.944438600Z",
+      "person_id": 2
+    },
+    {
+      "id": 469,
+      "degree": "Shart",
+      "time_stamp": "2021-09-10T20:12:21.945372700Z",
+      "person_id": 2
+    },
+    {
+      "id": 482,
+      "degree": "Pee",
+      "time_stamp": "2021-09-10T08:53:21.945440800Z",
+      "person_id": 0
+    },
+    {
+      "id": 149,
+      "degree": "Pee",
+      "time_stamp": "2021-09-09T05:54:21.943270500Z",
+      "person_id": 0
+    },
+    {
+      "id": 541,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-09T03:03:21.945845900Z",
+      "person_id": 2
+    },
+    {
+      "id": 78,
+      "degree": "Clean",
+      "time_stamp": "2021-09-08T20:45:21.942816700Z",
+      "person_id": 1
+    },
+    {
+      "id": 258,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-08T10:01:21.943991500Z",
+      "person_id": 2
+    },
+    {
+      "id": 533,
+      "degree": "Pee",
+      "time_stamp": "2021-09-07T16:04:21.945807500Z",
+      "person_id": 2
+    },
+    {
+      "id": 532,
+      "degree": "Poopies",
+      "time_stamp": "2021-09-05T08:10:21.945785700Z",
+      "person_id": 1
+    },
+    {
+      "id": 64,
+      "degree": "Shart",
+      "time_stamp": "2021-09-05T03:04:21.942713200Z",
+      "person_id": 1
+    },
+    {
+      "id": 584,
+      "degree": "Shart",
+      "time_stamp": "2021-09-04T05:49:21.946140100Z",
+      "person_id": 0
+    },
+    {
+      "id": 293,
+      "degree": "Pee",
+      "time_stamp": "2021-09-03T21:16:21.944227Z",
+      "person_id": 0
+    },
+    {
+      "id": 273,
+      "degree": "Pee",
+      "time_stamp": "2021-09-03T07:34:21.944103900Z",
+      "person_id": 2
+    },
+    {
+      "id": 491,
+      "degree": "Shart",
+      "time_stamp": "2021-09-02T04:21:21.945519600Z",
+      "person_id": 2
+    },
+    {
+      "id": 216,
+      "degree": "Clean",
+      "time_stamp": "2021-09-02T04:04:21.943717300Z",
+      "person_id": 2
+    },
+    {
+      "id": 417,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-09-01T04:31:21.945016700Z",
+      "person_id": 1
+    },
+    {
+      "id": 92,
+      "degree": "Clean",
+      "time_stamp": "2021-08-31T20:04:21.942907100Z",
+      "person_id": 2
+    },
+    {
+      "id": 50,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-31T17:08:21.942621900Z",
+      "person_id": 2
+    },
+    {
+      "id": 561,
+      "degree": "Pee",
+      "time_stamp": "2021-08-29T04:30:21.945989Z",
+      "person_id": 1
+    },
+    {
+      "id": 523,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-28T17:09:21.945723Z",
+      "person_id": 0
+    },
+    {
+      "id": 586,
+      "degree": "Clean",
+      "time_stamp": "2021-08-27T22:24:21.946163900Z",
+      "person_id": 0
+    },
+    {
+      "id": 508,
+      "degree": "Clean",
+      "time_stamp": "2021-08-27T17:01:21.945617Z",
+      "person_id": 0
+    },
+    {
+      "id": 488,
+      "degree": "Shart",
+      "time_stamp": "2021-08-27T13:49:21.945493400Z",
+      "person_id": 0
+    },
+    {
+      "id": 597,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-27T06:52:21.946228100Z",
+      "person_id": 1
+    },
+    {
+      "id": 234,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-26T18:50:21.943839100Z",
+      "person_id": 0
+    },
+    {
+      "id": 53,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-25T21:54:21.942628500Z",
+      "person_id": 1
+    },
+    {
+      "id": 405,
+      "degree": "Shart",
+      "time_stamp": "2021-08-23T04:52:21.944951200Z",
+      "person_id": 2
+    },
+    {
+      "id": 308,
+      "degree": "Clean",
+      "time_stamp": "2021-08-22T10:40:21.944318900Z",
+      "person_id": 1
+    },
+    {
+      "id": 268,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-21T23:27:21.944073100Z",
+      "person_id": 1
+    },
+    {
+      "id": 117,
+      "degree": "Pee",
+      "time_stamp": "2021-08-21T21:49:21.943080Z",
+      "person_id": 2
+    },
+    {
+      "id": 1,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-21T05:31:21.942279200Z",
+      "person_id": 1
+    },
+    {
+      "id": 528,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-21T01:33:21.945757Z",
+      "person_id": 1
+    },
+    {
+      "id": 553,
+      "degree": "Clean",
+      "time_stamp": "2021-08-20T21:27:21.945951500Z",
+      "person_id": 1
+    },
+    {
+      "id": 120,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-20T20:03:21.943086600Z",
+      "person_id": 2
+    },
+    {
+      "id": 517,
+      "degree": "Clean",
+      "time_stamp": "2021-08-20T07:48:21.945690100Z",
+      "person_id": 1
+    },
+    {
+      "id": 215,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-19T21:12:21.943715100Z",
+      "person_id": 0
+    },
+    {
+      "id": 373,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-18T19:57:21.944739800Z",
+      "person_id": 0
+    },
+    {
+      "id": 93,
+      "degree": "Clean",
+      "time_stamp": "2021-08-18T01:59:21.942929200Z",
+      "person_id": 0
+    },
+    {
+      "id": 10,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-17T20:35:21.942351200Z",
+      "person_id": 0
+    },
+    {
+      "id": 438,
+      "degree": "Clean",
+      "time_stamp": "2021-08-16T11:23:21.945167300Z",
+      "person_id": 2
+    },
+    {
+      "id": 345,
+      "degree": "Pee",
+      "time_stamp": "2021-08-16T10:24:21.944559600Z",
+      "person_id": 1
+    },
+    {
+      "id": 318,
+      "degree": "Clean",
+      "time_stamp": "2021-08-15T10:44:21.944381300Z",
+      "person_id": 1
+    },
+    {
+      "id": 265,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-14T20:37:21.944046600Z",
+      "person_id": 1
+    },
+    {
+      "id": 8,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-14T09:36:21.942345100Z",
+      "person_id": 2
+    },
+    {
+      "id": 550,
+      "degree": "Clean",
+      "time_stamp": "2021-08-14T09:22:21.945925100Z",
+      "person_id": 0
+    },
+    {
+      "id": 55,
+      "degree": "Pee",
+      "time_stamp": "2021-08-14T06:06:21.942653100Z",
+      "person_id": 2
+    },
+    {
+      "id": 52,
+      "degree": "Pee",
+      "time_stamp": "2021-08-13T08:03:21.942626200Z",
+      "person_id": 2
+    },
+    {
+      "id": 502,
+      "degree": "Pee",
+      "time_stamp": "2021-08-13T04:32:21.945583700Z",
+      "person_id": 0
+    },
+    {
+      "id": 228,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-12T20:01:21.943805800Z",
+      "person_id": 2
+    },
+    {
+      "id": 274,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-12T13:56:21.944106200Z",
+      "person_id": 0
+    },
+    {
+      "id": 197,
+      "degree": "Clean",
+      "time_stamp": "2021-08-11T10:49:21.943594400Z",
+      "person_id": 0
+    },
+    {
+      "id": 320,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-10T09:53:21.944405500Z",
+      "person_id": 0
+    },
+    {
+      "id": 115,
+      "degree": "Clean",
+      "time_stamp": "2021-08-09T20:00:21.943055900Z",
+      "person_id": 2
+    },
+    {
+      "id": 100,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-09T16:28:21.942964Z",
+      "person_id": 0
+    },
+    {
+      "id": 459,
+      "degree": "Shart",
+      "time_stamp": "2021-08-09T07:36:21.945292300Z",
+      "person_id": 2
+    },
+    {
+      "id": 142,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-09T01:58:21.943235Z",
+      "person_id": 1
+    },
+    {
+      "id": 287,
+      "degree": "Pee",
+      "time_stamp": "2021-08-07T06:52:21.944194Z",
+      "person_id": 2
+    },
+    {
+      "id": 106,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-06T09:31:21.942997200Z",
+      "person_id": 2
+    },
+    {
+      "id": 245,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-06T02:21:21.943902400Z",
+      "person_id": 0
+    },
+    {
+      "id": 25,
+      "degree": "Pee",
+      "time_stamp": "2021-08-06T01:20:21.942465900Z",
+      "person_id": 1
+    },
+    {
+      "id": 247,
+      "degree": "Shart",
+      "time_stamp": "2021-08-05T20:04:21.943926800Z",
+      "person_id": 0
+    },
+    {
+      "id": 159,
+      "degree": "Clean",
+      "time_stamp": "2021-08-05T17:53:21.943332Z",
+      "person_id": 0
+    },
+    {
+      "id": 249,
+      "degree": "Clean",
+      "time_stamp": "2021-08-05T16:21:21.943931200Z",
+      "person_id": 1
+    },
+    {
+      "id": 560,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-05T16:01:21.945986800Z",
+      "person_id": 0
+    },
+    {
+      "id": 141,
+      "degree": "Shart",
+      "time_stamp": "2021-08-05T04:06:21.943232800Z",
+      "person_id": 1
+    },
+    {
+      "id": 42,
+      "degree": "Clean",
+      "time_stamp": "2021-08-04T14:47:21.942564800Z",
+      "person_id": 1
+    },
+    {
+      "id": 421,
+      "degree": "Clean",
+      "time_stamp": "2021-08-03T12:09:21.945045200Z",
+      "person_id": 2
+    },
+    {
+      "id": 200,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-03T06:35:21.943601300Z",
+      "person_id": 2
+    },
+    {
+      "id": 281,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-08-03T03:57:21.944160900Z",
+      "person_id": 1
+    },
+    {
+      "id": 323,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-02T19:52:21.944412400Z",
+      "person_id": 0
+    },
+    {
+      "id": 71,
+      "degree": "Poopies",
+      "time_stamp": "2021-08-01T04:11:21.942773700Z",
+      "person_id": 1
+    },
+    {
+      "id": 194,
+      "degree": "Clean",
+      "time_stamp": "2021-08-01T00:02:21.943568400Z",
+      "person_id": 0
+    },
+    {
+      "id": 558,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-31T23:12:21.945982100Z",
+      "person_id": 1
+    },
+    {
+      "id": 63,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-31T09:56:21.942711Z",
+      "person_id": 0
+    },
+    {
+      "id": 72,
+      "degree": "Clean",
+      "time_stamp": "2021-07-31T04:13:21.942775900Z",
+      "person_id": 2
+    },
+    {
+      "id": 314,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-29T20:43:21.944352200Z",
+      "person_id": 0
+    },
+    {
+      "id": 191,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-29T09:06:21.943542100Z",
+      "person_id": 0
+    },
+    {
+      "id": 347,
+      "degree": "Shart",
+      "time_stamp": "2021-07-28T22:31:21.944564300Z",
+      "person_id": 2
+    },
+    {
+      "id": 380,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-28T21:35:21.944777700Z",
+      "person_id": 2
+    },
+    {
+      "id": 88,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-28T08:02:21.942878400Z",
+      "person_id": 2
+    },
+    {
+      "id": 395,
+      "degree": "Shart",
+      "time_stamp": "2021-07-27T23:04:21.944870100Z",
+      "person_id": 1
+    },
+    {
+      "id": 485,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-27T16:23:21.945467200Z",
+      "person_id": 1
+    },
+    {
+      "id": 588,
+      "degree": "Clean",
+      "time_stamp": "2021-07-26T14:56:21.946168300Z",
+      "person_id": 1
+    },
+    {
+      "id": 594,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-24T20:46:21.946201800Z",
+      "person_id": 0
+    },
+    {
+      "id": 47,
+      "degree": "Clean",
+      "time_stamp": "2021-07-24T16:26:21.942595600Z",
+      "person_id": 0
+    },
+    {
+      "id": 223,
+      "degree": "Pee",
+      "time_stamp": "2021-07-23T23:38:21.943774500Z",
+      "person_id": 2
+    },
+    {
+      "id": 151,
+      "degree": "Shart",
+      "time_stamp": "2021-07-23T07:49:21.943294700Z",
+      "person_id": 2
+    },
+    {
+      "id": 240,
+      "degree": "Pee",
+      "time_stamp": "2021-07-21T10:47:21.943871900Z",
+      "person_id": 1
+    },
+    {
+      "id": 327,
+      "degree": "Clean",
+      "time_stamp": "2021-07-21T10:40:21.944440900Z",
+      "person_id": 0
+    },
+    {
+      "id": 365,
+      "degree": "Pee",
+      "time_stamp": "2021-07-19T23:19:21.944682Z",
+      "person_id": 2
+    },
+    {
+      "id": 167,
+      "degree": "Pee",
+      "time_stamp": "2021-07-19T18:00:21.943389600Z",
+      "person_id": 0
+    },
+    {
+      "id": 236,
+      "degree": "Pee",
+      "time_stamp": "2021-07-19T12:36:21.943843700Z",
+      "person_id": 1
+    },
+    {
+      "id": 531,
+      "degree": "Shart",
+      "time_stamp": "2021-07-17T22:44:21.945783500Z",
+      "person_id": 0
+    },
+    {
+      "id": 307,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-17T05:43:21.944316700Z",
+      "person_id": 1
+    },
+    {
+      "id": 476,
+      "degree": "Pee",
+      "time_stamp": "2021-07-17T05:26:21.945407700Z",
+      "person_id": 0
+    },
+    {
+      "id": 322,
+      "degree": "Clean",
+      "time_stamp": "2021-07-16T18:13:21.944410300Z",
+      "person_id": 2
+    },
+    {
+      "id": 87,
+      "degree": "Pee",
+      "time_stamp": "2021-07-14T18:40:21.942876100Z",
+      "person_id": 0
+    },
+    {
+      "id": 480,
+      "degree": "Pee",
+      "time_stamp": "2021-07-14T18:05:21.945436400Z",
+      "person_id": 1
+    },
+    {
+      "id": 535,
+      "degree": "Shart",
+      "time_stamp": "2021-07-14T02:51:21.945812100Z",
+      "person_id": 2
+    },
+    {
+      "id": 422,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-13T07:51:21.945047500Z",
+      "person_id": 0
+    },
+    {
+      "id": 230,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-12T09:53:21.943810300Z",
+      "person_id": 1
+    },
+    {
+      "id": 61,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-12T06:53:21.942686400Z",
+      "person_id": 1
+    },
+    {
+      "id": 171,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-11T23:32:21.943418200Z",
+      "person_id": 0
+    },
+    {
+      "id": 203,
+      "degree": "Clean",
+      "time_stamp": "2021-07-11T19:55:21.943628Z",
+      "person_id": 2
+    },
+    {
+      "id": 154,
+      "degree": "Pee",
+      "time_stamp": "2021-07-11T18:54:21.943301300Z",
+      "person_id": 0
+    },
+    {
+      "id": 446,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-10T15:51:21.945224100Z",
+      "person_id": 1
+    },
+    {
+      "id": 11,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-10T06:34:21.942373700Z",
+      "person_id": 2
+    },
+    {
+      "id": 343,
+      "degree": "Pee",
+      "time_stamp": "2021-07-10T05:40:21.944535100Z",
+      "person_id": 2
+    },
+    {
+      "id": 126,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-10T00:03:21.943139100Z",
+      "person_id": 2
+    },
+    {
+      "id": 29,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-09T21:40:21.942475200Z",
+      "person_id": 1
+    },
+    {
+      "id": 593,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-09T09:50:21.946199400Z",
+      "person_id": 2
+    },
+    {
+      "id": 408,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-08T02:47:21.944958100Z",
+      "person_id": 2
+    },
+    {
+      "id": 260,
+      "degree": "Clean",
+      "time_stamp": "2021-07-07T19:38:21.944015600Z",
+      "person_id": 2
+    },
+    {
+      "id": 209,
+      "degree": "Pee",
+      "time_stamp": "2021-07-07T11:50:21.943681400Z",
+      "person_id": 2
+    },
+    {
+      "id": 460,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-04T16:57:21.945314300Z",
+      "person_id": 2
+    },
+    {
+      "id": 294,
+      "degree": "Shart",
+      "time_stamp": "2021-07-04T10:21:21.944229300Z",
+      "person_id": 0
+    },
+    {
+      "id": 148,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-03T11:38:21.943268300Z",
+      "person_id": 1
+    },
+    {
+      "id": 217,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-03T06:33:21.943719500Z",
+      "person_id": 0
+    },
+    {
+      "id": 572,
+      "degree": "Shart",
+      "time_stamp": "2021-07-02T21:52:21.946072500Z",
+      "person_id": 0
+    },
+    {
+      "id": 109,
+      "degree": "Pee",
+      "time_stamp": "2021-07-02T06:49:21.943023300Z",
+      "person_id": 2
+    },
+    {
+      "id": 450,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-07-01T11:08:21.945233200Z",
+      "person_id": 0
+    },
+    {
+      "id": 276,
+      "degree": "Poopies",
+      "time_stamp": "2021-07-01T03:55:21.944130200Z",
+      "person_id": 0
+    },
+    {
+      "id": 110,
+      "degree": "Pee",
+      "time_stamp": "2021-06-29T05:39:21.943025500Z",
+      "person_id": 0
+    },
+    {
+      "id": 441,
+      "degree": "Clean",
+      "time_stamp": "2021-06-29T05:38:21.945174100Z",
+      "person_id": 2
+    },
+    {
+      "id": 20,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-25T13:01:21.942415200Z",
+      "person_id": 0
+    },
+    {
+      "id": 288,
+      "degree": "Clean",
+      "time_stamp": "2021-06-25T11:05:21.944196200Z",
+      "person_id": 1
+    },
+    {
+      "id": 182,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-25T00:13:21.943502100Z",
+      "person_id": 0
+    },
+    {
+      "id": 595,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-24T23:59:21.946223700Z",
+      "person_id": 1
+    },
+    {
+      "id": 390,
+      "degree": "Pee",
+      "time_stamp": "2021-06-24T23:04:21.944839200Z",
+      "person_id": 2
+    },
+    {
+      "id": 35,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-24T20:30:21.942529400Z",
+      "person_id": 2
+    },
+    {
+      "id": 102,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-24T17:54:21.942968500Z",
+      "person_id": 1
+    },
+    {
+      "id": 108,
+      "degree": "Clean",
+      "time_stamp": "2021-06-24T15:02:21.943021100Z",
+      "person_id": 0
+    },
+    {
+      "id": 98,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-23T09:43:21.942959600Z",
+      "person_id": 0
+    },
+    {
+      "id": 546,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-22T11:14:21.945896800Z",
+      "person_id": 2
+    },
+    {
+      "id": 241,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-22T05:13:21.943893300Z",
+      "person_id": 2
+    },
+    {
+      "id": 451,
+      "degree": "Clean",
+      "time_stamp": "2021-06-22T03:14:21.945254600Z",
+      "person_id": 0
+    },
+    {
+      "id": 96,
+      "degree": "Pee",
+      "time_stamp": "2021-06-21T11:04:21.942936Z",
+      "person_id": 2
+    },
+    {
+      "id": 133,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-21T02:51:21.943175900Z",
+      "person_id": 0
+    },
+    {
+      "id": 515,
+      "degree": "Clean",
+      "time_stamp": "2021-06-20T23:05:21.945666100Z",
+      "person_id": 0
+    },
+    {
+      "id": 253,
+      "degree": "Clean",
+      "time_stamp": "2021-06-20T17:32:21.943959500Z",
+      "person_id": 0
+    },
+    {
+      "id": 220,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-18T21:14:21.943748200Z",
+      "person_id": 2
+    },
+    {
+      "id": 432,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-18T17:47:21.945109700Z",
+      "person_id": 2
+    },
+    {
+      "id": 470,
+      "degree": "Pee",
+      "time_stamp": "2021-06-18T03:13:21.945375Z",
+      "person_id": 2
+    },
+    {
+      "id": 77,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-17T06:46:21.942814500Z",
+      "person_id": 2
+    },
+    {
+      "id": 547,
+      "degree": "Clean",
+      "time_stamp": "2021-06-16T06:27:21.945899100Z",
+      "person_id": 2
+    },
+    {
+      "id": 552,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-16T05:05:21.945929800Z",
+      "person_id": 0
+    },
+    {
+      "id": 440,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-15T21:36:21.945171800Z",
+      "person_id": 0
+    },
+    {
+      "id": 357,
+      "degree": "Pee",
+      "time_stamp": "2021-06-15T15:35:21.944625900Z",
+      "person_id": 1
+    },
+    {
+      "id": 439,
+      "degree": "Shart",
+      "time_stamp": "2021-06-15T08:45:21.945169600Z",
+      "person_id": 0
+    },
+    {
+      "id": 472,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-13T13:36:21.945379500Z",
+      "person_id": 2
+    },
+    {
+      "id": 86,
+      "degree": "Clean",
+      "time_stamp": "2021-06-12T12:46:21.942873900Z",
+      "person_id": 2
+    },
+    {
+      "id": 285,
+      "degree": "Shart",
+      "time_stamp": "2021-06-12T09:26:21.944169800Z",
+      "person_id": 1
+    },
+    {
+      "id": 73,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-12T09:25:21.942778200Z",
+      "person_id": 0
+    },
+    {
+      "id": 69,
+      "degree": "Shart",
+      "time_stamp": "2021-06-11T23:52:21.942745800Z",
+      "person_id": 0
+    },
+    {
+      "id": 275,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-10T23:41:21.944108400Z",
+      "person_id": 2
+    },
+    {
+      "id": 413,
+      "degree": "Pee",
+      "time_stamp": "2021-06-10T20:54:21.944988400Z",
+      "person_id": 2
+    },
+    {
+      "id": 375,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-10T19:41:21.944744500Z",
+      "person_id": 2
+    },
+    {
+      "id": 222,
+      "degree": "Clean",
+      "time_stamp": "2021-06-10T19:29:21.943752800Z",
+      "person_id": 0
+    },
+    {
+      "id": 101,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-10T10:21:21.942966200Z",
+      "person_id": 0
+    },
+    {
+      "id": 121,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-10T05:31:21.943108100Z",
+      "person_id": 1
+    },
+    {
+      "id": 368,
+      "degree": "Shart",
+      "time_stamp": "2021-06-09T23:40:21.944708500Z",
+      "person_id": 2
+    },
+    {
+      "id": 127,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-09T15:22:21.943141300Z",
+      "person_id": 2
+    },
+    {
+      "id": 505,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-09T13:40:21.945590500Z",
+      "person_id": 1
+    },
+    {
+      "id": 124,
+      "degree": "Pee",
+      "time_stamp": "2021-06-09T09:22:21.943115100Z",
+      "person_id": 0
+    },
+    {
+      "id": 239,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-08T23:51:21.943869500Z",
+      "person_id": 1
+    },
+    {
+      "id": 196,
+      "degree": "Shart",
+      "time_stamp": "2021-06-08T19:56:21.943572700Z",
+      "person_id": 1
+    },
+    {
+      "id": 271,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-08T12:51:21.944079800Z",
+      "person_id": 0
+    },
+    {
+      "id": 410,
+      "degree": "Pee",
+      "time_stamp": "2021-06-08T11:36:21.944981700Z",
+      "person_id": 1
+    },
+    {
+      "id": 213,
+      "degree": "Clean",
+      "time_stamp": "2021-06-07T13:51:21.943690500Z",
+      "person_id": 2
+    },
+    {
+      "id": 237,
+      "degree": "Shart",
+      "time_stamp": "2021-06-06T04:12:21.943865200Z",
+      "person_id": 1
+    },
+    {
+      "id": 144,
+      "degree": "Shart",
+      "time_stamp": "2021-06-05T04:47:21.943239600Z",
+      "person_id": 1
+    },
+    {
+      "id": 177,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-04T12:56:21.943451400Z",
+      "person_id": 2
+    },
+    {
+      "id": 199,
+      "degree": "Clean",
+      "time_stamp": "2021-06-04T06:01:21.943599100Z",
+      "person_id": 1
+    },
+    {
+      "id": 378,
+      "degree": "Poopies",
+      "time_stamp": "2021-06-03T10:05:21.944773200Z",
+      "person_id": 2
+    },
+    {
+      "id": 461,
+      "degree": "Clean",
+      "time_stamp": "2021-06-03T00:57:21.945316500Z",
+      "person_id": 0
+    },
+    {
+      "id": 161,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-01T22:46:21.943356500Z",
+      "person_id": 1
+    },
+    {
+      "id": 172,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-06-01T06:19:21.943420400Z",
+      "person_id": 0
+    },
+    {
+      "id": 107,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-05-31T20:20:21.943018900Z",
+      "person_id": 2
+    },
+    {
+      "id": 235,
+      "degree": "Shart",
+      "time_stamp": "2021-05-31T05:00:21.943841300Z",
+      "person_id": 0
+    },
+    {
+      "id": 498,
+      "degree": "Poopies",
+      "time_stamp": "2021-05-30T22:09:21.945555Z",
+      "person_id": 1
+    },
+    {
+      "id": 513,
+      "degree": "Shart",
+      "time_stamp": "2021-05-30T03:20:21.945661600Z",
+      "person_id": 2
+    },
+    {
+      "id": 17,
+      "degree": "Clean",
+      "time_stamp": "2021-05-29T23:08:21.942408500Z",
+      "person_id": 0
+    },
+    {
+      "id": 412,
+      "degree": "Poopies",
+      "time_stamp": "2021-05-29T10:07:21.944986100Z",
+      "person_id": 2
+    },
+    {
+      "id": 248,
+      "degree": "Clean",
+      "time_stamp": "2021-05-29T04:03:21.943929Z",
+      "person_id": 0
+    },
+    {
+      "id": 463,
+      "degree": "Pee",
+      "time_stamp": "2021-05-27T08:38:21.945320800Z",
+      "person_id": 1
+    },
+    {
+      "id": 510,
+      "degree": "Shart",
+      "time_stamp": "2021-05-26T19:58:21.945621500Z",
+      "person_id": 0
+    },
+    {
+      "id": 146,
+      "degree": "Shart",
+      "time_stamp": "2021-05-25T23:58:21.943263800Z",
+      "person_id": 0
+    },
+    {
+      "id": 22,
+      "degree": "Shart",
+      "time_stamp": "2021-05-24T10:29:21.942439500Z",
+      "person_id": 1
+    },
+    {
+      "id": 136,
+      "degree": "Pee",
+      "time_stamp": "2021-05-23T01:10:21.943202200Z",
+      "person_id": 2
+    },
+    {
+      "id": 208,
+      "degree": "Poopies",
+      "time_stamp": "2021-05-22T06:41:21.943659300Z",
+      "person_id": 0
+    },
+    {
+      "id": 582,
+      "degree": "Pee",
+      "time_stamp": "2021-05-20T12:26:21.946135600Z",
+      "person_id": 1
+    },
+    {
+      "id": 372,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-05-20T05:19:21.944737600Z",
+      "person_id": 0
+    },
+    {
+      "id": 232,
+      "degree": "Pee",
+      "time_stamp": "2021-05-19T13:34:21.943834500Z",
+      "person_id": 1
+    },
+    {
+      "id": 129,
+      "degree": "Shart",
+      "time_stamp": "2021-05-19T12:09:21.943147700Z",
+      "person_id": 0
+    },
+    {
+      "id": 393,
+      "degree": "Shart",
+      "time_stamp": "2021-05-15T01:12:21.944865600Z",
+      "person_id": 2
+    },
+    {
+      "id": 130,
+      "degree": "Clean",
+      "time_stamp": "2021-05-14T19:24:21.943169300Z",
+      "person_id": 1
+    },
+    {
+      "id": 45,
+      "degree": "Shart",
+      "time_stamp": "2021-05-14T17:24:21.942591300Z",
+      "person_id": 0
+    },
+    {
+      "id": 458,
+      "degree": "Poopies",
+      "time_stamp": "2021-05-14T13:21:21.945289900Z",
+      "person_id": 2
+    },
+    {
+      "id": 575,
+      "degree": "Pee",
+      "time_stamp": "2021-05-14T04:02:21.946079200Z",
+      "person_id": 1
+    },
+    {
+      "id": 202,
+      "degree": "Clean",
+      "time_stamp": "2021-05-13T10:01:21.943625600Z",
+      "person_id": 2
+    },
+    {
+      "id": 335,
+      "degree": "Shart",
+      "time_stamp": "2021-05-12T00:59:21.944497700Z",
+      "person_id": 2
+    },
+    {
+      "id": 499,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-05-11T23:02:21.945557200Z",
+      "person_id": 1
+    },
+    {
+      "id": 358,
+      "degree": "Pee",
+      "time_stamp": "2021-05-11T11:56:21.944647300Z",
+      "person_id": 2
+    },
+    {
+      "id": 12,
+      "degree": "Shart",
+      "time_stamp": "2021-05-11T10:55:21.942376Z",
+      "person_id": 0
+    },
+    {
+      "id": 430,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-05-10T22:45:21.945105300Z",
+      "person_id": 2
+    },
+    {
+      "id": 166,
+      "degree": "Pee",
+      "time_stamp": "2021-05-10T20:49:21.943387400Z",
+      "person_id": 0
+    },
+    {
+      "id": 389,
+      "degree": "Clean",
+      "time_stamp": "2021-05-10T19:32:21.944836900Z",
+      "person_id": 1
+    },
+    {
+      "id": 423,
+      "degree": "Pee",
+      "time_stamp": "2021-05-10T05:48:21.945049900Z",
+      "person_id": 2
+    },
+    {
+      "id": 119,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-05-09T20:03:21.943084400Z",
+      "person_id": 0
+    },
+    {
+      "id": 404,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-05-09T15:34:21.944929600Z",
+      "person_id": 1
+    },
+    {
+      "id": 436,
+      "degree": "Shart",
+      "time_stamp": "2021-05-08T09:03:21.945141700Z",
+      "person_id": 0
+    },
+    {
+      "id": 471,
+      "degree": "Clean",
+      "time_stamp": "2021-05-08T03:32:21.945377300Z",
+      "person_id": 2
+    },
+    {
+      "id": 289,
+      "degree": "Clean",
+      "time_stamp": "2021-05-07T19:55:21.944198500Z",
+      "person_id": 0
+    },
+    {
+      "id": 229,
+      "degree": "Pee",
+      "time_stamp": "2021-05-07T08:56:21.943808100Z",
+      "person_id": 0
+    },
+    {
+      "id": 411,
+      "degree": "Pee",
+      "time_stamp": "2021-05-06T19:20:21.944983900Z",
+      "person_id": 0
+    },
+    {
+      "id": 174,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-05-06T04:02:21.943444400Z",
+      "person_id": 0
+    },
+    {
+      "id": 256,
+      "degree": "Poopies",
+      "time_stamp": "2021-05-06T02:35:21.943985600Z",
+      "person_id": 0
+    },
+    {
+      "id": 259,
+      "degree": "Pee",
+      "time_stamp": "2021-05-05T15:46:21.944013200Z",
+      "person_id": 2
+    },
+    {
+      "id": 452,
+      "degree": "Poopies",
+      "time_stamp": "2021-05-05T13:50:21.945256800Z",
+      "person_id": 0
+    },
+    {
+      "id": 478,
+      "degree": "Shart",
+      "time_stamp": "2021-05-04T23:47:21.945412200Z",
+      "person_id": 2
+    },
+    {
+      "id": 429,
+      "degree": "Shart",
+      "time_stamp": "2021-05-04T03:38:21.945103100Z",
+      "person_id": 2
+    },
+    {
+      "id": 40,
+      "degree": "Clean",
+      "time_stamp": "2021-05-04T02:00:21.942560400Z",
+      "person_id": 2
+    },
+    {
+      "id": 353,
+      "degree": "Pee",
+      "time_stamp": "2021-05-03T16:45:21.944616900Z",
+      "person_id": 1
+    },
+    {
+      "id": 81,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-05-02T19:55:21.942843Z",
+      "person_id": 1
+    },
+    {
+      "id": 591,
+      "degree": "Pee",
+      "time_stamp": "2021-04-30T20:20:21.946194800Z",
+      "person_id": 2
+    },
+    {
+      "id": 334,
+      "degree": "Pee",
+      "time_stamp": "2021-04-30T13:47:21.944495500Z",
+      "person_id": 0
+    },
+    {
+      "id": 371,
+      "degree": "Clean",
+      "time_stamp": "2021-04-29T20:37:21.944715500Z",
+      "person_id": 1
+    },
+    {
+      "id": 311,
+      "degree": "Pee",
+      "time_stamp": "2021-04-29T05:55:21.944345500Z",
+      "person_id": 0
+    },
+    {
+      "id": 91,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-04-28T02:08:21.942904900Z",
+      "person_id": 0
+    },
+    {
+      "id": 162,
+      "degree": "Poopies",
+      "time_stamp": "2021-04-27T16:53:21.943358700Z",
+      "person_id": 0
+    },
+    {
+      "id": 484,
+      "degree": "Shart",
+      "time_stamp": "2021-04-27T00:35:21.945465Z",
+      "person_id": 0
+    },
+    {
+      "id": 23,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-04-26T17:39:21.942441700Z",
+      "person_id": 1
+    },
+    {
+      "id": 278,
+      "degree": "Pee",
+      "time_stamp": "2021-04-25T10:21:21.944134800Z",
+      "person_id": 2
+    },
+    {
+      "id": 296,
+      "degree": "Pee",
+      "time_stamp": "2021-04-24T21:06:21.944253100Z",
+      "person_id": 1
+    },
+    {
+      "id": 522,
+      "degree": "Clean",
+      "time_stamp": "2021-04-24T13:11:21.945720600Z",
+      "person_id": 1
+    },
+    {
+      "id": 37,
+      "degree": "Shart",
+      "time_stamp": "2021-04-23T12:39:21.942534Z",
+      "person_id": 1
+    },
+    {
+      "id": 530,
+      "degree": "Shart",
+      "time_stamp": "2021-04-23T08:14:21.945781100Z",
+      "person_id": 1
+    },
+    {
+      "id": 590,
+      "degree": "Shart",
+      "time_stamp": "2021-04-20T20:05:21.946172800Z",
+      "person_id": 1
+    },
+    {
+      "id": 496,
+      "degree": "Clean",
+      "time_stamp": "2021-04-20T19:06:21.945550500Z",
+      "person_id": 0
+    },
+    {
+      "id": 255,
+      "degree": "Clean",
+      "time_stamp": "2021-04-20T05:59:21.943983100Z",
+      "person_id": 1
+    },
+    {
+      "id": 332,
+      "degree": "Clean",
+      "time_stamp": "2021-04-20T04:39:21.944471900Z",
+      "person_id": 1
+    },
+    {
+      "id": 386,
+      "degree": "Clean",
+      "time_stamp": "2021-04-20T01:17:21.944830200Z",
+      "person_id": 1
+    },
+    {
+      "id": 545,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-04-19T18:54:21.945894300Z",
+      "person_id": 2
+    },
+    {
+      "id": 444,
+      "degree": "Pee",
+      "time_stamp": "2021-04-19T07:12:21.945200100Z",
+      "person_id": 1
+    },
+    {
+      "id": 549,
+      "degree": "Shart",
+      "time_stamp": "2021-04-17T15:34:21.945922900Z",
+      "person_id": 2
+    },
+    {
+      "id": 67,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-04-17T07:12:21.942741400Z",
+      "person_id": 0
+    },
+    {
+      "id": 328,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-04-17T04:34:21.944443100Z",
+      "person_id": 2
+    },
+    {
+      "id": 576,
+      "degree": "Poopies",
+      "time_stamp": "2021-04-16T00:07:21.946081500Z",
+      "person_id": 2
+    },
+    {
+      "id": 34,
+      "degree": "Shart",
+      "time_stamp": "2021-04-13T22:47:21.942507600Z",
+      "person_id": 2
+    },
+    {
+      "id": 497,
+      "degree": "Poopies",
+      "time_stamp": "2021-04-13T19:24:21.945552800Z",
+      "person_id": 0
+    },
+    {
+      "id": 316,
+      "degree": "Pee",
+      "time_stamp": "2021-04-13T18:44:21.944376800Z",
+      "person_id": 1
+    },
+    {
+      "id": 367,
+      "degree": "Pee",
+      "time_stamp": "2021-04-13T00:56:21.944686500Z",
+      "person_id": 1
+    },
+    {
+      "id": 195,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-04-12T20:12:21.943570500Z",
+      "person_id": 2
+    },
+    {
+      "id": 49,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-04-12T07:13:21.942619700Z",
+      "person_id": 0
+    },
+    {
+      "id": 123,
+      "degree": "Clean",
+      "time_stamp": "2021-04-11T09:18:21.943112900Z",
+      "person_id": 1
+    },
+    {
+      "id": 267,
+      "degree": "Clean",
+      "time_stamp": "2021-04-09T10:44:21.944070800Z",
+      "person_id": 2
+    },
+    {
+      "id": 225,
+      "degree": "Shart",
+      "time_stamp": "2021-04-08T09:03:21.943779100Z",
+      "person_id": 1
+    },
+    {
+      "id": 374,
+      "degree": "Pee",
+      "time_stamp": "2021-04-07T18:26:21.944742200Z",
+      "person_id": 2
+    },
+    {
+      "id": 114,
+      "degree": "Pee",
+      "time_stamp": "2021-04-07T16:27:21.943053700Z",
+      "person_id": 2
+    },
+    {
+      "id": 224,
+      "degree": "Poopies",
+      "time_stamp": "2021-04-06T09:18:21.943776800Z",
+      "person_id": 1
+    },
+    {
+      "id": 409,
+      "degree": "Shart",
+      "time_stamp": "2021-04-03T09:34:21.944960400Z",
+      "person_id": 2
+    },
+    {
+      "id": 291,
+      "degree": "Clean",
+      "time_stamp": "2021-04-02T07:57:21.944222600Z",
+      "person_id": 1
+    },
+    {
+      "id": 244,
+      "degree": "Clean",
+      "time_stamp": "2021-03-31T22:33:21.943900100Z",
+      "person_id": 1
+    },
+    {
+      "id": 569,
+      "degree": "Poopies",
+      "time_stamp": "2021-03-30T17:28:21.946045900Z",
+      "person_id": 2
+    },
+    {
+      "id": 448,
+      "degree": "Pee",
+      "time_stamp": "2021-03-29T01:59:21.945228700Z",
+      "person_id": 2
+    },
+    {
+      "id": 363,
+      "degree": "Shart",
+      "time_stamp": "2021-03-28T20:51:21.944677500Z",
+      "person_id": 1
+    },
+    {
+      "id": 509,
+      "degree": "Pee",
+      "time_stamp": "2021-03-27T22:28:21.945619300Z",
+      "person_id": 0
+    },
+    {
+      "id": 419,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-27T12:10:21.945040800Z",
+      "person_id": 1
+    },
+    {
+      "id": 455,
+      "degree": "Pee",
+      "time_stamp": "2021-03-26T12:46:21.945263500Z",
+      "person_id": 1
+    },
+    {
+      "id": 348,
+      "degree": "Clean",
+      "time_stamp": "2021-03-26T09:34:21.944586300Z",
+      "person_id": 1
+    },
+    {
+      "id": 467,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-26T04:32:21.945349500Z",
+      "person_id": 1
+    },
+    {
+      "id": 134,
+      "degree": "Pee",
+      "time_stamp": "2021-03-25T05:25:21.943178100Z",
+      "person_id": 1
+    },
+    {
+      "id": 295,
+      "degree": "Pee",
+      "time_stamp": "2021-03-23T08:37:21.944250800Z",
+      "person_id": 2
+    },
+    {
+      "id": 6,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-21T23:10:21.942320700Z",
+      "person_id": 2
+    },
+    {
+      "id": 128,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-21T17:41:21.943143600Z",
+      "person_id": 1
+    },
+    {
+      "id": 443,
+      "degree": "Shart",
+      "time_stamp": "2021-03-21T11:19:21.945197900Z",
+      "person_id": 1
+    },
+    {
+      "id": 7,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-21T09:13:21.942342900Z",
+      "person_id": 1
+    },
+    {
+      "id": 190,
+      "degree": "Shart",
+      "time_stamp": "2021-03-21T04:56:21.943539800Z",
+      "person_id": 1
+    },
+    {
+      "id": 394,
+      "degree": "Clean",
+      "time_stamp": "2021-03-20T22:20:21.944867900Z",
+      "person_id": 1
+    },
+    {
+      "id": 369,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-20T19:06:21.944711Z",
+      "person_id": 0
+    },
+    {
+      "id": 299,
+      "degree": "Pee",
+      "time_stamp": "2021-03-20T13:55:21.944259700Z",
+      "person_id": 0
+    },
+    {
+      "id": 33,
+      "degree": "Pee",
+      "time_stamp": "2021-03-20T13:31:21.942505400Z",
+      "person_id": 2
+    },
+    {
+      "id": 242,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-20T00:02:21.943895500Z",
+      "person_id": 2
+    },
+    {
+      "id": 103,
+      "degree": "Pee",
+      "time_stamp": "2021-03-19T17:14:21.942990200Z",
+      "person_id": 1
+    },
+    {
+      "id": 300,
+      "degree": "Poopies",
+      "time_stamp": "2021-03-18T19:30:21.944261800Z",
+      "person_id": 1
+    },
+    {
+      "id": 434,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-18T15:14:21.945136200Z",
+      "person_id": 1
+    },
+    {
+      "id": 399,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-18T02:46:21.944898600Z",
+      "person_id": 1
+    },
+    {
+      "id": 131,
+      "degree": "Clean",
+      "time_stamp": "2021-03-18T02:08:21.943171500Z",
+      "person_id": 2
+    },
+    {
+      "id": 376,
+      "degree": "Pee",
+      "time_stamp": "2021-03-18T01:03:21.944749300Z",
+      "person_id": 2
+    },
+    {
+      "id": 396,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-16T22:01:21.944891900Z",
+      "person_id": 0
+    },
+    {
+      "id": 46,
+      "degree": "Clean",
+      "time_stamp": "2021-03-16T17:59:21.942593500Z",
+      "person_id": 2
+    },
+    {
+      "id": 596,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-15T22:52:21.946225900Z",
+      "person_id": 2
+    },
+    {
+      "id": 132,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-15T19:48:21.943173700Z",
+      "person_id": 0
+    },
+    {
+      "id": 193,
+      "degree": "Pee",
+      "time_stamp": "2021-03-15T14:23:21.943566Z",
+      "person_id": 1
+    },
+    {
+      "id": 70,
+      "degree": "Shart",
+      "time_stamp": "2021-03-14T16:28:21.942752Z",
+      "person_id": 0
+    },
+    {
+      "id": 282,
+      "degree": "Shart",
+      "time_stamp": "2021-03-13T18:42:21.944163200Z",
+      "person_id": 1
+    },
+    {
+      "id": 173,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-13T06:54:21.943422700Z",
+      "person_id": 1
+    },
+    {
+      "id": 301,
+      "degree": "Shart",
+      "time_stamp": "2021-03-12T20:53:21.944283600Z",
+      "person_id": 1
+    },
+    {
+      "id": 501,
+      "degree": "Shart",
+      "time_stamp": "2021-03-12T01:42:21.945561500Z",
+      "person_id": 0
+    },
+    {
+      "id": 112,
+      "degree": "Poopies",
+      "time_stamp": "2021-03-11T06:50:21.943049200Z",
+      "person_id": 2
+    },
+    {
+      "id": 427,
+      "degree": "Clean",
+      "time_stamp": "2021-03-11T01:13:21.945098600Z",
+      "person_id": 1
+    },
+    {
+      "id": 59,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-10T07:35:21.942681800Z",
+      "person_id": 0
+    },
+    {
+      "id": 504,
+      "degree": "Clean",
+      "time_stamp": "2021-03-10T06:08:21.945588200Z",
+      "person_id": 2
+    },
+    {
+      "id": 15,
+      "degree": "Clean",
+      "time_stamp": "2021-03-09T06:03:21.942382700Z",
+      "person_id": 0
+    },
+    {
+      "id": 188,
+      "degree": "Shart",
+      "time_stamp": "2021-03-09T05:46:21.943535200Z",
+      "person_id": 1
+    },
+    {
+      "id": 13,
+      "degree": "Shart",
+      "time_stamp": "2021-03-08T23:19:21.942378200Z",
+      "person_id": 0
+    },
+    {
+      "id": 138,
+      "degree": "Shart",
+      "time_stamp": "2021-03-08T14:13:21.943206700Z",
+      "person_id": 0
+    },
+    {
+      "id": 598,
+      "degree": "Pee",
+      "time_stamp": "2021-03-08T03:39:21.946230400Z",
+      "person_id": 1
+    },
+    {
+      "id": 210,
+      "degree": "Shart",
+      "time_stamp": "2021-03-04T22:46:21.943683700Z",
+      "person_id": 1
+    },
+    {
+      "id": 425,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-04T15:16:21.945074500Z",
+      "person_id": 2
+    },
+    {
+      "id": 263,
+      "degree": "Shart",
+      "time_stamp": "2021-03-03T21:53:21.944042200Z",
+      "person_id": 0
+    },
+    {
+      "id": 574,
+      "degree": "Clean",
+      "time_stamp": "2021-03-03T18:56:21.946077Z",
+      "person_id": 2
+    },
+    {
+      "id": 339,
+      "degree": "Shart",
+      "time_stamp": "2021-03-02T22:52:21.944526200Z",
+      "person_id": 1
+    },
+    {
+      "id": 302,
+      "degree": "Pee",
+      "time_stamp": "2021-03-02T19:28:21.944285800Z",
+      "person_id": 2
+    },
+    {
+      "id": 111,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-03-02T14:58:21.943027800Z",
+      "person_id": 0
+    },
+    {
+      "id": 28,
+      "degree": "Pee",
+      "time_stamp": "2021-03-02T03:40:21.942472900Z",
+      "person_id": 1
+    },
+    {
+      "id": 563,
+      "degree": "Clean",
+      "time_stamp": "2021-03-02T02:45:21.946012900Z",
+      "person_id": 0
+    },
+    {
+      "id": 157,
+      "degree": "Shart",
+      "time_stamp": "2021-03-01T05:47:21.943327500Z",
+      "person_id": 2
+    },
+    {
+      "id": 565,
+      "degree": "Shart",
+      "time_stamp": "2021-03-01T03:50:21.946017300Z",
+      "person_id": 2
+    },
+    {
+      "id": 465,
+      "degree": "Poopies",
+      "time_stamp": "2021-03-01T02:27:21.945344800Z",
+      "person_id": 2
+    },
+    {
+      "id": 164,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-02-28T23:05:21.943363300Z",
+      "person_id": 1
+    },
+    {
+      "id": 511,
+      "degree": "Pee",
+      "time_stamp": "2021-02-28T19:49:21.945623800Z",
+      "person_id": 2
+    },
+    {
+      "id": 556,
+      "degree": "Pee",
+      "time_stamp": "2021-02-28T01:46:21.945958300Z",
+      "person_id": 0
+    },
+    {
+      "id": 473,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-02-28T00:59:21.945401Z",
+      "person_id": 2
+    },
+    {
+      "id": 74,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-02-27T12:02:21.942780400Z",
+      "person_id": 0
+    },
+    {
+      "id": 231,
+      "degree": "Clean",
+      "time_stamp": "2021-02-26T12:54:21.943812600Z",
+      "person_id": 0
+    },
+    {
+      "id": 204,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-02-26T12:42:21.943630400Z",
+      "person_id": 2
+    },
+    {
+      "id": 201,
+      "degree": "Shart",
+      "time_stamp": "2021-02-26T01:36:21.943623300Z",
+      "person_id": 1
+    },
+    {
+      "id": 221,
+      "degree": "Shart",
+      "time_stamp": "2021-02-25T11:19:21.943750600Z",
+      "person_id": 0
+    },
+    {
+      "id": 165,
+      "degree": "Shart",
+      "time_stamp": "2021-02-25T09:47:21.943385Z",
+      "person_id": 2
+    },
+    {
+      "id": 122,
+      "degree": "Clean",
+      "time_stamp": "2021-02-25T06:05:21.943110500Z",
+      "person_id": 2
+    },
+    {
+      "id": 179,
+      "degree": "Shart",
+      "time_stamp": "2021-02-24T18:27:21.943475600Z",
+      "person_id": 1
+    },
+    {
+      "id": 306,
+      "degree": "Shart",
+      "time_stamp": "2021-02-23T08:01:21.944314400Z",
+      "person_id": 0
+    },
+    {
+      "id": 416,
+      "degree": "Shart",
+      "time_stamp": "2021-02-21T17:50:21.945014500Z",
+      "person_id": 0
+    },
+    {
+      "id": 580,
+      "degree": "Clean",
+      "time_stamp": "2021-02-21T14:05:21.946111400Z",
+      "person_id": 0
+    },
+    {
+      "id": 493,
+      "degree": "Shart",
+      "time_stamp": "2021-02-21T09:03:21.945524100Z",
+      "person_id": 0
+    },
+    {
+      "id": 2,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-20T20:05:21.942310100Z",
+      "person_id": 0
+    },
+    {
+      "id": 169,
+      "degree": "Clean",
+      "time_stamp": "2021-02-20T06:40:21.943413700Z",
+      "person_id": 2
+    },
+    {
+      "id": 155,
+      "degree": "Pee",
+      "time_stamp": "2021-02-19T15:45:21.943323Z",
+      "person_id": 1
+    },
+    {
+      "id": 431,
+      "degree": "Shart",
+      "time_stamp": "2021-02-19T12:04:21.945107500Z",
+      "person_id": 1
+    },
+    {
+      "id": 391,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-02-19T07:29:21.944861Z",
+      "person_id": 0
+    },
+    {
+      "id": 90,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-18T15:34:21.942902600Z",
+      "person_id": 1
+    },
+    {
+      "id": 494,
+      "degree": "Shart",
+      "time_stamp": "2021-02-17T21:16:21.945526300Z",
+      "person_id": 0
+    },
+    {
+      "id": 342,
+      "degree": "Shart",
+      "time_stamp": "2021-02-17T08:25:21.944532900Z",
+      "person_id": 2
+    },
+    {
+      "id": 503,
+      "degree": "Shart",
+      "time_stamp": "2021-02-16T23:50:21.945585900Z",
+      "person_id": 2
+    },
+    {
+      "id": 153,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-15T23:53:21.943299100Z",
+      "person_id": 1
+    },
+    {
+      "id": 80,
+      "degree": "Clean",
+      "time_stamp": "2021-02-15T19:43:21.942821200Z",
+      "person_id": 2
+    },
+    {
+      "id": 269,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-14T11:17:21.944075300Z",
+      "person_id": 0
+    },
+    {
+      "id": 304,
+      "degree": "Pee",
+      "time_stamp": "2021-02-14T03:30:21.944290200Z",
+      "person_id": 2
+    },
+    {
+      "id": 490,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-14T01:51:21.945497900Z",
+      "person_id": 1
+    },
+    {
+      "id": 506,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-02-13T22:19:21.945592700Z",
+      "person_id": 2
+    },
+    {
+      "id": 238,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-13T13:18:21.943867300Z",
+      "person_id": 1
+    },
+    {
+      "id": 356,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-13T06:39:21.944623700Z",
+      "person_id": 1
+    },
+    {
+      "id": 524,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-02-13T01:05:21.945725200Z",
+      "person_id": 0
+    },
+    {
+      "id": 58,
+      "degree": "Clean",
+      "time_stamp": "2021-02-12T16:40:21.942679500Z",
+      "person_id": 2
+    },
+    {
+      "id": 364,
+      "degree": "Pee",
+      "time_stamp": "2021-02-12T03:42:21.944679700Z",
+      "person_id": 2
+    },
+    {
+      "id": 487,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-02-12T03:26:21.945491Z",
+      "person_id": 1
+    },
+    {
+      "id": 527,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-12T02:35:21.945754500Z",
+      "person_id": 2
+    },
+    {
+      "id": 350,
+      "degree": "Pee",
+      "time_stamp": "2021-02-11T17:28:21.944590900Z",
+      "person_id": 2
+    },
+    {
+      "id": 337,
+      "degree": "Clean",
+      "time_stamp": "2021-02-11T08:15:21.944502200Z",
+      "person_id": 0
+    },
+    {
+      "id": 315,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-02-11T02:23:21.944374400Z",
+      "person_id": 1
+    },
+    {
+      "id": 329,
+      "degree": "Clean",
+      "time_stamp": "2021-02-10T10:36:21.944464900Z",
+      "person_id": 2
+    },
+    {
+      "id": 592,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-02-09T06:55:21.946197200Z",
+      "person_id": 0
+    },
+    {
+      "id": 218,
+      "degree": "Shart",
+      "time_stamp": "2021-02-09T03:47:21.943721700Z",
+      "person_id": 2
+    },
+    {
+      "id": 437,
+      "degree": "Pee",
+      "time_stamp": "2021-02-08T00:11:21.945165Z",
+      "person_id": 2
+    },
+    {
+      "id": 140,
+      "degree": "Shart",
+      "time_stamp": "2021-02-07T01:40:21.943230500Z",
+      "person_id": 1
+    },
+    {
+      "id": 447,
+      "degree": "Clean",
+      "time_stamp": "2021-02-06T22:08:21.945226500Z",
+      "person_id": 0
+    },
+    {
+      "id": 495,
+      "degree": "Pee",
+      "time_stamp": "2021-02-06T11:05:21.945528400Z",
+      "person_id": 0
+    },
+    {
+      "id": 27,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-06T09:36:21.942470700Z",
+      "person_id": 0
+    },
+    {
+      "id": 521,
+      "degree": "Shart",
+      "time_stamp": "2021-02-06T03:26:21.945718300Z",
+      "person_id": 1
+    },
+    {
+      "id": 252,
+      "degree": "Shart",
+      "time_stamp": "2021-02-05T18:05:21.943957200Z",
+      "person_id": 0
+    },
+    {
+      "id": 466,
+      "degree": "Shart",
+      "time_stamp": "2021-02-05T06:44:21.945347200Z",
+      "person_id": 1
+    },
+    {
+      "id": 261,
+      "degree": "Clean",
+      "time_stamp": "2021-02-04T07:43:21.944017800Z",
+      "person_id": 2
+    },
+    {
+      "id": 477,
+      "degree": "Pee",
+      "time_stamp": "2021-02-04T07:29:21.945409900Z",
+      "person_id": 2
+    },
+    {
+      "id": 589,
+      "degree": "Clean",
+      "time_stamp": "2021-02-04T06:51:21.946170600Z",
+      "person_id": 1
+    },
+    {
+      "id": 381,
+      "degree": "Pee",
+      "time_stamp": "2021-02-04T06:01:21.944779900Z",
+      "person_id": 2
+    },
+    {
+      "id": 272,
+      "degree": "Pee",
+      "time_stamp": "2021-02-03T09:07:21.944101800Z",
+      "person_id": 1
+    },
+    {
+      "id": 94,
+      "degree": "Shart",
+      "time_stamp": "2021-02-03T08:02:21.942931600Z",
+      "person_id": 0
+    },
+    {
+      "id": 85,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-03T04:15:21.942871500Z",
+      "person_id": 2
+    },
+    {
+      "id": 585,
+      "degree": "Clean",
+      "time_stamp": "2021-02-03T02:43:21.946142300Z",
+      "person_id": 1
+    },
+    {
+      "id": 180,
+      "degree": "Poopies",
+      "time_stamp": "2021-02-03T02:39:21.943477800Z",
+      "person_id": 2
+    },
+    {
+      "id": 297,
+      "degree": "Clean",
+      "time_stamp": "2021-02-02T20:07:21.944255200Z",
+      "person_id": 0
+    },
+    {
+      "id": 577,
+      "degree": "Clean",
+      "time_stamp": "2021-02-01T22:37:21.946103300Z",
+      "person_id": 2
+    },
+    {
+      "id": 152,
+      "degree": "Pee",
+      "time_stamp": "2021-02-01T08:14:21.943296900Z",
+      "person_id": 2
+    },
+    {
+      "id": 346,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-01-29T23:17:21.944562Z",
+      "person_id": 1
+    },
+    {
+      "id": 468,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-01-29T17:49:21.945351600Z",
+      "person_id": 1
+    },
+    {
+      "id": 135,
+      "degree": "Poopies",
+      "time_stamp": "2021-01-29T11:01:21.943199900Z",
+      "person_id": 1
+    },
+    {
+      "id": 383,
+      "degree": "Clean",
+      "time_stamp": "2021-01-29T02:55:21.944804Z",
+      "person_id": 0
+    },
+    {
+      "id": 44,
+      "degree": "Shart",
+      "time_stamp": "2021-01-27T22:25:21.942588900Z",
+      "person_id": 0
+    },
+    {
+      "id": 379,
+      "degree": "Poopies",
+      "time_stamp": "2021-01-26T11:13:21.944775500Z",
+      "person_id": 0
+    },
+    {
+      "id": 317,
+      "degree": "Shart",
+      "time_stamp": "2021-01-25T19:11:21.944378900Z",
+      "person_id": 2
+    },
+    {
+      "id": 246,
+      "degree": "Clean",
+      "time_stamp": "2021-01-25T12:02:21.943924500Z",
+      "person_id": 1
+    },
+    {
+      "id": 284,
+      "degree": "Poopies",
+      "time_stamp": "2021-01-25T05:10:21.944167700Z",
+      "person_id": 0
+    },
+    {
+      "id": 543,
+      "degree": "Pee",
+      "time_stamp": "2021-01-21T21:34:21.945870100Z",
+      "person_id": 0
+    },
+    {
+      "id": 349,
+      "degree": "Clean",
+      "time_stamp": "2021-01-21T15:04:21.944588700Z",
+      "person_id": 1
+    },
+    {
+      "id": 257,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-01-20T23:07:21.943989200Z",
+      "person_id": 1
+    },
+    {
+      "id": 43,
+      "degree": "Clean",
+      "time_stamp": "2021-01-19T08:18:21.942567200Z",
+      "person_id": 2
+    },
+    {
+      "id": 579,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-01-18T13:26:21.946109Z",
+      "person_id": 0
+    },
+    {
+      "id": 442,
+      "degree": "Pee",
+      "time_stamp": "2021-01-18T08:51:21.945195700Z",
+      "person_id": 0
+    },
+    {
+      "id": 95,
+      "degree": "Shart",
+      "time_stamp": "2021-01-17T11:34:21.942933900Z",
+      "person_id": 1
+    },
+    {
+      "id": 324,
+      "degree": "Pee",
+      "time_stamp": "2021-01-16T04:00:21.944414700Z",
+      "person_id": 0
+    },
+    {
+      "id": 30,
+      "degree": "Shart",
+      "time_stamp": "2021-01-14T03:11:21.942496900Z",
+      "person_id": 0
+    },
+    {
+      "id": 398,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-01-13T19:35:21.944896400Z",
+      "person_id": 2
+    },
+    {
+      "id": 516,
+      "degree": "Pee",
+      "time_stamp": "2021-01-13T16:56:21.945687700Z",
+      "person_id": 2
+    },
+    {
+      "id": 479,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-01-12T03:50:21.945434200Z",
+      "person_id": 0
+    },
+    {
+      "id": 453,
+      "degree": "Poopies",
+      "time_stamp": "2021-01-11T23:38:21.945258900Z",
+      "person_id": 0
+    },
+    {
+      "id": 567,
+      "degree": "Shart",
+      "time_stamp": "2021-01-11T16:54:21.946041400Z",
+      "person_id": 0
+    },
+    {
+      "id": 79,
+      "degree": "Clean",
+      "time_stamp": "2021-01-11T10:39:21.942818900Z",
+      "person_id": 0
+    },
+    {
+      "id": 481,
+      "degree": "Poopies",
+      "time_stamp": "2021-01-11T05:38:21.945438600Z",
+      "person_id": 1
+    },
+    {
+      "id": 360,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-01-10T21:55:21.944651700Z",
+      "person_id": 0
+    },
+    {
+      "id": 351,
+      "degree": "Poopies",
+      "time_stamp": "2021-01-10T21:50:21.944593100Z",
+      "person_id": 0
+    },
+    {
+      "id": 557,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-01-10T20:23:21.945960500Z",
+      "person_id": 1
+    },
+    {
+      "id": 483,
+      "degree": "Pee",
+      "time_stamp": "2021-01-10T17:30:21.945462600Z",
+      "person_id": 2
+    },
+    {
+      "id": 3,
+      "degree": "Clean",
+      "time_stamp": "2021-01-08T20:20:21.942312600Z",
+      "person_id": 2
+    },
+    {
+      "id": 536,
+      "degree": "Poopies",
+      "time_stamp": "2021-01-08T14:38:21.945814400Z",
+      "person_id": 2
+    },
+    {
+      "id": 321,
+      "degree": "Pee",
+      "time_stamp": "2021-01-08T03:40:21.944407700Z",
+      "person_id": 0
+    },
+    {
+      "id": 16,
+      "degree": "Pee",
+      "time_stamp": "2021-01-07T16:59:21.942404900Z",
+      "person_id": 0
+    },
+    {
+      "id": 189,
+      "degree": "Clean",
+      "time_stamp": "2021-01-07T07:47:21.943537600Z",
+      "person_id": 0
+    },
+    {
+      "id": 385,
+      "degree": "Clean",
+      "time_stamp": "2021-01-06T00:01:21.944808500Z",
+      "person_id": 0
+    },
+    {
+      "id": 192,
+      "degree": "Pee",
+      "time_stamp": "2021-01-05T15:13:21.943563700Z",
+      "person_id": 2
+    },
+    {
+      "id": 219,
+      "degree": "Pee",
+      "time_stamp": "2021-01-04T16:02:21.943743300Z",
+      "person_id": 2
+    },
+    {
+      "id": 566,
+      "degree": "Poopies",
+      "time_stamp": "2021-01-04T12:34:21.946019700Z",
+      "person_id": 2
+    },
+    {
+      "id": 330,
+      "degree": "Pee",
+      "time_stamp": "2021-01-04T01:37:21.944467200Z",
+      "person_id": 0
+    },
+    {
+      "id": 290,
+      "degree": "Pooplosion",
+      "time_stamp": "2021-01-03T10:06:21.944220200Z",
+      "person_id": 2
+    },
+    {
+      "id": 83,
+      "degree": "Clean",
+      "time_stamp": "2021-01-03T05:37:21.942847700Z",
+      "person_id": 0
+    },
+    {
+      "id": 66,
+      "degree": "Clean",
+      "time_stamp": "2021-01-01T10:10:21.942739Z",
+      "person_id": 1
+    },
+    {
+      "id": 551,
+      "degree": "Shart",
+      "time_stamp": "2021-01-01T00:57:21.945927300Z",
+      "person_id": 2
+    },
+    {
+      "id": 403,
+      "degree": "Poopies",
+      "time_stamp": "2020-12-31T21:23:21.944927300Z",
+      "person_id": 2
+    },
+    {
+      "id": 76,
+      "degree": "Clean",
+      "time_stamp": "2020-12-31T20:07:21.942812200Z",
+      "person_id": 1
+    },
+    {
+      "id": 462,
+      "degree": "Pee",
+      "time_stamp": "2020-12-31T18:16:21.945318700Z",
+      "person_id": 2
+    },
+    {
+      "id": 150,
+      "degree": "Pee",
+      "time_stamp": "2020-12-31T11:35:21.943292400Z",
+      "person_id": 1
+    },
+    {
+      "id": 84,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-12-30T04:38:21.942849800Z",
+      "person_id": 0
+    },
+    {
+      "id": 226,
+      "degree": "Poopies",
+      "time_stamp": "2020-12-28T09:57:21.943781400Z",
+      "person_id": 2
+    },
+    {
+      "id": 279,
+      "degree": "Pee",
+      "time_stamp": "2020-12-28T04:40:21.944137100Z",
+      "person_id": 1
+    },
+    {
+      "id": 125,
+      "degree": "Pee",
+      "time_stamp": "2020-12-26T05:48:21.943136500Z",
+      "person_id": 2
+    },
+    {
+      "id": 36,
+      "degree": "Shart",
+      "time_stamp": "2020-12-25T04:03:21.942531800Z",
+      "person_id": 0
+    },
+    {
+      "id": 489,
+      "degree": "Pee",
+      "time_stamp": "2020-12-24T13:19:21.945495700Z",
+      "person_id": 0
+    },
+    {
+      "id": 578,
+      "degree": "Pee",
+      "time_stamp": "2020-12-24T01:28:21.946106700Z",
+      "person_id": 2
+    },
+    {
+      "id": 206,
+      "degree": "Pee",
+      "time_stamp": "2020-12-22T19:59:21.943654800Z",
+      "person_id": 2
+    },
+    {
+      "id": 534,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-12-22T10:28:21.945810Z",
+      "person_id": 2
+    },
+    {
+      "id": 99,
+      "degree": "Shart",
+      "time_stamp": "2020-12-19T07:09:21.942961800Z",
+      "person_id": 1
+    },
+    {
+      "id": 48,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-12-17T23:57:21.942617400Z",
+      "person_id": 0
+    },
+    {
+      "id": 564,
+      "degree": "Pee",
+      "time_stamp": "2020-12-17T06:35:21.946015100Z",
+      "person_id": 0
+    },
+    {
+      "id": 454,
+      "degree": "Clean",
+      "time_stamp": "2020-12-16T14:38:21.945261200Z",
+      "person_id": 1
+    },
+    {
+      "id": 568,
+      "degree": "Pee",
+      "time_stamp": "2020-12-15T23:20:21.946043600Z",
+      "person_id": 1
+    },
+    {
+      "id": 243,
+      "degree": "Poopies",
+      "time_stamp": "2020-12-15T09:34:21.943897800Z",
+      "person_id": 1
+    },
+    {
+      "id": 183,
+      "degree": "Pee",
+      "time_stamp": "2020-12-15T06:55:21.943504500Z",
+      "person_id": 2
+    },
+    {
+      "id": 156,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-12-15T05:28:21.943325300Z",
+      "person_id": 1
+    },
+    {
+      "id": 145,
+      "degree": "Clean",
+      "time_stamp": "2020-12-14T22:17:21.943261600Z",
+      "person_id": 0
+    },
+    {
+      "id": 539,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-12-14T18:02:21.945841400Z",
+      "person_id": 1
+    },
+    {
+      "id": 198,
+      "degree": "Shart",
+      "time_stamp": "2020-12-13T23:53:21.943596800Z",
+      "person_id": 1
+    },
+    {
+      "id": 19,
+      "degree": "Pee",
+      "time_stamp": "2020-12-13T11:07:21.942413Z",
+      "person_id": 1
+    },
+    {
+      "id": 424,
+      "degree": "Poopies",
+      "time_stamp": "2020-12-12T18:40:21.945071900Z",
+      "person_id": 0
+    },
+    {
+      "id": 113,
+      "degree": "Shart",
+      "time_stamp": "2020-12-12T16:39:21.943051500Z",
+      "person_id": 1
+    },
+    {
+      "id": 433,
+      "degree": "Pee",
+      "time_stamp": "2020-12-12T12:40:21.945133800Z",
+      "person_id": 1
+    },
+    {
+      "id": 537,
+      "degree": "Pee",
+      "time_stamp": "2020-12-12T07:48:21.945816600Z",
+      "person_id": 1
+    },
+    {
+      "id": 492,
+      "degree": "Shart",
+      "time_stamp": "2020-12-12T04:46:21.945521800Z",
+      "person_id": 1
+    },
+    {
+      "id": 426,
+      "degree": "Shart",
+      "time_stamp": "2020-12-11T08:54:21.945076700Z",
+      "person_id": 2
+    },
+    {
+      "id": 309,
+      "degree": "Pee",
+      "time_stamp": "2020-12-10T10:10:21.944321100Z",
+      "person_id": 0
+    },
+    {
+      "id": 118,
+      "degree": "Shart",
+      "time_stamp": "2020-12-09T18:51:21.943082300Z",
+      "person_id": 1
+    },
+    {
+      "id": 233,
+      "degree": "Shart",
+      "time_stamp": "2020-12-09T08:45:21.943836800Z",
+      "person_id": 0
+    },
+    {
+      "id": 475,
+      "degree": "Poopies",
+      "time_stamp": "2020-12-08T16:45:21.945405500Z",
+      "person_id": 1
+    },
+    {
+      "id": 186,
+      "degree": "Shart",
+      "time_stamp": "2020-12-08T01:40:21.943511300Z",
+      "person_id": 2
+    },
+    {
+      "id": 388,
+      "degree": "Poopies",
+      "time_stamp": "2020-12-07T05:54:21.944834700Z",
+      "person_id": 0
+    },
+    {
+      "id": 512,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-12-06T21:54:21.945645300Z",
+      "person_id": 1
+    },
+    {
+      "id": 555,
+      "degree": "Shart",
+      "time_stamp": "2020-12-06T11:44:21.945956100Z",
+      "person_id": 0
+    },
+    {
+      "id": 254,
+      "degree": "Poopies",
+      "time_stamp": "2020-12-06T11:40:21.943961800Z",
+      "person_id": 2
+    },
+    {
+      "id": 89,
+      "degree": "Poopies",
+      "time_stamp": "2020-12-05T20:20:21.942900200Z",
+      "person_id": 1
+    },
+    {
+      "id": 60,
+      "degree": "Pee",
+      "time_stamp": "2020-12-05T04:38:21.942684200Z",
+      "person_id": 1
+    },
+    {
+      "id": 336,
+      "degree": "Poopies",
+      "time_stamp": "2020-12-04T16:49:21.944499800Z",
+      "person_id": 2
+    },
+    {
+      "id": 310,
+      "degree": "Clean",
+      "time_stamp": "2020-12-03T15:03:21.944343200Z",
+      "person_id": 2
+    },
+    {
+      "id": 402,
+      "degree": "Shart",
+      "time_stamp": "2020-12-02T06:37:21.944925Z",
+      "person_id": 1
+    },
+    {
+      "id": 407,
+      "degree": "Shart",
+      "time_stamp": "2020-12-01T09:45:21.944955800Z",
+      "person_id": 1
+    },
+    {
+      "id": 401,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-12-01T09:40:21.944922500Z",
+      "person_id": 1
+    },
+    {
+      "id": 170,
+      "degree": "Poopies",
+      "time_stamp": "2020-12-01T03:25:21.943415800Z",
+      "person_id": 0
+    },
+    {
+      "id": 187,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-11-29T09:54:21.943533Z",
+      "person_id": 2
+    },
+    {
+      "id": 397,
+      "degree": "Clean",
+      "time_stamp": "2020-11-26T09:06:21.944894200Z",
+      "person_id": 0
+    },
+    {
+      "id": 573,
+      "degree": "Clean",
+      "time_stamp": "2020-11-26T07:33:21.946074800Z",
+      "person_id": 0
+    },
+    {
+      "id": 181,
+      "degree": "Shart",
+      "time_stamp": "2020-11-25T23:32:21.943480100Z",
+      "person_id": 1
+    },
+    {
+      "id": 97,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-11-25T18:49:21.942938200Z",
+      "person_id": 2
+    },
+    {
+      "id": 559,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-11-25T14:45:21.945984600Z",
+      "person_id": 0
+    },
+    {
+      "id": 41,
+      "degree": "Poopies",
+      "time_stamp": "2020-11-24T20:52:21.942562500Z",
+      "person_id": 1
+    },
+    {
+      "id": 283,
+      "degree": "Poopies",
+      "time_stamp": "2020-11-24T00:34:21.944165300Z",
+      "person_id": 2
+    },
+    {
+      "id": 75,
+      "degree": "Clean",
+      "time_stamp": "2020-11-22T16:18:21.942782600Z",
+      "person_id": 2
+    },
+    {
+      "id": 163,
+      "degree": "Pee",
+      "time_stamp": "2020-11-21T23:11:21.943360800Z",
+      "person_id": 0
+    },
+    {
+      "id": 418,
+      "degree": "Pee",
+      "time_stamp": "2020-11-21T15:26:21.945018800Z",
+      "person_id": 2
+    },
+    {
+      "id": 175,
+      "degree": "Clean",
+      "time_stamp": "2020-11-20T23:10:21.943446600Z",
+      "person_id": 0
+    },
+    {
+      "id": 227,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-11-20T01:36:21.943783700Z",
+      "person_id": 2
+    },
+    {
+      "id": 340,
+      "degree": "Shart",
+      "time_stamp": "2020-11-19T22:57:21.944528400Z",
+      "person_id": 2
+    },
+    {
+      "id": 65,
+      "degree": "Pee",
+      "time_stamp": "2020-11-19T18:24:21.942716900Z",
+      "person_id": 2
+    },
+    {
+      "id": 341,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-11-19T15:13:21.944530700Z",
+      "person_id": 2
+    },
+    {
+      "id": 139,
+      "degree": "Pee",
+      "time_stamp": "2020-11-19T11:47:21.943209Z",
+      "person_id": 1
+    },
+    {
+      "id": 266,
+      "degree": "Shart",
+      "time_stamp": "2020-11-19T05:37:21.944048800Z",
+      "person_id": 0
+    },
+    {
+      "id": 554,
+      "degree": "Pee",
+      "time_stamp": "2020-11-18T08:10:21.945953900Z",
+      "person_id": 2
+    },
+    {
+      "id": 544,
+      "degree": "Shart",
+      "time_stamp": "2020-11-16T18:41:21.945872900Z",
+      "person_id": 2
+    },
+    {
+      "id": 435,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-11-16T04:55:21.945138900Z",
+      "person_id": 1
+    },
+    {
+      "id": 333,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-11-15T09:38:21.944474100Z",
+      "person_id": 0
+    },
+    {
+      "id": 14,
+      "degree": "Pee",
+      "time_stamp": "2020-11-15T04:06:21.942380500Z",
+      "person_id": 0
+    },
+    {
+      "id": 38,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-11-14T16:57:21.942536300Z",
+      "person_id": 2
+    },
+    {
+      "id": 104,
+      "degree": "Pooplosion",
+      "time_stamp": "2020-11-14T15:59:21.942992600Z",
+      "person_id": 1
+    },
+    {
+      "id": 514,
+      "degree": "Shart",
+      "time_stamp": "2020-11-13T02:06:21.945663800Z",
+      "person_id": 0
+    },
+    {
+      "id": 406,
+      "degree": "Poopies",
+      "time_stamp": "2020-11-12T14:33:21.944953500Z",
+      "person_id": 2
+    },
+    {
+      "id": 542,
+      "degree": "Pee",
+      "time_stamp": "2020-11-12T03:06:21.945867800Z",
+      "person_id": 1
+    },
+    {
+      "id": 205,
+      "degree": "Poopies",
+      "time_stamp": "2020-11-11T21:44:21.943652400Z",
+      "person_id": 2
+    },
+    {
+      "id": 366,
+      "degree": "Pee",
+      "time_stamp": "2020-11-10T00:47:21.944684300Z",
+      "person_id": 1
+    },
+    {
+      "id": 587,
+      "degree": "Poopies",
+      "time_stamp": "2020-11-09T16:30:21.946166100Z",
+      "person_id": 0
+    },
+    {
+      "id": 305,
+      "degree": "Shart",
+      "time_stamp": "2020-11-07T05:58:21.944292500Z",
+      "person_id": 1
+    },
+    {
+      "id": 377,
+      "degree": "Pee",
+      "time_stamp": "2020-11-06T19:31:21.944771100Z",
+      "person_id": 2
+    },
+    {
+      "id": 31,
+      "degree": "Shart",
+      "time_stamp": "2020-11-06T09:56:21.942499200Z",
+      "person_id": 0
+    },
+    {
+      "id": 414,
+      "degree": "Shart",
+      "time_stamp": "2020-11-06T04:23:21.945010Z",
+      "person_id": 1
+    },
+    {
+      "id": 178,
+      "degree": "Clean",
+      "time_stamp": "2020-11-05T22:01:21.943473400Z",
+      "person_id": 0
+    },
+    {
+      "id": 338,
+      "degree": "Shart",
+      "time_stamp": "2020-11-05T11:38:21.944504300Z",
+      "person_id": 0
+    },
+    {
+      "id": 457,
+      "degree": "Shart",
+      "time_stamp": "2020-11-05T07:38:21.945287600Z",
+      "person_id": 2
+    },
+    {
+      "id": 449,
+      "degree": "Shart",
+      "time_stamp": "2020-11-05T02:49:21.945230900Z",
+      "person_id": 0
+    }
+  ],
+  "events": [
+    {
+      "id": 120,
+      "time_stamp": "2021-11-01T23:35:21.940103200Z",
+      "person_id": 0,
+      "event": {
+        "Medicine": "3fMgHgrr8P4IgED67x"
+      }
+    },
+    {
+      "id": 8,
+      "time_stamp": "2021-10-28T13:12:21.939165300Z",
+      "person_id": 2,
+      "event": {
+        "Temperature": 0.8181348285002168
+      }
+    },
+    {
+      "id": 4,
+      "time_stamp": "2021-10-26T21:37:21.939133200Z",
+      "person_id": 0,
+      "event": {
+        "Note": "aaZeWLYeV"
+      }
+    },
+    {
+      "id": 122,
+      "time_stamp": "2021-10-26T00:59:21.940107600Z",
+      "person_id": 2,
+      "event": "Sleep"
+    },
+    {
+      "id": 74,
+      "time_stamp": "2021-10-21T04:01:21.939718300Z",
+      "person_id": 1,
+      "event": "Bath"
+    },
+    {
+      "id": 85,
+      "time_stamp": "2021-10-20T04:04:21.939787Z",
+      "person_id": 1,
+      "event": {
+        "Temperature": 0.5838063237939007
+      }
+    },
+    {
+      "id": 20,
+      "time_stamp": "2021-10-17T12:10:21.939264700Z",
+      "person_id": 0,
+      "event": {
+        "Note": "RYeeDteBkI8"
+      }
+    },
+    {
+      "id": 124,
+      "time_stamp": "2021-10-16T22:44:21.940131800Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 29,
+      "time_stamp": "2021-10-16T15:37:21.939348500Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 1,
+      "time_stamp": "2021-10-12T00:46:21.939097300Z",
+      "person_id": 2,
+      "event": "Sleep"
+    },
+    {
+      "id": 69,
+      "time_stamp": "2021-10-11T01:37:21.939687100Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 30,
+      "time_stamp": "2021-10-09T17:00:21.939350600Z",
+      "person_id": 0,
+      "event": "Bath"
+    },
+    {
+      "id": 94,
+      "time_stamp": "2021-10-06T00:03:21.939870400Z",
+      "person_id": 1,
+      "event": "Bath"
+    },
+    {
+      "id": 114,
+      "time_stamp": "2021-10-05T07:03:21.940046700Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 100,
+      "time_stamp": "2021-10-02T13:33:21.939927800Z",
+      "person_id": 1,
+      "event": {
+        "Temperature": 0.5366642618681244
+      }
+    },
+    {
+      "id": 51,
+      "time_stamp": "2021-09-28T05:00:21.939535200Z",
+      "person_id": 1,
+      "event": {
+        "Medicine": "CTp3CR"
+      }
+    },
+    {
+      "id": 112,
+      "time_stamp": "2021-09-27T21:35:21.940042300Z",
+      "person_id": 2,
+      "event": {
+        "Medicine": "zl6akcTOZL29c"
+      }
+    },
+    {
+      "id": 119,
+      "time_stamp": "2021-09-25T19:14:21.940079Z",
+      "person_id": 1,
+      "event": {
+        "Medicine": "ddv19doLuG"
+      }
+    },
+    {
+      "id": 14,
+      "time_stamp": "2021-09-25T08:01:21.939201800Z",
+      "person_id": 1,
+      "event": "Awake"
+    },
+    {
+      "id": 89,
+      "time_stamp": "2021-09-24T09:42:21.939839500Z",
+      "person_id": 1,
+      "event": {
+        "Temperature": 0.9371201662637654
+      }
+    },
+    {
+      "id": 5,
+      "time_stamp": "2021-09-22T08:24:21.939136900Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 117,
+      "time_stamp": "2021-09-20T03:33:21.940073Z",
+      "person_id": 2,
+      "event": "Bath"
+    },
+    {
+      "id": 33,
+      "time_stamp": "2021-09-17T04:38:21.939380700Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 27,
+      "time_stamp": "2021-09-16T08:59:21.939324300Z",
+      "person_id": 1,
+      "event": "Awake"
+    },
+    {
+      "id": 46,
+      "time_stamp": "2021-09-09T20:45:21.939501200Z",
+      "person_id": 1,
+      "event": "Bath"
+    },
+    {
+      "id": 144,
+      "time_stamp": "2021-09-07T22:37:21.940292400Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 75,
+      "time_stamp": "2021-09-04T10:42:21.939720500Z",
+      "person_id": 1,
+      "event": {
+        "Temperature": 0.6087148647919364
+      }
+    },
+    {
+      "id": 79,
+      "time_stamp": "2021-09-04T06:06:21.939753300Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 7,
+      "time_stamp": "2021-09-02T23:39:21.939143500Z",
+      "person_id": 0,
+      "event": {
+        "Medicine": "UsPAUffLTi"
+      }
+    },
+    {
+      "id": 25,
+      "time_stamp": "2021-08-30T22:34:21.939319900Z",
+      "person_id": 2,
+      "event": "Bath"
+    },
+    {
+      "id": 109,
+      "time_stamp": "2021-08-28T04:52:21.940014700Z",
+      "person_id": 2,
+      "event": "Bath"
+    },
+    {
+      "id": 59,
+      "time_stamp": "2021-08-28T04:49:21.939596800Z",
+      "person_id": 0,
+      "event": {
+        "Note": "DX4cGX1sjdLzkA9m9oI"
+      }
+    },
+    {
+      "id": 11,
+      "time_stamp": "2021-08-21T18:37:21.939194900Z",
+      "person_id": 2,
+      "event": "Sleep"
+    },
+    {
+      "id": 50,
+      "time_stamp": "2021-08-20T21:06:21.939531900Z",
+      "person_id": 2,
+      "event": {
+        "Temperature": 0.2432807749723166
+      }
+    },
+    {
+      "id": 31,
+      "time_stamp": "2021-08-20T18:52:21.939354700Z",
+      "person_id": 2,
+      "event": {
+        "Note": "J99ND0T5w5hTaqfD"
+      }
+    },
+    {
+      "id": 23,
+      "time_stamp": "2021-08-19T20:38:21.939293100Z",
+      "person_id": 2,
+      "event": {
+        "Note": "hLfLD6n7sw7qtm"
+      }
+    },
+    {
+      "id": 0,
+      "time_stamp": "2021-08-14T16:28:21.939087400Z",
+      "person_id": 2,
+      "event": "Bath"
+    },
+    {
+      "id": 55,
+      "time_stamp": "2021-08-11T12:27:21.939564200Z",
+      "person_id": 0,
+      "event": "Sleep"
+    },
+    {
+      "id": 143,
+      "time_stamp": "2021-08-07T04:30:21.940290200Z",
+      "person_id": 2,
+      "event": {
+        "Temperature": 0.11864506299295308
+      }
+    },
+    {
+      "id": 99,
+      "time_stamp": "2021-08-03T00:24:21.939906100Z",
+      "person_id": 2,
+      "event": {
+        "Note": "KtGMsz"
+      }
+    },
+    {
+      "id": 127,
+      "time_stamp": "2021-07-31T07:14:21.940138500Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 133,
+      "time_stamp": "2021-07-28T02:18:21.940204700Z",
+      "person_id": 0,
+      "event": {
+        "Note": "X2JJjehUhx8qe7UQuA"
+      }
+    },
+    {
+      "id": 104,
+      "time_stamp": "2021-07-20T21:50:21.939962100Z",
+      "person_id": 2,
+      "event": {
+        "Note": "xdHRbysLGgRTrXFPslX"
+      }
+    },
+    {
+      "id": 110,
+      "time_stamp": "2021-07-20T10:36:21.940016900Z",
+      "person_id": 0,
+      "event": "Bath"
+    },
+    {
+      "id": 70,
+      "time_stamp": "2021-07-19T11:00:21.939689200Z",
+      "person_id": 2,
+      "event": "Awake"
+    },
+    {
+      "id": 137,
+      "time_stamp": "2021-07-18T13:06:21.940232900Z",
+      "person_id": 2,
+      "event": "Awake"
+    },
+    {
+      "id": 142,
+      "time_stamp": "2021-07-16T21:40:21.940268200Z",
+      "person_id": 2,
+      "event": {
+        "Note": "fJCA5"
+      }
+    },
+    {
+      "id": 135,
+      "time_stamp": "2021-07-10T16:18:21.940228700Z",
+      "person_id": 2,
+      "event": {
+        "Temperature": 0.7941235796573843
+      }
+    },
+    {
+      "id": 81,
+      "time_stamp": "2021-07-10T04:17:21.939757900Z",
+      "person_id": 2,
+      "event": "Bath"
+    },
+    {
+      "id": 132,
+      "time_stamp": "2021-07-06T06:10:21.940200500Z",
+      "person_id": 0,
+      "event": {
+        "Temperature": 0.49949806719142587
+      }
+    },
+    {
+      "id": 73,
+      "time_stamp": "2021-07-03T04:50:21.939715900Z",
+      "person_id": 2,
+      "event": "Bath"
+    },
+    {
+      "id": 42,
+      "time_stamp": "2021-06-30T03:58:21.939471500Z",
+      "person_id": 1,
+      "event": {
+        "Note": "InSU1CAYyun2sNy6bu"
+      }
+    },
+    {
+      "id": 128,
+      "time_stamp": "2021-06-29T10:46:21.940140600Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 113,
+      "time_stamp": "2021-06-28T19:56:21.940044600Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 134,
+      "time_stamp": "2021-06-24T07:12:21.940206700Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 105,
+      "time_stamp": "2021-06-22T07:09:21.939983600Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 6,
+      "time_stamp": "2021-06-20T01:08:21.939139700Z",
+      "person_id": 1,
+      "event": {
+        "Temperature": 0.9305580352951526
+      }
+    },
+    {
+      "id": 2,
+      "time_stamp": "2021-06-19T23:26:21.939099600Z",
+      "person_id": 0,
+      "event": "Sleep"
+    },
+    {
+      "id": 18,
+      "time_stamp": "2021-06-19T19:12:21.939258300Z",
+      "person_id": 1,
+      "event": "Awake"
+    },
+    {
+      "id": 86,
+      "time_stamp": "2021-06-18T04:40:21.939809400Z",
+      "person_id": 1,
+      "event": {
+        "Temperature": 0.6962491997144129
+      }
+    },
+    {
+      "id": 121,
+      "time_stamp": "2021-06-18T01:57:21.940105500Z",
+      "person_id": 2,
+      "event": {
+        "Temperature": 0.38226016527266327
+      }
+    },
+    {
+      "id": 125,
+      "time_stamp": "2021-06-17T23:38:21.940134100Z",
+      "person_id": 0,
+      "event": "Sleep"
+    },
+    {
+      "id": 95,
+      "time_stamp": "2021-06-17T20:46:21.939873900Z",
+      "person_id": 0,
+      "event": {
+        "Note": "gNoZ5T"
+      }
+    },
+    {
+      "id": 82,
+      "time_stamp": "2021-06-17T07:51:21.939779900Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 56,
+      "time_stamp": "2021-06-16T06:35:21.939566400Z",
+      "person_id": 2,
+      "event": "Awake"
+    },
+    {
+      "id": 48,
+      "time_stamp": "2021-06-15T18:27:21.939505400Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 35,
+      "time_stamp": "2021-06-15T08:53:21.939385200Z",
+      "person_id": 0,
+      "event": {
+        "Temperature": 0.0036333614298276196
+      }
+    },
+    {
+      "id": 98,
+      "time_stamp": "2021-06-13T17:13:21.939902900Z",
+      "person_id": 2,
+      "event": {
+        "Medicine": "JcbH4i"
+      }
+    },
+    {
+      "id": 76,
+      "time_stamp": "2021-06-10T01:53:21.939722600Z",
+      "person_id": 2,
+      "event": "Sleep"
+    },
+    {
+      "id": 90,
+      "time_stamp": "2021-06-07T07:50:21.939841800Z",
+      "person_id": 0,
+      "event": {
+        "Temperature": 0.4722640933531814
+      }
+    },
+    {
+      "id": 57,
+      "time_stamp": "2021-06-06T23:27:21.939568600Z",
+      "person_id": 2,
+      "event": "Sleep"
+    },
+    {
+      "id": 40,
+      "time_stamp": "2021-06-05T11:05:21.939445Z",
+      "person_id": 2,
+      "event": "Awake"
+    },
+    {
+      "id": 13,
+      "time_stamp": "2021-06-04T11:42:21.939199600Z",
+      "person_id": 1,
+      "event": "Awake"
+    },
+    {
+      "id": 64,
+      "time_stamp": "2021-06-03T11:34:21.939651600Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 103,
+      "time_stamp": "2021-06-02T23:38:21.939957900Z",
+      "person_id": 0,
+      "event": {
+        "Temperature": 0.5682597885215279
+      }
+    },
+    {
+      "id": 141,
+      "time_stamp": "2021-06-02T17:57:21.940263200Z",
+      "person_id": 0,
+      "event": "Bath"
+    },
+    {
+      "id": 83,
+      "time_stamp": "2021-05-30T05:35:21.939782100Z",
+      "person_id": 1,
+      "event": "Bath"
+    },
+    {
+      "id": 148,
+      "time_stamp": "2021-05-29T01:30:21.940322700Z",
+      "person_id": 0,
+      "event": {
+        "Temperature": 0.4749007761811478
+      }
+    },
+    {
+      "id": 61,
+      "time_stamp": "2021-05-25T21:48:21.939625500Z",
+      "person_id": 2,
+      "event": {
+        "Medicine": "HUjPOcQsdY20"
+      }
+    },
+    {
+      "id": 116,
+      "time_stamp": "2021-05-25T18:42:21.940050800Z",
+      "person_id": 2,
+      "event": "Sleep"
+    },
+    {
+      "id": 44,
+      "time_stamp": "2021-05-25T04:08:21.939477100Z",
+      "person_id": 1,
+      "event": {
+        "Medicine": "t32Cy"
+      }
+    },
+    {
+      "id": 38,
+      "time_stamp": "2021-05-18T18:48:21.939420200Z",
+      "person_id": 0,
+      "event": "Sleep"
+    },
+    {
+      "id": 72,
+      "time_stamp": "2021-05-18T03:45:21.939693600Z",
+      "person_id": 2,
+      "event": "Awake"
+    },
+    {
+      "id": 93,
+      "time_stamp": "2021-05-17T11:14:21.939848400Z",
+      "person_id": 1,
+      "event": "Awake"
+    },
+    {
+      "id": 49,
+      "time_stamp": "2021-05-16T18:56:21.939529500Z",
+      "person_id": 0,
+      "event": {
+        "Note": "Khq5g05ZhTBqcY"
+      }
+    },
+    {
+      "id": 58,
+      "time_stamp": "2021-05-01T14:28:21.939592700Z",
+      "person_id": 0,
+      "event": {
+        "Note": "hxAm7SgGY"
+      }
+    },
+    {
+      "id": 118,
+      "time_stamp": "2021-04-29T18:50:21.940075400Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 147,
+      "time_stamp": "2021-04-29T07:45:21.940298900Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 107,
+      "time_stamp": "2021-04-25T03:35:21.939989200Z",
+      "person_id": 1,
+      "event": {
+        "Medicine": "3RKaVO"
+      }
+    },
+    {
+      "id": 26,
+      "time_stamp": "2021-04-24T03:53:21.939322200Z",
+      "person_id": 0,
+      "event": {
+        "Temperature": 0.09689449759031277
+      }
+    },
+    {
+      "id": 53,
+      "time_stamp": "2021-04-18T06:46:21.939559900Z",
+      "person_id": 0,
+      "event": {
+        "Temperature": 0.786806556730195
+      }
+    },
+    {
+      "id": 52,
+      "time_stamp": "2021-04-17T07:28:21.939537400Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 43,
+      "time_stamp": "2021-04-16T19:16:21.939473700Z",
+      "person_id": 1,
+      "event": "Bath"
+    },
+    {
+      "id": 17,
+      "time_stamp": "2021-04-16T00:18:21.939235900Z",
+      "person_id": 2,
+      "event": {
+        "Medicine": "kglrC8"
+      }
+    },
+    {
+      "id": 19,
+      "time_stamp": "2021-04-10T01:08:21.939260400Z",
+      "person_id": 1,
+      "event": "Bath"
+    },
+    {
+      "id": 63,
+      "time_stamp": "2021-04-09T06:01:21.939630Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 91,
+      "time_stamp": "2021-04-06T21:31:21.939844100Z",
+      "person_id": 2,
+      "event": "Awake"
+    },
+    {
+      "id": 62,
+      "time_stamp": "2021-04-06T12:50:21.939627700Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 145,
+      "time_stamp": "2021-04-05T20:02:21.940294500Z",
+      "person_id": 2,
+      "event": {
+        "Temperature": 0.8048180610518336
+      }
+    },
+    {
+      "id": 28,
+      "time_stamp": "2021-04-04T07:54:21.939346300Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 65,
+      "time_stamp": "2021-04-03T09:47:21.939656100Z",
+      "person_id": 2,
+      "event": "Sleep"
+    },
+    {
+      "id": 126,
+      "time_stamp": "2021-03-29T22:43:21.940136300Z",
+      "person_id": 2,
+      "event": {
+        "Temperature": 0.8260195544749894
+      }
+    },
+    {
+      "id": 115,
+      "time_stamp": "2021-03-29T07:45:21.940048800Z",
+      "person_id": 0,
+      "event": "Bath"
+    },
+    {
+      "id": 136,
+      "time_stamp": "2021-03-24T08:14:21.940230800Z",
+      "person_id": 0,
+      "event": {
+        "Temperature": 0.4442507910589757
+      }
+    },
+    {
+      "id": 88,
+      "time_stamp": "2021-03-18T18:58:21.939817Z",
+      "person_id": 1,
+      "event": {
+        "Medicine": "kct3IjmQIz"
+      }
+    },
+    {
+      "id": 123,
+      "time_stamp": "2021-03-17T18:43:21.940109800Z",
+      "person_id": 1,
+      "event": "Bath"
+    },
+    {
+      "id": 36,
+      "time_stamp": "2021-03-16T02:26:21.939413500Z",
+      "person_id": 1,
+      "event": {
+        "Note": "knL1esL"
+      }
+    },
+    {
+      "id": 21,
+      "time_stamp": "2021-03-11T09:47:21.939266900Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 108,
+      "time_stamp": "2021-03-10T07:04:21.940012600Z",
+      "person_id": 0,
+      "event": {
+        "Note": "bUVXHJchN7k6o"
+      }
+    },
+    {
+      "id": 130,
+      "time_stamp": "2021-03-09T16:42:21.940176100Z",
+      "person_id": 1,
+      "event": {
+        "Medicine": "oV1OAjADuxPayG"
+      }
+    },
+    {
+      "id": 15,
+      "time_stamp": "2021-03-09T04:51:21.939204200Z",
+      "person_id": 2,
+      "event": "Bath"
+    },
+    {
+      "id": 71,
+      "time_stamp": "2021-03-08T12:48:21.939691500Z",
+      "person_id": 2,
+      "event": "Sleep"
+    },
+    {
+      "id": 32,
+      "time_stamp": "2021-03-06T22:53:21.939376900Z",
+      "person_id": 0,
+      "event": "Bath"
+    },
+    {
+      "id": 84,
+      "time_stamp": "2021-03-06T01:13:21.939784300Z",
+      "person_id": 0,
+      "event": "Bath"
+    },
+    {
+      "id": 67,
+      "time_stamp": "2021-03-01T17:12:21.939660300Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 37,
+      "time_stamp": "2021-02-28T20:48:21.939416900Z",
+      "person_id": 1,
+      "event": {
+        "Medicine": "o4XFP6Sw"
+      }
+    },
+    {
+      "id": 60,
+      "time_stamp": "2021-02-27T23:09:21.939599Z",
+      "person_id": 0,
+      "event": {
+        "Temperature": 0.5607765615649293
+      }
+    },
+    {
+      "id": 41,
+      "time_stamp": "2021-02-25T23:33:21.939447200Z",
+      "person_id": 1,
+      "event": "Bath"
+    },
+    {
+      "id": 111,
+      "time_stamp": "2021-02-15T02:25:21.940019100Z",
+      "person_id": 1,
+      "event": "Bath"
+    },
+    {
+      "id": 66,
+      "time_stamp": "2021-02-10T17:47:21.939658300Z",
+      "person_id": 2,
+      "event": {
+        "Temperature": 0.13923684014360072
+      }
+    },
+    {
+      "id": 54,
+      "time_stamp": "2021-02-03T12:58:21.939562200Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 39,
+      "time_stamp": "2021-02-03T10:27:21.939442900Z",
+      "person_id": 0,
+      "event": "Bath"
+    },
+    {
+      "id": 16,
+      "time_stamp": "2021-02-03T03:11:21.939228600Z",
+      "person_id": 0,
+      "event": {
+        "Note": "jntx36VC7lAi"
+      }
+    },
+    {
+      "id": 87,
+      "time_stamp": "2021-02-01T06:05:21.939813200Z",
+      "person_id": 1,
+      "event": {
+        "Note": "7ZGy6"
+      }
+    },
+    {
+      "id": 129,
+      "time_stamp": "2021-01-31T09:31:21.940172400Z",
+      "person_id": 1,
+      "event": {
+        "Note": "Y82a6ZVZM6IV"
+      }
+    },
+    {
+      "id": 106,
+      "time_stamp": "2021-01-30T21:56:21.939985700Z",
+      "person_id": 2,
+      "event": "Bath"
+    },
+    {
+      "id": 146,
+      "time_stamp": "2021-01-28T00:28:21.940296800Z",
+      "person_id": 2,
+      "event": "Bath"
+    },
+    {
+      "id": 140,
+      "time_stamp": "2021-01-27T21:45:21.940261200Z",
+      "person_id": 0,
+      "event": {
+        "Temperature": 0.9219866608608835
+      }
+    },
+    {
+      "id": 131,
+      "time_stamp": "2021-01-22T15:59:21.940178300Z",
+      "person_id": 2,
+      "event": "Sleep"
+    },
+    {
+      "id": 47,
+      "time_stamp": "2021-01-18T08:28:21.939503300Z",
+      "person_id": 2,
+      "event": "Bath"
+    },
+    {
+      "id": 22,
+      "time_stamp": "2021-01-18T08:03:21.939289100Z",
+      "person_id": 0,
+      "event": "Sleep"
+    },
+    {
+      "id": 68,
+      "time_stamp": "2021-01-14T16:59:21.939684900Z",
+      "person_id": 2,
+      "event": {
+        "Medicine": "E2KBmMDFLwLeR9R"
+      }
+    },
+    {
+      "id": 9,
+      "time_stamp": "2021-01-11T20:28:21.939169400Z",
+      "person_id": 1,
+      "event": {
+        "Temperature": 0.6522893097892758
+      }
+    },
+    {
+      "id": 10,
+      "time_stamp": "2021-01-09T17:48:21.939172700Z",
+      "person_id": 2,
+      "event": {
+        "Medicine": "anTW0"
+      }
+    },
+    {
+      "id": 92,
+      "time_stamp": "2021-01-04T15:54:21.939846200Z",
+      "person_id": 1,
+      "event": "Bath"
+    },
+    {
+      "id": 80,
+      "time_stamp": "2021-01-04T00:57:21.939755500Z",
+      "person_id": 2,
+      "event": {
+        "Temperature": 0.4523100836551712
+      }
+    },
+    {
+      "id": 77,
+      "time_stamp": "2020-12-25T19:20:21.939744700Z",
+      "person_id": 0,
+      "event": "Sleep"
+    },
+    {
+      "id": 78,
+      "time_stamp": "2020-12-25T03:31:21.939746800Z",
+      "person_id": 1,
+      "event": {
+        "Temperature": 0.25984374731516724
+      }
+    },
+    {
+      "id": 102,
+      "time_stamp": "2020-12-24T05:37:21.939955700Z",
+      "person_id": 2,
+      "event": {
+        "Medicine": "P8LWimFrUtT2ylrpNiZ"
+      }
+    },
+    {
+      "id": 24,
+      "time_stamp": "2020-12-22T18:42:21.939317700Z",
+      "person_id": 1,
+      "event": {
+        "Medicine": "cPAXXC3SkiXTtT5PU8v"
+      }
+    },
+    {
+      "id": 34,
+      "time_stamp": "2020-12-04T01:09:21.939383Z",
+      "person_id": 1,
+      "event": "Sleep"
+    },
+    {
+      "id": 138,
+      "time_stamp": "2020-11-26T04:36:21.940256800Z",
+      "person_id": 1,
+      "event": {
+        "Note": "yBZdT6n8nWnhf3t"
+      }
+    },
+    {
+      "id": 101,
+      "time_stamp": "2020-11-23T10:03:21.939932300Z",
+      "person_id": 1,
+      "event": {
+        "Medicine": "8nFkZc5669JlkTo8Us"
+      }
+    },
+    {
+      "id": 139,
+      "time_stamp": "2020-11-20T15:52:21.940259Z",
+      "person_id": 0,
+      "event": "Bath"
+    },
+    {
+      "id": 149,
+      "time_stamp": "2020-11-20T03:56:21.940324800Z",
+      "person_id": 0,
+      "event": "Bath"
+    },
+    {
+      "id": 12,
+      "time_stamp": "2020-11-17T01:07:21.939197500Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 3,
+      "time_stamp": "2020-11-15T13:47:21.939101800Z",
+      "person_id": 0,
+      "event": "Awake"
+    },
+    {
+      "id": 97,
+      "time_stamp": "2020-11-11T03:16:21.939899700Z",
+      "person_id": 2,
+      "event": "Sleep"
+    },
+    {
+      "id": 45,
+      "time_stamp": "2020-11-07T10:49:21.939479400Z",
+      "person_id": 2,
+      "event": "Awake"
+    },
+    {
+      "id": 96,
+      "time_stamp": "2020-11-06T18:34:21.939897400Z",
+      "person_id": 1,
+      "event": {
+        "Medicine": "Dp7QRHcTYeJm1JXn"
+      }
+    }
+  ]
+}
