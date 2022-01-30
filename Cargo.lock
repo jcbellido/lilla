@@ -53,7 +53,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a"
 
 [[package]]
-name = "backend-warp"
+name = "backend"
 version = "0.1.0"
 dependencies = [
  "chrono",
@@ -526,7 +526,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "frontend-19-3"
+name = "frontend"
 version = "0.1.0"
 dependencies = [
  "chrono",
