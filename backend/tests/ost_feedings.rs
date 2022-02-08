@@ -3,9 +3,9 @@ use tokio::task;
 use warp::http::StatusCode;
 use warp::test::request;
 
-use backend_warp::command;
-use backend_warp::feedings;
-use backend_warp::local_state::faked_state_ost_context;
+use backend::command;
+use backend::feedings;
+use backend::local_state_fake_in_memory::faked_state_ost_context;
 
 #[tokio::test]
 async fn ost_get_feedings_00() {

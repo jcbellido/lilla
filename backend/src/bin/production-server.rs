@@ -1,18 +1,4 @@
-use std::env;
-
-use warp::Filter;
-
-use tokio::sync::mpsc;
-use tokio::task;
-
-use backend::command::CommandToBackend;
-
-use backend::admin;
-use backend::events;
-use backend::expulsions;
-use backend::feedings;
-use backend::persons;
-use backend::static_file_filters;
+use backend::servers::production_server::production_server;
 
 #[tokio::main]
 async fn main() {
@@ -31,34 +17,6 @@ async fn main() {
     }
 
     pretty_env_logger::init();
-
     log::info!("Starting production server");
-    let in_thread_server = task::LocalSet::new();
-    let (tx, rx) = mpsc::channel::<CommandToBackend>(32);
-
-    let routes = persons::filters::all_persons(tx.clone())
-        .or(feedings::filters::all_feedings(tx.clone()))
-        .or(expulsions::filters::all_expulsions(tx.clone()))
-        .or(events::filters::all_events(tx.clone()))
-        .or(admin::filters::all_admin(tx.clone()))
-        .or(static_file_filters::get_index())
-        .or(static_file_filters::get_static_file())
-        .or(static_file_filters::serve_index_by_default_get());
-
-    let warp_server = tokio::spawn(async move {
-        warp::serve(routes).run(([0, 0, 0, 0], 3030)).await;
-    });
-
-    let ost_file_path =
-        env::var("OST_CONTEXT_FILE_PATH").expect("Missing env var: `OST_CONTEXT_FILE_PATH`");
-
-    log::info!("Trying to load: {}", &ost_file_path);
-
-    in_thread_server
-        .run_until(
-            async move { backend::local_state::file_based_ost_context(rx, &ost_file_path).await },
-        )
-        .await;
-
-    warp_server.await.unwrap();
+    production_server().await;
 }

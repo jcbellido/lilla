@@ -3,11 +3,11 @@ use tokio::task;
 use warp::http::StatusCode;
 use warp::test::request;
 
-use backend_warp::admin;
-use backend_warp::command;
-use backend_warp::command_args::ArgAddPerson;
-use backend_warp::local_state::faked_state_ost_context;
-use backend_warp::persons;
+use backend::admin;
+use backend::command;
+use backend::command_args::ArgAddPerson;
+use backend::local_state_fake_in_memory::faked_state_ost_context;
+use backend::persons;
 use ost::person::{deserialize as person_deserialize, Person};
 
 #[tokio::test]

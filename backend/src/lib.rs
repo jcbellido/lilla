@@ -9,5 +9,6 @@ pub mod feedings;
 pub mod local_state;
 pub mod local_state_fake_in_memory;
 pub mod persons;
+pub mod servers;
 pub mod static_file_filters;
 pub mod trivial_handlers;
