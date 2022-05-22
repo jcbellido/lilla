@@ -133,6 +133,7 @@ dependencies = [
  "confy",
  "log",
  "pretty_env_logger",
+ "regex",
  "serde",
  "serde_derive",
  "serde_json",

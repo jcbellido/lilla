@@ -10,6 +10,10 @@ pub enum TaskError {
     SourcePath(String),
     #[error("Error reading source path `{0}` : `{1}`")]
     SourcePathReading(String, String),
+    #[error("Target path `{0}` is not a directory or can't be found")]
+    TargetPath(String),
+    #[error("Error reading target path `{0}` : `{1}`")]
+    TargetPathReading(String, String),
     #[error("Something else happened!")]
     UnknownError,
 }
@@ -21,6 +25,26 @@ pub struct TaskTvShow {
 }
 
 impl TaskTvShow {
+    fn count_target_files(&self) -> Result<u32, TaskError> {
+        let target_path = Path::new(&self.configuration.target);
+
+        if !target_path.exists() || !target_path.is_dir() {
+            return Err(TaskError::TargetPath(self.configuration.target.clone()));
+        }
+
+        let target_dir_entries = match target_path.read_dir() {
+            Ok(rd) => rd,
+            Err(e) => {
+                return Err(TaskError::TargetPathReading(
+                    self.configuration.target.clone(),
+                    e.to_string(),
+                ))
+            }
+        };
+
+        unimplemented!()
+    }
+
     fn count_source_files(&self) -> Result<u32, TaskError> {
         let source_path = Path::new(&self.configuration.source);
 
@@ -43,6 +67,9 @@ impl TaskTvShow {
         for dir_entry in dir_entries {
             match dir_entry {
                 Ok(de) => {
+                    if !de.path().is_file() {
+                        continue;
+                    }
                     if let Some(extension) = de.path().extension() {
                         if VALID_EXTENSIONS.contains(&extension.to_str().unwrap_or_default()) {
                             count_valid_files += 1;
@@ -68,7 +95,7 @@ mod tests {
     use crate::source_target_configuration::SourceTargetConfiguration;
 
     #[test]
-    fn list_source_files() {
+    fn count_source_files() {
         let source = r#"[
         {
             "source" : "./test_data/source_a",
@@ -83,5 +110,23 @@ mod tests {
         let count = task.count_source_files();
         assert!(count.is_ok());
         assert_eq!(count.unwrap(), 4);
+    }
+
+    #[test]
+    fn count_target_files() {
+        let source = r#"[
+            {
+                "source" : "should be inconsequential for this test",
+                "target" : "./test_data/target_a"
+            }
+        ]"#;
+        let mut all_configurations =
+            serde_json::from_str::<Vec<SourceTargetConfiguration>>(source).unwrap();
+        let task = TaskTvShow {
+            configuration: all_configurations.pop().unwrap(),
+        };
+        let count = task.count_target_files();
+        assert!(count.is_ok());
+        assert_eq!(count.unwrap(), 2);
     }
 }
