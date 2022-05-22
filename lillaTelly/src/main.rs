@@ -1,19 +1,9 @@
-use confy;
 use serde_derive::{Deserialize, Serialize};
 
-#[derive(Serialize, Deserialize, Debug, Clone)]
+#[derive(Serialize, Deserialize, Debug, Clone, Default)]
 struct LillaTellyConfiguration {
     version: u8,
     executed_number_of_times: u64,
-}
-
-impl Default for LillaTellyConfiguration {
-    fn default() -> Self {
-        Self {
-            version: Default::default(),
-            executed_number_of_times: Default::default(),
-        }
-    }
 }
 
 fn main() {
