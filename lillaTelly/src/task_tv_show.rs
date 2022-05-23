@@ -53,8 +53,16 @@ impl TaskTvShow {
         self.source_files.len()
     }
 
-    pub fn dry_run(&self) -> Result<Vec<()>, TaskError> {
-        Ok(vec![(), ()])
+    pub fn dry_run(&self) -> Result<Vec<TaskAction>, TaskError> {
+        let mut output = vec![];
+        for source_file in self
+            .source_files
+            .iter()
+            .filter(|source_file| !self.target_tv_show.contains(source_file))
+        {
+            output.push(TaskAction::Copy(source_file.clone(), source_file.clone()));
+        }
+        Ok(output)
     }
 }
 

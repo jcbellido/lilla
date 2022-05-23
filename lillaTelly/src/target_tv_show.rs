@@ -27,6 +27,29 @@ impl TargetTVShow {
     pub fn total_len(&self) -> usize {
         self.seasons.iter().map(|s| s.files.len()).sum()
     }
+    pub fn contains(&self, source_file: &str) -> bool {
+        for season in &self.seasons {
+            if season
+                .files
+                .iter()
+                .any(|target_file| target_file.sanitized_file_name == source_file)
+            {
+                return true;
+            }
+        }
+        false
+    }
+
+    pub fn first_available_entry(&self) -> (u32, u32) {
+        if self.seasons.is_empty() {
+            return (30, 1);
+        }
+
+        let last_season = self.seasons.last().unwrap();
+        let last_episode = last_season.files.last().unwrap();
+
+        (last_season.number, last_episode.episode_number + 1)
+    }
 }
 
 fn captures_to_season_entry(captures: Captures) -> SeasonEntry {
@@ -79,6 +102,10 @@ fn try_parse_season(season_dir: DirEntry) -> Result<Option<Season>, TaskError> {
                 season.files.push(captures_to_season_entry(captures));
             }
         }
+        season
+            .files
+            .sort_by(|a, b| a.episode_number.partial_cmp(&b.episode_number).unwrap());
+
         Ok(Some(season))
     } else {
         Ok(None)
@@ -114,7 +141,9 @@ pub fn construct_tv_show(conf_target_dir: String) -> Result<TargetTVShow, TaskEr
             }
         };
     }
-
+    target_tv_show
+        .seasons
+        .sort_by(|a, b| a.number.partial_cmp(&b.number).unwrap());
     Ok(target_tv_show)
 }
 
@@ -127,5 +156,13 @@ mod tests {
         let v = construct_tv_show("./test_data/target_a".into()).unwrap();
         assert_eq!(v.seasons.len(), 1);
         assert_eq!(v.seasons[0].files.len(), 2);
+    }
+
+    #[test]
+    fn next_available_entry() {
+        let tv_show = construct_tv_show("./test_data/target_a".into()).unwrap();
+        let (season, episode) = tv_show.first_available_entry();
+        assert_eq!(season, 30);
+        assert_eq!(episode, 3);
     }
 }
