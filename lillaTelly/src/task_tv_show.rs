@@ -1,6 +1,3 @@
-use std::{fs::DirEntry, path::Path};
-
-use regex::Regex;
 use thiserror::Error;
 
 use crate::source_target_configuration::SourceTargetConfiguration;
@@ -21,134 +18,33 @@ pub enum TaskError {
     UnknownError,
 }
 
-const VALID_EXTENSIONS: [&str; 2] = ["mp4", "webm"];
+pub const VALID_EXTENSIONS: [&str; 2] = ["mp4", "webm"];
 
 pub struct TaskTvShow {
     pub configuration: SourceTargetConfiguration,
-    pub regex_season: Regex,
-    pub regex_episode: Regex,
     pub target_files: Vec<String>,
     pub source_files: Vec<String>,
 }
 
 impl TaskTvShow {
-    pub fn new(configuration: SourceTargetConfiguration) -> Self {
-        let regex_season = Regex::new(r"^[Ss]eason (\d+)$")
-            .expect("Season regex has been impossible to build (?)");
-
-        let extensions = VALID_EXTENSIONS.join("|");
-        let regex_episode = Regex::new(format!("^S(\\d+)E(\\d)+-.*({extensions})$").as_str())
-            .expect("Season regex has been impossible to build (?)");
-
-        Self {
+    pub fn new(configuration: SourceTargetConfiguration) -> Result<Self, TaskError> {
+        let source_files = super::source_files::gather_source_files(configuration.source.clone())?;
+        let target_files = super::target_files::gather_target_files(configuration.target.clone())?;
+        Ok(Self {
             configuration,
-            regex_season,
-            regex_episode,
-            target_files: vec![],
-            source_files: vec![],
-        }
+            target_files,
+            source_files,
+        })
     }
 }
 
 impl TaskTvShow {
-    fn parse_season(&mut self, season_dir: DirEntry) -> Result<(), TaskError> {
-        assert!(season_dir.path().is_dir());
-        if self
-            .regex_season
-            .is_match(season_dir.file_name().to_str().unwrap_or_default())
-        {
-            let season_file_entries = season_dir.path().read_dir()?;
-
-            for season_episode in season_file_entries {
-                match season_episode {
-                    Ok(episode) => {
-                        if !episode.path().is_file() {
-                            continue;
-                        }
-                        if self
-                            .regex_episode
-                            .is_match(episode.file_name().to_str().unwrap_or_default())
-                        {
-                            self.target_files
-                                .push(episode.file_name().to_str().unwrap().into());
-                        }
-                    }
-                    Err(err) => {
-                        return Err(TaskError::TargetPathReading(
-                            self.configuration.target.clone(),
-                            err.to_string(),
-                        ))
-                    }
-                }
-            }
-
-            return Ok(());
-        }
-        // Nothing to do really
-        Ok(())
+    pub fn count_target_files(&self) -> usize {
+        self.target_files.len()
     }
 
-    fn count_target_files(&mut self) -> Result<u32, TaskError> {
-        let target_path = Path::new(&self.configuration.target);
-
-        if !target_path.exists() || !target_path.is_dir() {
-            return Err(TaskError::TargetPath(self.configuration.target.clone()));
-        }
-
-        let target_dir_entries = target_path.read_dir()?;
-
-        for season_entry in target_dir_entries {
-            match season_entry {
-                Ok(season) => {
-                    if !season.path().is_dir() {
-                        continue;
-                    }
-                    self.parse_season(season)?;
-                }
-                Err(err) => {
-                    return Err(TaskError::TargetPathReading(
-                        self.configuration.target.clone(),
-                        err.to_string(),
-                    ));
-                }
-            };
-        }
-
-        Ok(self.target_files.len() as u32)
-    }
-
-    fn count_source_files(&mut self) -> Result<u32, TaskError> {
-        let source_path = Path::new(&self.configuration.source);
-
-        if !source_path.exists() || !source_path.is_dir() {
-            return Err(TaskError::SourcePath(self.configuration.source.clone()));
-        }
-
-        let dir_entries = source_path.read_dir()?;
-
-        for dir_entry in dir_entries {
-            match dir_entry {
-                Ok(de) => {
-                    if !de.path().is_file() {
-                        continue;
-                    }
-                    if let Some(extension) = de.path().extension() {
-                        if VALID_EXTENSIONS.contains(&extension.to_str().unwrap_or_default()) {
-                            self.source_files
-                                .push(de.file_name().to_str().unwrap().to_string());
-                        }
-                    }
-                }
-                Err(e) => {
-                    return Err(TaskError::SourcePathReading(
-                        self.configuration.source.clone(),
-                        e.to_string(),
-                    ))
-                }
-            };
-        }
-
-        Ok(self.source_files.len() as u32)
+    pub fn count_source_files(&self) -> usize {
+        self.source_files.len()
     }
 }
 
@@ -162,30 +58,26 @@ mod tests {
         let source = r#"[
         {
             "source" : "./test_data/source_a",
-            "target" : "does not really matter much"
+            "target" : "./test_data/target_a"
         }
     ]"#;
         let mut all_configurations =
             serde_json::from_str::<Vec<SourceTargetConfiguration>>(source).unwrap();
-        let mut task = TaskTvShow::new(all_configurations.pop().unwrap());
-        let count = task.count_source_files();
-        assert!(count.is_ok());
-        assert_eq!(count.unwrap(), 4);
+        let task = TaskTvShow::new(all_configurations.pop().unwrap()).unwrap();
+        assert_eq!(task.count_source_files(), 4);
     }
 
     #[test]
     fn count_target_files() {
         let source = r#"[
             {
-                "source" : "should be inconsequential for this test",
+                "source" : "./test_data/source_a",
                 "target" : "./test_data/target_a"
             }
         ]"#;
         let mut all_configurations =
             serde_json::from_str::<Vec<SourceTargetConfiguration>>(source).unwrap();
-        let mut task = TaskTvShow::new(all_configurations.pop().unwrap());
-        let count = task.count_target_files();
-        assert!(count.is_ok());
-        assert_eq!(count.unwrap(), 2);
+        let task = TaskTvShow::new(all_configurations.pop().unwrap()).unwrap();
+        assert_eq!(task.count_target_files(), 2);
     }
 }
