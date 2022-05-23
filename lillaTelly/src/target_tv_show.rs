@@ -1,4 +1,7 @@
-use std::{fs::DirEntry, path::Path};
+use std::{
+    fs::DirEntry,
+    path::{Path, PathBuf},
+};
 
 use regex::{Captures, Regex};
 
@@ -7,30 +10,32 @@ use super::task_tv_show::{TaskError, VALID_EXTENSIONS};
 #[derive(Debug, Default)]
 pub struct Season {
     number: u32,
-    files: Vec<SeasonEntry>,
+    entries: Vec<SeasonEntry>,
 }
 
 #[derive(Debug)]
 pub struct SeasonEntry {
-    full_file_name: String,
-    season_number: u32,
-    episode_number: u32,
-    sanitized_file_name: String,
+    pub full_file_name: String,
+    pub season_number: u32,
+    pub episode_number: u32,
+    pub sanitized_file_name: String,
+    pub full_path: PathBuf,
 }
 
 #[derive(Debug, Default)]
 pub struct TargetTVShow {
     seasons: Vec<Season>,
+    root_dir: PathBuf,
 }
 
 impl TargetTVShow {
     pub fn total_len(&self) -> usize {
-        self.seasons.iter().map(|s| s.files.len()).sum()
+        self.seasons.iter().map(|s| s.entries.len()).sum()
     }
     pub fn contains(&self, source_file: &str) -> bool {
         for season in &self.seasons {
             if season
-                .files
+                .entries
                 .iter()
                 .any(|target_file| target_file.sanitized_file_name == source_file)
             {
@@ -46,13 +51,56 @@ impl TargetTVShow {
         }
 
         let last_season = self.seasons.last().unwrap();
-        let last_episode = last_season.files.last().unwrap();
+        let last_episode = last_season.entries.last().unwrap();
 
         (last_season.number, last_episode.episode_number + 1)
     }
+
+    pub fn construct_season_entry(
+        &self,
+        file_name: &str,
+        mut suggested_season: u32,
+        mut suggested_episode: u32,
+    ) -> SeasonEntry {
+        if suggested_episode > 99 {
+            suggested_season += 1;
+            suggested_episode = 1;
+        }
+
+        if let Some(season) = self.get_season(suggested_season) {
+            if season
+                .entries
+                .iter()
+                .any(|se| se.episode_number == suggested_episode)
+            {
+                return self.construct_season_entry(
+                    file_name,
+                    suggested_season,
+                    suggested_episode + 1,
+                );
+            }
+        }
+
+        let season_dir_name = format!("Season {:02}", suggested_season);
+        let full_file_name = format!(
+            "S{:02}E{:02}-{}",
+            suggested_season, suggested_episode, file_name
+        );
+        SeasonEntry {
+            full_file_name: full_file_name.clone(),
+            season_number: suggested_season,
+            episode_number: suggested_episode,
+            sanitized_file_name: file_name.into(),
+            full_path: self.root_dir.join(season_dir_name).join(full_file_name),
+        }
+    }
+
+    fn get_season(&self, season: u32) -> Option<&Season> {
+        self.seasons.iter().find(|s| s.number == season)
+    }
 }
 
-fn captures_to_season_entry(captures: Captures) -> SeasonEntry {
+fn captures_to_season_entry(captures: Captures, season_dir: PathBuf) -> SeasonEntry {
     let season_number = captures.get(1).unwrap().as_str().parse().unwrap();
     let episode_number = captures.get(2).unwrap().as_str().parse().unwrap();
 
@@ -62,11 +110,14 @@ fn captures_to_season_entry(captures: Captures) -> SeasonEntry {
         captures.get(4).unwrap().as_str()
     );
 
+    let full_file_name = captures.get(0).unwrap().as_str();
+
     SeasonEntry {
-        full_file_name: captures.get(0).unwrap().as_str().into(),
+        full_file_name: full_file_name.to_string(),
         season_number,
         episode_number,
         sanitized_file_name,
+        full_path: season_dir.join(full_file_name),
     }
 }
 
@@ -82,7 +133,7 @@ fn try_parse_season(season_dir: DirEntry) -> Result<Option<Season>, TaskError> {
         let season_number = captures.get(1).unwrap().as_str().parse().unwrap();
         let mut season = Season {
             number: season_number,
-            files: vec![],
+            entries: vec![],
         };
 
         let season_file_entries = season_dir.path().read_dir()?;
@@ -99,11 +150,13 @@ fn try_parse_season(season_dir: DirEntry) -> Result<Option<Season>, TaskError> {
             if let Some(captures) =
                 regex_episode.captures(episode.file_name().to_str().unwrap_or_default())
             {
-                season.files.push(captures_to_season_entry(captures));
+                season
+                    .entries
+                    .push(captures_to_season_entry(captures, season_dir.path()));
             }
         }
         season
-            .files
+            .entries
             .sort_by(|a, b| a.episode_number.partial_cmp(&b.episode_number).unwrap());
 
         Ok(Some(season))
@@ -141,9 +194,12 @@ pub fn construct_tv_show(conf_target_dir: String) -> Result<TargetTVShow, TaskEr
             }
         };
     }
+
     target_tv_show
         .seasons
         .sort_by(|a, b| a.number.partial_cmp(&b.number).unwrap());
+    target_tv_show.root_dir = target_path.to_path_buf();
+
     Ok(target_tv_show)
 }
 
@@ -155,7 +211,7 @@ mod tests {
     fn map_target_season() {
         let v = construct_tv_show("./test_data/target_a".into()).unwrap();
         assert_eq!(v.seasons.len(), 1);
-        assert_eq!(v.seasons[0].files.len(), 2);
+        assert_eq!(v.seasons[0].entries.len(), 2);
     }
 
     #[test]
@@ -164,5 +220,25 @@ mod tests {
         let (season, episode) = tv_show.first_available_entry();
         assert_eq!(season, 30);
         assert_eq!(episode, 3);
+    }
+
+    #[test]
+    fn construct_season_entry_jump_season() {
+        let tv_show = construct_tv_show("./test_data/target_a".into()).unwrap();
+        let new_season_entry = tv_show.construct_season_entry("foo_bar_bar.mp4", 30, 100);
+        assert_eq!(new_season_entry.season_number, 31);
+        assert_eq!(new_season_entry.episode_number, 1);
+        assert_eq!(new_season_entry.sanitized_file_name, "foo_bar_bar.mp4");
+        assert_eq!(new_season_entry.full_file_name, "S31E01-foo_bar_bar.mp4");
+    }
+
+    #[test]
+    fn construct_season_entry_jump_next() {
+        let tv_show = construct_tv_show("./test_data/target_a".into()).unwrap();
+        let new_season_entry = tv_show.construct_season_entry("foo_bar_bar.mp4", 30, 2);
+        assert_eq!(new_season_entry.season_number, 30);
+        assert_eq!(new_season_entry.episode_number, 3);
+        assert_eq!(new_season_entry.sanitized_file_name, "foo_bar_bar.mp4");
+        assert_eq!(new_season_entry.full_file_name, "S30E03-foo_bar_bar.mp4");
     }
 }

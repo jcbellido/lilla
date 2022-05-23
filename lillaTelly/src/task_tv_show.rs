@@ -1,6 +1,11 @@
+use std::path::{Path, PathBuf};
+
 use thiserror::Error;
 
-use crate::{source_target_configuration::SourceTargetConfiguration, target_tv_show::TargetTVShow};
+use crate::{
+    source_target_configuration::SourceTargetConfiguration,
+    target_tv_show::{SeasonEntry, TargetTVShow},
+};
 
 #[derive(Error, Debug)]
 pub enum TaskError {
@@ -22,7 +27,7 @@ pub const VALID_EXTENSIONS: [&str; 2] = ["mp4", "webm"];
 
 #[derive(Debug)]
 pub enum TaskAction {
-    Copy(String, String),
+    Copy(PathBuf, SeasonEntry),
 }
 
 pub struct TaskTvShow {
@@ -54,13 +59,26 @@ impl TaskTvShow {
     }
 
     pub fn dry_run(&self) -> Result<Vec<TaskAction>, TaskError> {
+        if self.source_files.is_empty() {
+            return Ok(vec![]);
+        }
+
         let mut output = vec![];
+        let (mut season, mut episode) = self.target_tv_show.first_available_entry();
         for source_file in self
             .source_files
             .iter()
             .filter(|source_file| !self.target_tv_show.contains(source_file))
         {
-            output.push(TaskAction::Copy(source_file.clone(), source_file.clone()));
+            let se = self
+                .target_tv_show
+                .construct_season_entry(source_file, season, episode);
+            season = se.season_number;
+            episode = se.episode_number + 1;
+            output.push(TaskAction::Copy(
+                Path::new(&self.configuration.source).join(source_file),
+                se,
+            ));
         }
         Ok(output)
     }
@@ -82,7 +100,6 @@ mod tests {
         let mut all_configurations =
             serde_json::from_str::<Vec<SourceTargetConfiguration>>(source).unwrap();
         let task = TaskTvShow::new(all_configurations.pop().unwrap()).unwrap();
-        // dry run should return the actions that this task will perform.
         let dry_actions = task.dry_run();
         assert!(dry_actions.is_ok());
         assert_eq!(dry_actions.unwrap().len(), 2);
