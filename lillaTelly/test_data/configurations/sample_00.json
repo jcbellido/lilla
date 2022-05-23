@@ -1,0 +1,6 @@
+[
+    {
+        "source": "./test_data/source_a",
+        "target": "./test_data/target_a"
+    }
+]

@@ -1,24 +1,36 @@
-use serde_derive::{Deserialize, Serialize};
+use std::path::Path;
 
-#[derive(Serialize, Deserialize, Debug, Clone, Default)]
-struct LillaTellyConfiguration {
-    version: u8,
-    executed_number_of_times: u64,
+use clap::Parser;
+
+#[derive(Parser, Debug)]
+#[clap(version, long_about = None)]
+struct Args {
+    #[clap(short, long)]
+    config: String,
+
+    #[clap(short, long)]
+    dry: bool,
+
+    #[clap(short, long)]
+    force: bool,
 }
 
 fn main() {
-    println!("Hello, world!");
-    let mut conf: LillaTellyConfiguration = match confy::load("LillaTelly") {
-        Ok(o) => o,
-        Err(e) => panic!("{e}"),
-    };
-    conf.executed_number_of_times += 1;
-    println!(
-        "This is the time {} that you executed",
-        conf.executed_number_of_times
-    );
-    match confy::store("LillaTelly", &conf) {
-        Ok(_) => {}
-        Err(e) => panic!("{e}"),
+    let args = Args::parse();
+
+    let config_file = Path::new(&args.config);
+
+    if !config_file.exists() || !config_file.is_file() {
+        panic!("Config file `{}` can't be found!", args.config);
     }
+
+    if args.dry && args.force {
+        panic!("Can't have both `dry` and `force`");
+    }
+
+
+    let all_configurations =
+        serde_json::from_str::<Vec<SourceTargetConfiguration>>(source).unwrap();
+
+    println!("args: `{:#?}`", args);
 }
