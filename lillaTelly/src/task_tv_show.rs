@@ -1,5 +1,6 @@
-use std::path::Path;
+use std::{fs::DirEntry, path::Path};
 
+use regex::Regex;
 use thiserror::Error;
 
 use crate::source_target_configuration::SourceTargetConfiguration;
@@ -22,10 +23,75 @@ const VALID_EXTENSIONS: [&str; 2] = ["mp4", "webm"];
 
 pub struct TaskTvShow {
     pub configuration: SourceTargetConfiguration,
+    pub regex_season: Regex,
+    pub regex_episode: Regex,
+    pub target_files: Vec<String>,
 }
 
 impl TaskTvShow {
-    fn count_target_files(&self) -> Result<u32, TaskError> {
+    pub fn new(configuration: SourceTargetConfiguration) -> Self {
+        let regex_season = Regex::new(r"^[Ss]eason (\d+)$")
+            .expect("Season regex has been impossible to build (?)");
+
+        let regex_episode = Regex::new(r"^S(\d+)E(\d)+-.*(mp4|webm)$")
+            .expect("Season regex has been impossible to build (?)");
+
+        Self {
+            configuration,
+            regex_season,
+            regex_episode,
+            target_files: vec![],
+        }
+    }
+}
+
+impl TaskTvShow {
+    fn parse_season(&mut self, season_dir: DirEntry) -> Result<(), TaskError> {
+        assert!(season_dir.path().is_dir());
+        if self
+            .regex_season
+            .is_match(season_dir.file_name().to_str().unwrap_or_default())
+        {
+            let season_file_entries = match season_dir.path().read_dir() {
+                Ok(fe) => fe,
+                Err(err) => {
+                    return Err(TaskError::TargetPathReading(
+                        self.configuration.target.clone(),
+                        err.to_string(),
+                    ))
+                }
+            };
+
+            for season_episode in season_file_entries {
+                match season_episode {
+                    Ok(episode) => {
+                        if !episode.path().is_file() {
+                            continue;
+                        }
+                        if self
+                            .regex_episode
+                            .is_match(episode.file_name().to_str().unwrap_or_default())
+                        {
+                            self.target_files
+                                .push(episode.file_name().to_str().unwrap().into());
+                        }
+                    }
+                    Err(err) => {
+                        return Err(TaskError::TargetPathReading(
+                            self.configuration.target.clone(),
+                            err.to_string(),
+                        ))
+                    }
+                }
+            }
+
+            return Ok(());
+        }
+        // Nothing to do really
+        Ok(())
+    }
+
+    fn count_target_files(&mut self) -> Result<u32, TaskError> {
         let target_path = Path::new(&self.configuration.target);
 
         if !target_path.exists() || !target_path.is_dir() {
@@ -42,7 +108,24 @@ impl TaskTvShow {
             }
         };
 
-        unimplemented!()
+        for season_entry in target_dir_entries {
+            match season_entry {
+                Ok(season) => {
+                    if !season.path().is_dir() {
+                        continue;
+                    }
+                    self.parse_season(season)?;
+                }
+                Err(err) => {
+                    return Err(TaskError::TargetPathReading(
+                        self.configuration.target.clone(),
+                        err.to_string(),
+                    ));
+                }
+            };
+        }
+
+        Ok(self.target_files.len() as u32)
     }
 
     fn count_source_files(&self) -> Result<u32, TaskError> {
@@ -104,9 +187,7 @@ mod tests {
     ]"#;
         let mut all_configurations =
             serde_json::from_str::<Vec<SourceTargetConfiguration>>(source).unwrap();
-        let task = TaskTvShow {
-            configuration: all_configurations.pop().unwrap(),
-        };
+        let task = TaskTvShow::new(all_configurations.pop().unwrap());
         let count = task.count_source_files();
         assert!(count.is_ok());
         assert_eq!(count.unwrap(), 4);
@@ -122,9 +203,7 @@ mod tests {
         ]"#;
         let mut all_configurations =
             serde_json::from_str::<Vec<SourceTargetConfiguration>>(source).unwrap();
-        let task = TaskTvShow {
-            configuration: all_configurations.pop().unwrap(),
-        };
+        let mut task = TaskTvShow::new(all_configurations.pop().unwrap());
         let count = task.count_target_files();
         assert!(count.is_ok());
         assert_eq!(count.unwrap(), 2);

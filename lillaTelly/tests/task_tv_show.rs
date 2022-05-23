@@ -11,7 +11,5 @@ fn list_source_files() {
     ]"#;
     let mut all_configurations =
         serde_json::from_str::<Vec<SourceTargetConfiguration>>(source).unwrap();
-    let _task = TaskTvShow {
-        configuration: all_configurations.pop().unwrap(),
-    };
+    let _task = TaskTvShow::new(all_configurations.pop().unwrap());
 }
