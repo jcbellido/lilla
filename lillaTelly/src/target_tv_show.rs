@@ -102,7 +102,9 @@ pub fn construct_tv_show(conf_target_dir: String) -> Result<TargetTVShow, TaskEr
                 if !season.path().is_dir() {
                     continue;
                 }
-                try_parse_season(season)?.map(|s| target_tv_show.seasons.push(s));
+                if let Some(s) = try_parse_season(season)? {
+                    target_tv_show.seasons.push(s)
+                }
             }
             Err(err) => {
                 return Err(TaskError::TargetPathReading(
