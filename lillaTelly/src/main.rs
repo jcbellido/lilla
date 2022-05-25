@@ -63,16 +63,12 @@ fn main() {
                         for a in dr {
                             log::info!("{:#?}", a);
                             if let TaskAction::Copy(source, target) = a {
-                                let output = std::process::Command::new("cp")
+                                let output = std::process::Command::new("/bin/cp")
                                     .arg(format!("\"{}\"", source.to_str().unwrap()))
                                     .arg(format!("\"{}\"", target.full_path.to_str().unwrap()))
                                     .output();
                                 match output {
-                                    Ok(_) => log::info!(
-                                        "Copied: {:#?} to {:#?}",
-                                        source,
-                                        target.full_path
-                                    ),
+                                    Ok(o) => log::info!("{:#?}", o),
                                     Err(err) => log::error!(
                                         "Error copying {:#?} to {:#?}: `{}`",
                                         source,
