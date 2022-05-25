@@ -201,6 +201,8 @@ pub fn construct_tv_show(conf_target_dir: String) -> Result<TargetTVShow, TaskEr
         .sort_by(|a, b| a.number.partial_cmp(&b.number).unwrap());
     target_tv_show.root_dir = target_path.to_path_buf();
 
+    log::trace!("TargetTVShow: {:#?}", target_tv_show);
+
     Ok(target_tv_show)
 }
 
