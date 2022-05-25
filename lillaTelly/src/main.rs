@@ -64,8 +64,8 @@ fn main() {
                             log::info!("{:#?}", a);
                             if let TaskAction::Copy(source, target) = a {
                                 let output = std::process::Command::new("/bin/cp")
-                                    .arg(format!("\"{}\"", source.to_str().unwrap()))
-                                    .arg(format!("\"{}\"", target.full_path.to_str().unwrap()))
+                                    .arg(format!("{}", source.to_str().unwrap()))
+                                    .arg(format!("{}", target.full_path.to_str().unwrap()))
                                     .output();
                                 match output {
                                     Ok(o) => log::info!("{:#?}", o),
