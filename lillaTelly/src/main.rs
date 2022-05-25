@@ -2,7 +2,8 @@ use std::path::Path;
 
 use clap::Parser;
 use lillatelly::{
-    source_target_configuration::SourceTargetConfiguration, task_tv_show::TaskTvShow,
+    source_target_configuration::SourceTargetConfiguration,
+    task_tv_show::{TaskAction, TaskTvShow},
 };
 
 #[derive(Parser, Debug)]
@@ -13,9 +14,6 @@ struct Args {
 
     #[clap(short, long)]
     dry: bool,
-
-    #[clap(short, long)]
-    force: bool,
 }
 
 fn main() {
@@ -27,11 +25,6 @@ fn main() {
 
     if !config_file.exists() || !config_file.is_file() {
         log::error!("Config file `{}` can't be found!", args.config);
-        return;
-    }
-
-    if args.dry && args.force {
-        log::error!("Can't have both `dry` and `force`");
         return;
     }
 
@@ -63,6 +56,32 @@ fn main() {
             }
         }
     } else {
-        log::warn!("Non dry runs are still unimplemented, sorry!");
+        for config in all_configurations {
+            match TaskTvShow::new(config) {
+                Ok(tts) => match tts.dry_run() {
+                    Ok(dr) => {
+                        for a in dr {
+                            log::info!("{:#?}", a);
+                            if let TaskAction::Copy(source, target) = a {
+                                if let Err(err) = std::fs::copy(&source, &target.full_path) {
+                                    log::error!(
+                                        "Error copying {:#?} to {:#?}: `{}`",
+                                        source,
+                                        target.full_path,
+                                        err
+                                    );
+                                } else {
+                                    log::info!("Copied: {:#?} to {:#?}", source, target.full_path);
+                                }
+                            } else {
+                                log::warn!("Action {:#?} not supported", a);
+                            }
+                        }
+                    }
+                    Err(e) => log::error!("Error, collecting dry run `{e}`"),
+                },
+                Err(e) => log::error!("Error while constructing task Tv Show: `{e}`"),
+            }
+        }
     }
 }
