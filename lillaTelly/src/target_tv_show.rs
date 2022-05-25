@@ -140,7 +140,7 @@ fn try_parse_season(season_dir: DirEntry) -> Result<Option<Season>, TaskError> {
 
         let extensions = VALID_EXTENSIONS.join("|");
         let regex_episode =
-            Regex::new(format!("^[Ss](\\d+)[Ee](\\d)+-(.*)\\.({extensions})$").as_str())
+            Regex::new(format!("^[Ss](\\d+)[Ee](\\d+)-(.*)\\.({extensions})$").as_str())
                 .expect("Season regex has been impossible to build (?)");
 
         for season_episode in season_file_entries {
