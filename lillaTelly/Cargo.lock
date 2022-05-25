@@ -155,6 +155,7 @@ name = "lillatelly"
 version = "0.1.0"
 dependencies = [
  "clap",
+ "log",
  "pretty_env_logger",
  "regex",
  "serde",
