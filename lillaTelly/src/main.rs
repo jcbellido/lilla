@@ -63,15 +63,22 @@ fn main() {
                         for a in dr {
                             log::info!("{:#?}", a);
                             if let TaskAction::Copy(source, target) = a {
-                                if let Err(err) = std::fs::copy(&source, &target.full_path) {
-                                    log::error!(
+                                let output = std::process::Command::new("cp")
+                                    .arg(format!("\"{}\"", source.to_str().unwrap()))
+                                    .arg(format!("\"{}\"", target.full_path.to_str().unwrap()))
+                                    .output();
+                                match output {
+                                    Ok(_) => log::info!(
+                                        "Copied: {:#?} to {:#?}",
+                                        source,
+                                        target.full_path
+                                    ),
+                                    Err(err) => log::error!(
                                         "Error copying {:#?} to {:#?}: `{}`",
                                         source,
                                         target.full_path,
                                         err
-                                    );
-                                } else {
-                                    log::info!("Copied: {:#?} to {:#?}", source, target.full_path);
+                                    ),
                                 }
                             } else {
                                 log::warn!("Action {:#?} not supported", a);
