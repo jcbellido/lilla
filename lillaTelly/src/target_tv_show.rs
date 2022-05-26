@@ -46,12 +46,30 @@ impl TargetTVShow {
         false
     }
 
-    pub fn first_available_entry(&self) -> (u32, u32) {
+    pub fn first_available_entry(&self, default_season: u32, default_episode: u32) -> (u32, u32) {
         if self.seasons.is_empty() {
-            return (30, 1);
+            return (default_season, default_episode);
         }
         let last_season = self.seasons.last().unwrap();
 
+        if last_season.number < default_season {
+            return (default_season, default_episode);
+        }
+
+        if last_season.number == default_season {
+            return match last_season.entries.last() {
+                Some(episode) => {
+                    if episode.episode_number >= default_episode {
+                        (default_season, episode.episode_number + 1)
+                    } else {
+                        (default_season, default_episode)
+                    }
+                }
+                None => (default_season, default_episode),
+            };
+        }
+
+        // Last season is "greater" than default season number
         match last_season.entries.last() {
             Some(episode) => (last_season.number, episode.episode_number + 1),
             None => (last_season.number, 1),
@@ -227,9 +245,9 @@ mod tests {
     #[test]
     fn next_available_entry() {
         let tv_show = construct_tv_show("./test_data/target_a".into()).unwrap();
-        let (season, episode) = tv_show.first_available_entry();
-        assert_eq!(season, 30);
-        assert_eq!(episode, 3);
+        let (season, episode) = tv_show.first_available_entry(66, 7);
+        assert_eq!(season, 66);
+        assert_eq!(episode, 7);
     }
 
     #[test]

@@ -5,7 +5,9 @@ fn can_construct_a_trivial_configuration() {
     let source = r#"[
         {
             "source" : "/sfoo/sbar/saux",
-            "target" : "/dfoo/dbar/daux"
+            "target" : "/dfoo/dbar/daux",
+            "default_season" : 30,
+            "default_episode": 1
         }
     ]"#;
 

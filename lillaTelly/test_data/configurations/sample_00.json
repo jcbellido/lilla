@@ -1,6 +1,8 @@
 [
     {
         "source": "./test_data/source_a",
-        "target": "./test_data/target_a"
+        "target": "./test_data/target_a",
+        "default_season": 30,
+        "default_episode": 1
     }
 ]

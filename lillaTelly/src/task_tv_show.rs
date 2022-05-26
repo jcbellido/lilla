@@ -82,7 +82,10 @@ impl TaskTvShow {
         }
 
         let mut output = vec![];
-        let (mut season, mut episode) = self.target_tv_show.first_available_entry();
+        let (mut season, mut episode) = self.target_tv_show.first_available_entry(
+            self.configuration.default_season,
+            self.configuration.default_episode,
+        );
         for source_file in self
             .source_files
             .iter()
@@ -167,7 +170,9 @@ mod tests {
         let source = r#"[
             {
                 "source" : "./test_data/source_a",
-                "target" : "./test_data/target_a"
+                "target" : "./test_data/target_a",
+                "default_season" : 30,
+                "default_episode": 1
             }
         ]"#;
         let mut all_configurations =
@@ -183,7 +188,9 @@ mod tests {
         let source = r#"[
         {
             "source" : "./test_data/source_a",
-            "target" : "./test_data/target_a"
+            "target" : "./test_data/target_a",
+            "default_season" : 30,
+            "default_episode": 1
         }
     ]"#;
         let mut all_configurations =
@@ -197,7 +204,9 @@ mod tests {
         let source = r#"[
             {
                 "source" : "./test_data/source_a",
-                "target" : "./test_data/target_a"
+                "target" : "./test_data/target_a",
+                "default_season" : 30,
+                "default_episode": 1
             }
         ]"#;
         let mut all_configurations =

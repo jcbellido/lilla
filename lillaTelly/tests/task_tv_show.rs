@@ -6,7 +6,9 @@ fn list_source_files() {
     let source = r#"[
         {
             "source" : "./test_data/source_a",
-            "target" : "does not really matter much"
+            "target" : "does not really matter much",
+            "default_season" : 30,
+            "default_episode": 1
         }
     ]"#;
     let mut all_configurations =
