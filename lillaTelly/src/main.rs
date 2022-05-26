@@ -41,13 +41,21 @@ fn main() {
             match TaskTvShow::new(config) {
                 Ok(tts) => match tts.dry_run() {
                     Ok(dr) => {
-                        log::info!(
-                            "Actions gatehered for {} - {}",
-                            tts.configuration.source,
-                            tts.configuration.target
-                        );
-                        for a in dr {
-                            log::info!("{:#?}", a);
+                        if dr.is_empty() {
+                            log::info!(
+                                "No actions needed for: {} - {}",
+                                tts.configuration.source,
+                                tts.configuration.target
+                            );
+                        } else {
+                            log::info!(
+                                "Actions gatehered for {} - {}",
+                                tts.configuration.source,
+                                tts.configuration.target
+                            );
+                            for a in dr {
+                                log::info!("Will Perform a: {:#?}", a);
+                            }
                         }
                     }
                     Err(e) => log::error!("Error, collecting dry run `{e}`"),
@@ -60,25 +68,33 @@ fn main() {
             match TaskTvShow::new(config) {
                 Ok(tts) => match tts.dry_run() {
                     Ok(dr) => {
-                        for a in dr {
-                            log::info!("{:#?}", a);
-                            #[allow(irrefutable_let_patterns)]
-                            if let TaskAction::Copy(source, target) = a {
-                                let output = std::process::Command::new("/bin/cp")
-                                    .arg(source.to_str().unwrap())
-                                    .arg(target.full_path.to_str().unwrap())
-                                    .output();
-                                match output {
-                                    Ok(o) => log::info!("{:#?}", o),
-                                    Err(err) => log::error!(
-                                        "Error copying {:#?} to {:#?}: `{}`",
-                                        source,
-                                        target.full_path,
-                                        err
-                                    ),
+                        if dr.is_empty() {
+                            log::info!(
+                                "No actions needed for: {} - {}",
+                                tts.configuration.source,
+                                tts.configuration.target
+                            );
+                        } else {
+                            for a in dr {
+                                log::info!("Executing {:#?}", a);
+                                #[allow(irrefutable_let_patterns)]
+                                if let TaskAction::Copy(source, target) = a {
+                                    let output = std::process::Command::new("/bin/cp")
+                                        .arg(source.to_str().unwrap())
+                                        .arg(target.full_path.to_str().unwrap())
+                                        .output();
+                                    match output {
+                                        Ok(o) => log::info!("{:#?}", o),
+                                        Err(err) => log::error!(
+                                            "Error copying {:#?} to {:#?}: `{}`",
+                                            source,
+                                            target.full_path,
+                                            err
+                                        ),
+                                    }
+                                } else {
+                                    log::warn!("Action {:#?} not supported", a);
                                 }
-                            } else {
-                                log::warn!("Action {:#?} not supported", a);
                             }
                         }
                     }

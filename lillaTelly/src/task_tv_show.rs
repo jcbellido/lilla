@@ -23,7 +23,7 @@ pub enum TaskError {
     UnknownError,
 }
 
-pub const VALID_EXTENSIONS: [&str; 2] = ["mp4", "webm"];
+pub const VALID_EXTENSIONS: [&str; 3] = ["mp4", "webm", "m4v"];
 
 #[derive(Debug)]
 pub enum TaskAction {
