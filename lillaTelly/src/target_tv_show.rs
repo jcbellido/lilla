@@ -49,11 +49,12 @@ impl TargetTVShow {
         if self.seasons.is_empty() {
             return (30, 1);
         }
-
         let last_season = self.seasons.last().unwrap();
-        let last_episode = last_season.entries.last().unwrap();
 
-        (last_season.number, last_episode.episode_number + 1)
+        match last_season.entries.last() {
+            Some(episode) => (last_season.number, episode.episode_number + 1),
+            None => (last_season.number, 1),
+        }
     }
 
     pub fn construct_season_entry(
