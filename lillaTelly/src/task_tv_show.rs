@@ -1,4 +1,7 @@
-use std::path::{Path, PathBuf};
+use std::{
+    fmt::Display,
+    path::{Path, PathBuf},
+};
 
 use thiserror::Error;
 
@@ -30,6 +33,21 @@ pub enum TaskAction {
     Copy(PathBuf, SeasonEntry),
 }
 
+impl Display for TaskAction {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        match self {
+            TaskAction::Copy(source, target) => {
+                write!(
+                    f,
+                    "Copy {} -> {}",
+                    source.to_str().unwrap_or("<wrong source?>"),
+                    target.full_path.to_str().unwrap_or("<wrong target?>")
+                )
+            }
+        }
+    }
+}
+
 pub struct TaskTvShow {
     pub configuration: SourceTargetConfiguration,
     pub target_tv_show: TargetTVShow,
@@ -58,7 +76,7 @@ impl TaskTvShow {
         self.source_files.len()
     }
 
-    pub fn dry_run(&self) -> Result<Vec<TaskAction>, TaskError> {
+    pub fn gather_actions_to_run(&self) -> Result<Vec<TaskAction>, TaskError> {
         if self.source_files.is_empty() {
             return Ok(vec![]);
         }
@@ -82,6 +100,61 @@ impl TaskTvShow {
         }
         Ok(output)
     }
+
+    /// Gathers actions and logs some reports mainly
+    pub fn dry_run(&self) -> Result<(), TaskError> {
+        log::info!(
+            "Dry run: for: {} - {}",
+            self.configuration.source,
+            self.configuration.target
+        );
+        let tasks = self.gather_actions_to_run()?;
+
+        if tasks.is_empty() {
+            log::info!("Dry run: No new actions needed",);
+            return Ok(());
+        }
+        log::info!(
+            "Dry run: tasks found for source: {}",
+            self.configuration.source
+        );
+        for task in tasks {
+            log::info!("Dry run: {}", task);
+        }
+        Ok(())
+    }
+
+    pub fn run(&self) -> Result<(), TaskError> {
+        log::info!(
+            "Executing: {} - {}",
+            self.configuration.source,
+            self.configuration.target
+        );
+        let tasks = self.gather_actions_to_run()?;
+
+        if tasks.is_empty() {
+            log::info!("No new actions needed");
+            return Ok(());
+        }
+        for task in tasks {
+            log::info!("Executing {task}");
+            #[allow(irrefutable_let_patterns)]
+            if let TaskAction::Copy(source, target) = task {
+                if !target.target_dir.exists() {
+                    std::fs::create_dir(target.target_dir.clone())?;
+                }
+                let output = std::process::Command::new("/bin/cp")
+                    .arg(source.to_str().unwrap())
+                    .arg(target.full_path.to_str().unwrap())
+                    .output()?;
+                log::info!("{:#?}", output);
+            } else {
+                // This is essentially scaffolding as of now
+                log::warn!("Action {:#?} not supported", task);
+            }
+        }
+        Ok(())
+    }
 }
 
 #[cfg(test)]
@@ -100,7 +173,7 @@ mod tests {
         let mut all_configurations =
             serde_json::from_str::<Vec<SourceTargetConfiguration>>(source).unwrap();
         let task = TaskTvShow::new(all_configurations.pop().unwrap()).unwrap();
-        let dry_actions = task.dry_run();
+        let dry_actions = task.gather_actions_to_run();
         assert!(dry_actions.is_ok());
         assert_eq!(dry_actions.unwrap().len(), 2);
     }

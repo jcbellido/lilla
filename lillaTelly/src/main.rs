@@ -2,8 +2,7 @@ use std::path::Path;
 
 use clap::Parser;
 use lillatelly::{
-    source_target_configuration::SourceTargetConfiguration,
-    task_tv_show::{TaskAction, TaskTvShow},
+    source_target_configuration::SourceTargetConfiguration, task_tv_show::TaskTvShow,
 };
 
 #[derive(Parser, Debug)]
@@ -39,78 +38,22 @@ fn main() {
     if args.dry {
         for config in all_configurations {
             match TaskTvShow::new(config) {
-                Ok(tts) => match tts.dry_run() {
-                    Ok(dr) => {
-                        if dr.is_empty() {
-                            log::info!(
-                                "No actions needed for: {} - {}",
-                                tts.configuration.source,
-                                tts.configuration.target
-                            );
-                        } else {
-                            log::info!(
-                                "Actions gatehered for {} - {}",
-                                tts.configuration.source,
-                                tts.configuration.target
-                            );
-                            for a in dr {
-                                log::info!("Will Perform a: {:#?}", a);
-                            }
-                        }
+                Ok(tts) => {
+                    if let Err(err) = tts.dry_run() {
+                        log::error!("Error during dry run: `{err}`");
                     }
-                    Err(e) => log::error!("Error, collecting dry run `{e}`"),
-                },
+                }
                 Err(e) => log::error!("Error while constructing task Tv Show: `{e}`"),
             }
         }
     } else {
         for config in all_configurations {
             match TaskTvShow::new(config) {
-                Ok(tts) => match tts.dry_run() {
-                    Ok(dr) => {
-                        if dr.is_empty() {
-                            log::info!(
-                                "No actions needed for: {} - {}",
-                                tts.configuration.source,
-                                tts.configuration.target
-                            );
-                        } else {
-                            for a in dr {
-                                log::info!("Executing {:#?}", a);
-                                #[allow(irrefutable_let_patterns)]
-                                if let TaskAction::Copy(source, target) = a {
-                                    if !target.target_dir.exists() {
-                                        if let Err(err) =
-                                            std::fs::create_dir(target.target_dir.clone())
-                                        {
-                                            log::error!(
-                                                "Error creating directory for season `{:#?}` {}",
-                                                target.target_dir,
-                                                err
-                                            );
-                                        }
-                                    }
-                                    let output = std::process::Command::new("/bin/cp")
-                                        .arg(source.to_str().unwrap())
-                                        .arg(target.full_path.to_str().unwrap())
-                                        .output();
-                                    match output {
-                                        Ok(o) => log::info!("{:#?}", o),
-                                        Err(err) => log::error!(
-                                            "Error copying {:#?} to {:#?}: `{}`",
-                                            source,
-                                            target.full_path,
-                                            err
-                                        ),
-                                    }
-                                } else {
-                                    log::warn!("Action {:#?} not supported", a);
-                                }
-                            }
-                        }
+                Ok(tts) => {
+                    if let Err(err) = tts.run() {
+                        log::error!("Error executing TV Show task: `{err}`");
                     }
-                    Err(e) => log::error!("Error, collecting dry run `{e}`"),
-                },
+                }
                 Err(e) => log::error!("Error while constructing task Tv Show: `{e}`"),
             }
         }
