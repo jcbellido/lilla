@@ -62,10 +62,11 @@ fn main() {
                     Ok(dr) => {
                         for a in dr {
                             log::info!("{:#?}", a);
+                            #[allow(irrefutable_let_patterns)]
                             if let TaskAction::Copy(source, target) = a {
                                 let output = std::process::Command::new("/bin/cp")
-                                    .arg(format!("{}", source.to_str().unwrap()))
-                                    .arg(format!("{}", target.full_path.to_str().unwrap()))
+                                    .arg(source.to_str().unwrap())
+                                    .arg(target.full_path.to_str().unwrap())
                                     .output();
                                 match output {
                                     Ok(o) => log::info!("{:#?}", o),
