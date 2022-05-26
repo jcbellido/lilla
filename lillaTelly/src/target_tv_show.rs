@@ -20,6 +20,7 @@ pub struct SeasonEntry {
     pub episode_number: u32,
     pub sanitized_file_name: String,
     pub full_path: PathBuf,
+    pub target_dir: PathBuf,
 }
 
 #[derive(Debug, Default)]
@@ -92,7 +93,11 @@ impl TargetTVShow {
             season_number: suggested_season,
             episode_number: suggested_episode,
             sanitized_file_name: file_name.into(),
-            full_path: self.root_dir.join(season_dir_name).join(full_file_name),
+            full_path: self
+                .root_dir
+                .join(season_dir_name.clone())
+                .join(full_file_name),
+            target_dir: self.root_dir.join(season_dir_name),
         }
     }
 
@@ -119,6 +124,7 @@ fn captures_to_season_entry(captures: Captures, season_dir: PathBuf) -> SeasonEn
         episode_number,
         sanitized_file_name,
         full_path: season_dir.join(full_file_name),
+        target_dir: season_dir,
     }
 }
 

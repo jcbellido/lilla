@@ -79,6 +79,17 @@ fn main() {
                                 log::info!("Executing {:#?}", a);
                                 #[allow(irrefutable_let_patterns)]
                                 if let TaskAction::Copy(source, target) = a {
+                                    if !target.target_dir.exists() {
+                                        if let Err(err) =
+                                            std::fs::create_dir(target.target_dir.clone())
+                                        {
+                                            log::error!(
+                                                "Error creating directory for season `{:#?}` {}",
+                                                target.target_dir,
+                                                err
+                                            );
+                                        }
+                                    }
                                     let output = std::process::Command::new("/bin/cp")
                                         .arg(source.to_str().unwrap())
                                         .arg(target.full_path.to_str().unwrap())
