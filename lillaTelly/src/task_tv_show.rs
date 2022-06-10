@@ -141,8 +141,7 @@ impl TaskTvShow {
             self.configuration.source
         );
         for task in tasks {
-            log::info!("Dry run:");
-            log::info!("\n{}", task.simplified_display());
+            log::info!("Dry run:\n{}", task.simplified_display());
         }
         Ok(())
     }
