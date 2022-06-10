@@ -48,6 +48,25 @@ impl Display for TaskAction {
     }
 }
 
+impl TaskAction {
+    pub fn simplified_display(&self) -> String {
+        match self {
+            TaskAction::Copy(source, target) => {
+                let source_file = source
+                    .as_path()
+                    .file_name()
+                    .map_or("<wrong source?>", |s| s.to_str().unwrap());
+                let target_file = target
+                    .full_path
+                    .as_path()
+                    .file_name()
+                    .map_or("<wrong target?>", |t| t.to_str().unwrap());
+                format!("{}\n{}", source_file, target_file)
+            }
+        }
+    }
+}
+
 pub struct TaskTvShow {
     pub configuration: SourceTargetConfiguration,
     pub target_tv_show: TargetTVShow,
@@ -123,7 +142,7 @@ impl TaskTvShow {
         );
         for task in tasks {
             log::info!("Dry run:");
-            log::info!("{}", task);
+            log::info!("{}", task.simplified_display());
         }
         Ok(())
     }
