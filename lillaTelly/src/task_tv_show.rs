@@ -39,7 +39,7 @@ impl Display for TaskAction {
             TaskAction::Copy(source, target) => {
                 write!(
                     f,
-                    "Copy {} -> {}",
+                    "src: {}\ntrg: {}",
                     source.to_str().unwrap_or("<wrong source?>"),
                     target.full_path.to_str().unwrap_or("<wrong target?>")
                 )
@@ -122,7 +122,8 @@ impl TaskTvShow {
             self.configuration.source
         );
         for task in tasks {
-            log::info!("Dry run: {}", task);
+            log::info!("Dry run:");
+            log::info!("{}", task);
         }
         Ok(())
     }
