@@ -142,7 +142,7 @@ impl TaskTvShow {
         );
         for task in tasks {
             log::info!("Dry run:");
-            log::info!("{}", task.simplified_display());
+            log::info!("\n{}", task.simplified_display());
         }
         Ok(())
     }
