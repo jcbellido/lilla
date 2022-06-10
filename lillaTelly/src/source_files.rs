@@ -33,6 +33,6 @@ pub fn gather_source_files(source_dir: String) -> Result<Vec<String>, TaskError>
             }
         };
     }
-
+    source_files.sort();
     Ok(source_files)
 }
